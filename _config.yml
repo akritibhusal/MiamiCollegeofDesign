@@ -14,7 +14,6 @@ defaults:
     type: pages
   values:
     layout: default
-    permalink: ''
 email: your-email@domain.com
 description: ''
 baseurl: ''
