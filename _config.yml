@@ -17,7 +17,7 @@ defaults:
 - scope:
     path: ''
   values:
-    
+    one_image: ''
 email: your-email@domain.com
 description: ''
 baseurl: ''
