@@ -14,6 +14,12 @@ defaults:
     type: pages
   values:
     layout: default
+- scope:
+    path: ''
+    layout: home
+  values:
+    image_1_by_1: ''
+    title_1_by_1: ''    
 email: your-email@domain.com
 description: ''
 baseurl: ''
