@@ -11,10 +11,11 @@ collections:
 defaults:
 - scope:
     path: ''
-    type: pages
+    type: Pages
   values:
-    permalink: ''
-    layout: default
+    layout: default_page
+    weight: '10'
+    menu_element: main
 email: your-email@domain.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
