@@ -1,6 +1,6 @@
 ---
 title: Home
-position: 0
+position: 3
 layout: home
 ---
 
