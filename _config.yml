@@ -17,6 +17,7 @@ defaults:
 - scope:
     path: ''
   values:
+    intro_title: 'We support future leaders in design and innovation.'
     intro_bg_image: ''
     one_image: ''
     one_image_title: ''
@@ -27,6 +28,8 @@ defaults:
     four_image: ''
     four_image_title: ''
     four_image_description: ''
+    video_bg_image: ''
+    video_url: ''
 email: your-email@domain.com
 description: ''
 baseurl: ''
