@@ -1,0 +1,32 @@
+<header class="main-header" id="main-header">
+		<div class="grid grid--1">
+			<nav class="main-nav">{% capture html %}
+				<ul>{% if include.context == "/" %}
+					<li>
+						<a href="index.html" class="nav-link {% if page.layout == "test" %} active {% endif %} full-logo" id="logo_full"><img src="{{ site.url }}/assets/img/logo.png" ></a>
+						<a href="index.html" class="nav-link {% if page.layout == "test" %} active {% endif %}" id="home-nav"><span>Home<span></a>
+					{% endif %}
+
+					{% assign entries = site.pages | sort: "path" %}
+        			{% for entry in entries %}
+
+        				{% capture slug    %}{{ entry.url | split: "/"   | last                       }}{% endcapture %}
+            			{% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
+
+            			{% if current == include.context %}
+
+						<ul class="sub-nav dim">
+							<li class="{% if page.url contains entry.url %}sub-active{% endif %}"><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+                    {% include sub-navigation.html context=entry.url %}</li>
+
+						{% endif %}
+					{% endfor %}
+						</ul>
+					</li>
+
+					
+				</ul>{% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
+			</nav>
+		</div>
+	</header>
+{{context}}
