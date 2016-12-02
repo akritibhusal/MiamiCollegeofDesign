@@ -33,3 +33,6 @@ four_image_description: |2-
 layout: home
 ---
 
+Innovation is crucial in today's competitive landscape. To nurture talent, we must create learning environments in which there is creative tension between a shared vision (stability) and open-ended risk taking (instability). From these environments, top students will emerge who can innovate from chaos.
+
+These students will generate long-term value through the development of distinctive products; they will be instrumental in the creation of the next generation of strategic businesses as they contribute with disruptive, breakthrough innovation leadership
