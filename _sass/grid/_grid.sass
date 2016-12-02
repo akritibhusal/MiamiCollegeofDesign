@@ -1,0 +1,146 @@
+// Dependency : _extends.sass
+
+$grid-max-width               : 75em !default
+$grid-prefix                  : 'grid' !default
+$container-aspect-ratio-prefix: 'aspect-ratio'
+$block-content-class: 'block-content'
+
+// Width
+%width-20
+	width: 20%
+
+%width-40
+	width: 40%
+
+%width-50
+	width: 50%
+
+%width-60
+	width: 60%
+
+%width-80
+	width: 80%
+
+%width-100
+	width: 100%
+
+
+// Paddings
+%padding-bottom-100
+	padding-bottom: 100%
+
+%padding-bottom-37-5
+	padding-bottom: 37.5%
+
+%padding-bottom-60
+	padding-bottom: 60%
+
+%padding-bottom-70
+	padding-bottom: 70%
+
+%padding-bottom-80
+	padding-bottom: 80%
+
+%padding-bottom-110
+	padding-bottom: 110%
+
+%padding-bottom-120
+	padding-bottom: 120%
+
+%padding-bottom-130
+	padding-bottom: 130%
+
+%padding-bottom-150
+	padding-bottom: 150%
+
+.column
+	@extend %float-left
+
+.#{$grid-prefix}
+	max-width: $grid-max-width
+	margin-left: auto
+	margin-right: auto
+
+	&:before, &:after 
+		clear: both
+		content: ''
+		display: block
+		@extend %width-100
+
+
+	// Equal column grid system
+	// In this grid system every columns have equal width
+
+	// Full width grid
+	// This class is when the there is only one column per row
+	&--1
+		& > .column
+			@extend %width-100
+	
+	// Half sized grid
+	// Each columns of this grid are 
+	&--2
+		& > .column
+			@extend %width-50
+
+
+	//
+	// Variable column grid system
+	// This grid system contains only only two columns per row 
+	// 
+
+	&--2-3
+		> .column:nth-child( odd )
+			@extend %width-40
+
+		> .column:nth-child( even )
+			@extend %width-60
+
+	&--1-4
+		> .column:nth-child( odd )
+			@extend %width-20
+
+		> .column:nth-child( even )
+			@extend %width-80
+
+	&--2-8
+		@extend .#{$grid-prefix}--1-4
+
+
+.#{$container-aspect-ratio-prefix}
+	@extend %position-relative
+	display: block
+	width: 100%
+
+	&:after 
+		content: ''
+	
+	&--1
+		@extend %padding-bottom-100
+
+	&--8-3
+		@extend %padding-bottom-37-5
+
+	&--5-3
+		@extend %padding-bottom-60
+
+	&--10-7
+		@extend %padding-bottom-70
+
+	&--5-4
+		@extend %padding-bottom-80
+
+	&--10-11
+		@extend %padding-bottom-110
+
+	&--5-6
+		@extend %padding-bottom-120
+
+	&--10-13
+		@extend %padding-bottom-130
+
+	&--2-3
+		@extend %padding-bottom-150
+
+	& > .#{ $block-content-class }
+		@extend %cover-available-space
