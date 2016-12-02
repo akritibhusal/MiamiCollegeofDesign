@@ -1,0 +1,29 @@
+{
+  "name": "nicolette",
+  "version": "1.0.0",
+  "description": "Nicolette Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/expresivstudios/nicolette.git"
+  },
+  "keywords": [
+    "nicolette",
+    "nicoboard"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/expresivstudios/nicolette#readme",
+  "dependencies": {
+    "foundation-sites": "^6.2.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-uglifycss": "^1.0.6"
+  }
+}

@@ -1,0 +1,129 @@
+// Float properties
+%float-left
+	float: left
+
+%float-right
+	float: right
+
+%float-none
+	float: none
+
+// Text Transform properties
+%text-uppercase 
+	text-transform: uppercase
+
+%text-lowercase
+	text-transform: lowercase
+
+
+// Padding units
+$padding-small : 0.375rem !default
+$padding-medium: 1rem !default
+$padding-large : 2rem !default
+$padding-xlarge: 4rem !default
+
+%padding-left-right-small
+	padding-left: $padding-small
+	padding-right: $padding-small
+
+%padding-top-bottom-small
+	padding-top: $padding-small
+	padding-bottom: $padding-small
+
+%padding-left-right-medium
+	padding-left: $padding-medium
+	padding-right: $padding-medium
+
+%padding-top-bottom-medium
+	padding-top: $padding-medium
+	padding-bottom: $padding-medium
+
+%padding-left-right-large
+	padding-left: $padding-large
+	padding-right: $padding-large
+
+%padding-top-bottom-large
+	padding-top: $padding-large
+	padding-bottom: $padding-large
+
+
+%padding-left-right-xlarge
+	padding-left: $padding-xlarge
+	padding-right: $padding-xlarge
+
+%padding-top-bottom-xlarge
+	padding-top: $padding-xlarge
+	padding-bottom: $padding-xlarge
+
+
+// Padding properties
+%padding-small
+	@extend %padding-top-bottom-small
+	@extend %padding-left-right-small
+
+%padding-medium
+	@extend %padding-top-bottom-medium
+	@extend %padding-left-right-medium
+
+%padding-large
+	@extend %padding-top-bottom-large
+	@extend %padding-left-right-large
+
+%padding-xlarge
+	@extend %padding-top-bottom-xlarge
+	@extend %padding-left-right-xlarge
+
+
+
+// Display properties
+%display-table-cell
+	display: table-cell
+
+
+// Position properties
+%position-absolute
+	position: absolute
+
+%position-relative
+	position: relative
+
+%position-fixed
+	position: fixed
+
+%cover-available-space
+	@extend %position-absolute
+	top: 0
+	right: 0
+	bottom: 0
+	left: 0
+
+
+// Overflow properties
+%overflow-hidden
+	overflow: hidden
+
+%overflow-auto
+	overflow: auto
+
+
+// Font sizes
+%font-size-xxxl
+	font-size: $font-size-xxxl
+
+%font-size-xxl
+	font-size: $font-size-xxl
+
+%font-size-xl
+	font-size: $font-size-xl
+
+%font-size-l
+	font-size: $font-size-l
+
+%font-size-m
+	font-size: $font-size-m
+
+%font-size-normal
+	font-size: $font-size-normal
+
+%font-size-s
+	font-size: $font-size-s

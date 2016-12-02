@@ -1,0 +1,611 @@
+$overlay-dark: transparentize( $black, 0.2)
+$overlay-light: transparentize( $black, 0.7)
+
+$transition-timing: 300ms
+$transition-easing: ease-in-out
+
+// @font-face
+// 	font-family: "FFDINWeb"
+// 	src: url("#{$font-path}/31F820_0_0.eot")
+// 	src: url("#{$font-path}/31F820_0_0.eot?#iefix") format("embedded-opentype"), url("#{$font-path}/31F820_0_0.woff2") format("woff2"), url("#{$font-path}/31F820_0_0.woff") format("woff"), url("#{$font-path}/31F820_0_0.ttf") format("truetype")
+// 	font-weight: normal
+// 	font-style: normal
+
+@font-face
+	font-family: "FFDINWeb"
+	src: url("#{$font-path}/31F820_0_1.woff2") format("woff2"), url("#{$font-path}/31F820_0_1.woff") format("woff"), url("#{$font-path}/31F820_0_1.ttf") format("truetype")
+	font-weight: normal
+	font-style: normal
+
+*
+	-webkit-box-sizing: border-box
+	box-sizing: border-box
+
+body 
+	margin: 0
+	padding: 0
+	background-color: $body-bakground-color
+	font-family: $body-font-family
+	color: $body-font-color
+	line-height: $body-line-height
+
+img 
+	max-width: 100%
+
+a 
+	text-decoration: none
+	color: $gray
+	transition: all $transition-timing $transition-easing
+
+	&:hover
+		color: $body-font-color
+
+.testtest
+	background-color: black
+	font-weight: bold
+
+.bold
+	font-weight: bold
+
+
+.uppercase
+	@extend %text-uppercase
+
+.block-content--padded
+	@extend %padding-small
+
+.overflow--hide
+	@extend %overflow-hidden
+
+
+.float-right
+	@extend %float-right
+
+.float-left
+	@extend %float-left
+
+.text--white
+	color: $white
+
+.text--center
+	text-align: center
+
+.text--medium
+	@extend %font-size-m 
+
+.text--light
+	color: $gray 
+
+.sep
+	margin-bottom: 2rem
+
+.dim
+	opacity: 0.7
+
+.padding-left-right--small
+	@extend %padding-left-right-small
+
+.padding-right--xlarge
+	padding-right: $padding-xlarge
+
+.padding--xlarge
+	@extend %padding-xlarge
+
+.padding--medium
+	@extend %padding-medium
+
+.padding--large
+	@extend %padding-large
+
+.padding-top-bottom--large
+	@extend %padding-top-bottom-large
+
+.padding--small
+	@extend %padding-small
+
+.section
+	@extend %padding-left-right-xlarge
+	@extend %padding-top-bottom-medium
+
+.icon
+	width: 40px
+
+
+
+.section__heading
+	@extend %font-size-xl
+
+
+$anchor-line-height: 5rem !default
+
+.main-container
+	padding-top: $anchor-line-height
+
+
+.logo-holder
+	@extend %position-relative
+
+	> .miami-logo
+		@extend %position-absolute
+		z-index: 200
+
+.footer
+	@extend %padding-top-bottom-large
+	background-color: #fafafa
+	margin-top: $padding-large
+
+.main-header
+	@extend %position-fixed
+	padding-bottom: $padding-medium
+	z-index: 100
+	width: 100%
+	background-color: rgba(255,255,255,0.98)
+	max-height: $anchor-line-height
+	@extend %overflow-hidden
+	transition: max-height $transition-timing $transition-easing
+	
+	&:hover
+		max-height: 800px
+		z-index: 300
+
+
+.full-logo
+	position: absolute
+	top: -2px
+	z-index: -1
+	margin-left: -30px
+	transition: all $transition-timing*2 $transition-easing
+	opacity: 0
+	transform: scale( 0.99 )
+
+	> img
+		height: 54px
+		margin-top: 30px
+
+	&.full-logo--opaque
+		transform: scale(1)
+		opacity: 1
+
+.miami-logo
+	&.miami-logo--transparent
+		// transition: all $transition-timing $transition-easing
+		opacity: 0
+
+// Navigation
+.main-nav
+	margin-bottom: $padding-large
+	> ul 
+		margin: 0
+		padding: 0
+		position: relative
+
+		&:after, &:before
+			clear: both
+			content: ''
+			display: block
+			@extend %width-100
+
+
+		list-style: none
+		> li
+			width: 20%
+			float: left
+			vertical-align: top
+			@extend %font-size-s
+			@extend .bold !optional
+
+			&:first-child a
+				&:hover
+					color: $miami-blue
+
+				&.nav-link.active > span 
+					box-shadow: 0 4px $miami-blue inset
+
+
+			&:nth-child(2) a
+				&:hover
+					color: $miami-gold
+
+				&.nav-link.active > span 
+					box-shadow: 0 4px $miami-gold inset
+
+			&:nth-child(3) a
+				&:hover
+					color: $miami-orange
+
+				&.nav-link.active > span
+					box-shadow: 0 4px $miami-orange inset 
+
+			&:nth-child(4) a
+				&:hover
+					color: $miami-green
+
+				&.nav-link.active > span 
+					box-shadow: 0 4px $miami-green inset
+
+
+			&:nth-child(5) a
+				&:hover
+					color: $color-tundora
+
+				&.nav-link.active > span 
+					box-shadow: 0 4px $color-tundora inset
+
+
+	.nav-link
+		@extend %text-uppercase
+		line-height: $anchor-line-height
+		display: block
+		padding-left: $padding-small
+		padding-right: $padding-large
+
+		&.active
+			> span
+				box-shadow: 0 4px $miami-blue inset
+				display: inline-block
+				line-height: $anchor-line-height
+
+.sub-nav
+	margin: 0
+	padding: 0
+	list-style: none
+	font-weight: normal
+	width: 100%
+	
+	a 
+		display: block
+		width: 100%
+		padding-bottom: $padding-small
+		padding-left: $padding-small
+
+
+// Side Navigation
+.side-nav	
+	list-style: none
+	margin: 0
+	@extend %font-size-s
+
+	> li
+		margin-bottom: $padding-medium
+		&.active
+			padding-bottom: $padding-medium
+			> a
+				padding-left: $padding-medium
+				margin-left: -$padding-medium
+				padding-bottom: 0
+				box-shadow: -4px 0 0 $miami-orange
+				@extend .bold
+				color: $body-font-color
+
+		> a
+			display: inline-block
+			line-height: 1.2
+			padding-bottom: $padding-medium
+
+			&:hover
+				color: $miami-orange
+
+
+		
+
+
+.subscribe
+	@extend %float-right
+	@extend %position-relative
+	@extend %width-100
+	@extend %padding-left-right-small
+	margin-top: $padding-large
+	font-weight: normal
+
+	> input 
+		width: 100%
+		@extend %padding-top-bottom-small
+		padding-right: 3rem
+		padding-left: $padding-medium
+	
+	&__button
+		@extend %position-absolute
+		border: none
+		right: 0
+		top: 0
+		padding: 0.7rem 1.2rem
+		color: $miami-blue
+		background: transparent
+
+
+
+%transition-all
+	transition: all $transition-timing $transition-easing
+
+// Animation
+.scale--1-1--hover
+	@extend %transition-all
+	cursor: pointer
+	&:hover
+		transform: scale( 1.1)
+	
+.scale--1-05--hover
+	@extend %transition-all
+	cursor: pointer
+	&:hover
+		transform: scale( 1.05 )
+	
+.scale--1-025--hover
+	@extend %transition-all
+	cursor: pointer
+	&:hover
+		transform: scale( 1.025 )
+
+.shadow--hover
+	@extend %transition-all
+	cursor: pointer
+	&:hover
+		box-shadow: 1px 1px 6px rgba(0,0,0,0.3)
+
+
+
+// Footer
+.footer-nav
+	margin-bottom: $padding-medium
+
+.footer-nav, .privacy-nav
+	> a
+		display: inline-block
+		padding-right: $padding-large
+		padding-left: $padding-small
+
+.privacy-nav, .copyright
+	@extend %font-size-s
+
+.copyright
+	@extend .dim
+	@extend .text--light
+
+
+// Home page event section
+.event	
+	@extend %padding-large
+	@extend %position-relative
+
+.event__heading
+	@extend %font-size-xl
+	margin-bottom: 0
+
+.event__meta
+	@extend .text--light
+	@extend %font-size-m
+
+.event__nav
+	@extend %position-absolute
+	right: 2rem
+	bottom: 2rem
+	
+	& > .icon
+		margin-right: 0.5rem
+
+		&:last-child
+			margin-right: 0
+
+
+// Backround properties
+.bg
+	&--cover
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+
+	&--overlay
+		position: relative
+		z-index: 1
+
+		&:after
+			content: ''
+			@extend %cover-available-space
+			z-index: -1
+			background-color: $overlay-dark
+
+	&--overlay--light
+		@extend .bg--overlay
+		&:after 
+			background-color: $overlay-light
+	
+	&--grey
+		background-color: #e8e8e8
+
+	&--gradient
+		position: relative
+		z-index: 1
+
+		&:after 
+			content: ''
+			@extend %cover-available-space
+			background-image: linear-gradient( transparent, $overlay-dark )
+			z-index: -1
+
+	&--flamenco
+		background-color: $miami-orange
+
+
+
+// Table and vertical align properties
+.table
+	display: table
+	&--cover
+		height: 100%
+		width: 100%
+
+.table-cell
+	@extend %display-table-cell
+
+.va
+	&--center, &--middle
+		vertical-align: middle
+
+	&--bottom
+		vertical-align: bottom
+
+
+
+
+
+// Half Traiangle component
+.half-triangle
+	position: absolute
+	@extend %display-table-cell
+	width: 100%
+	height: 100%
+	left: 0
+	top: 0
+	@extend %overflow-hidden
+
+	&--rotate
+		transform: rotate(90deg)
+
+	& + div
+		position: relative
+
+	&.dim
+		opacity: 0.3
+
+	&:after
+		@extend %cover-available-space
+		content: ''
+		background-color: transparentize($white, 0.5)
+		border: 6px solid $white
+		transform: rotate( 45deg )
+		width: 1.4142 * 100%
+		height: 1.4142 * 100%
+		margin-top: 29%
+		left: 29%
+
+
+
+
+
+// Page section
+.page__header
+	@extend %text-uppercase
+	margin-bottom: 0
+
+.page__sub-head
+	font-weight: normal
+	margin-bottom: 0
+	margin-top: 0
+	@extend %font-size-l
+
+
+.content
+	h1, h2
+		margin-top: 0
+		font-weight: normal
+
+	ul 
+		padding-left: $padding-medium
+		margin-bottom: $padding-large
+
+		> li 
+			margin-bottom: 0.5em
+
+	.sep--line
+		margin-top: $padding-xlarge
+		margin-bottom: $padding-xlarge
+		width: 100%
+		display: block
+		border-top: 1px solid $gray
+
+	img 
+		margin-bottom: $padding-large
+
+
+	img.float-right
+		margin-left: $padding-xlarge
+
+	img.float-left
+		margin-right: $padding-xlarge
+
+
+
+
+
+
+// Panel styles
+// .panel__container
+// 	position: fixed
+// 	top: 0
+// 	left: 0
+// 	bottom: 0 
+// 	right: 0
+// 	width: 100%
+// 	height: 100%
+// 	z-index: 400
+// 	background-color: rgba(0,0,0,0.5)
+
+
+// .panel
+// 	background-color: $white
+// 	width: 40%
+// 	top: 50%
+// 	transform: translateY( -50% ) 
+// 	margin: 0 auto
+// 	@extend %padding-medium
+// 	position: relative
+
+// 	&.full
+// 		width: 100%
+// 		height: 100%
+
+
+
+.reveal 
+	padding: $padding-large
+	.close-button
+		position: absolute
+		top: 0.5rem
+		right: 0.5rem
+		font-size: 3rem
+		color: $miami-blue
+		height: 3rem
+		width: 3rem
+		border-radius: 2rem
+		background-color: rgba(255, 255, 255, 1)
+	&.video
+		padding: 0
+	&.full iframe
+		width: 100%
+		height: 100%
+		max-height: 100%
+
+
+
+
+// Backgroud images 
+// These images are temporary and will be removed during the development
+.cross-bow
+	background-image: image( 'img_crossbow.jpg' )
+
+.flower
+	background-image: image( 'flower-1.png' )
+
+.nebula
+	background-image: image( 'nebula.png' )
+
+.walter
+	background-image: image( 'walter.jpg' )
+
+.bg--eye
+	background-image: image( 'eye.png' )
+
+.bg--blueprint
+	background-image: image( 'blueprint.jpg' )
+
+.bg--featured
+	background-image: image( 'about_featured.png' )
+
+.window
+	background-image: image( 'img1.png' )
+
+.bg--event
+	background-image: image( 'img_event.jpg' )
+
+.connect > .icon
+	margin-right: 1rem
