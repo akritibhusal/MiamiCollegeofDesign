@@ -38,6 +38,7 @@ our_mission: |-
   Our objective is to create a learning environment in which students work side-by-side with leading-edge designers, immersed in professional practice, to create disruptions and, consequently, opportunities for innovation.
 
   We seek to advance the integration of design, science, and engineering, exploring new approaches and solutions through experience design. We value active learning, exploration, creativity, breakthrough innovation, and the use of technology and applied design, all of which serve to advance the quality of the human experience.
+bottomfold_two_image: "/uploads/img1.png"
 layout: home
 ---
 
