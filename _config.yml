@@ -17,7 +17,7 @@ defaults:
 - scope:
     path: ''
   values:
-    intro text background: ''
+    text_bg_image: ''
 email: your-email@domain.com
 description: ''
 baseurl: ''
