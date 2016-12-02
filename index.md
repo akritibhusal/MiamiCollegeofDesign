@@ -32,6 +32,12 @@ four_image_description: |2-
   Knowledge of numbers is said to have first originated in the Hindu-Arabic arithmetic system, which Fibonacci studied while growing up in North Africa. Prior to the publication of Liber abaci, the Latin-speaking world had yet to be introduced to the decimal number system. He wrote many books about geometry, commercial arithmetic and irrational numbers. He also helped develop the concept of zero.
 video_bg_image: "/uploads/walter.jpg"
 video_url: https://www.youtube.com/embed/lwheP-Ggca8?rel=0
+our_mission: |-
+  Our mission is to prepare students to assume positions of influence and global leadership in industry and to be instrumental in the creation of the next generation of strategic, innovative, and entrepreneurial businesses.
+
+  Our objective is to create a learning environment in which students work side-by-side with leading-edge designers, immersed in professional practice, to create disruptions and, consequently, opportunities for innovation.
+
+  We seek to advance the integration of design, science, and engineering, exploring new approaches and solutions through experience design. We value active learning, exploration, creativity, breakthrough innovation, and the use of technology and applied design, all of which serve to advance the quality of the human experience.
 layout: home
 ---
 
