@@ -16,7 +16,6 @@ defaults:
     layout: default
 - scope:
     path: ''
-    layout: home
   values:
     connect_with_us_background_image: ''
     image_1_by_1: ''
