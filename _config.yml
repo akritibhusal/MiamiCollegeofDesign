@@ -18,6 +18,14 @@ defaults:
     path: ''
   values:
     one_image: ''
+    one_image_title: ''
+    one_image_description: ''
+    two_image: ''
+    two_image_title: ''
+    two_image_description: ''
+    four_image: ''
+    four_image_title: ''
+    four_image_description: ''
 email: your-email@domain.com
 description: ''
 baseurl: ''
