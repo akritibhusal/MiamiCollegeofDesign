@@ -17,17 +17,7 @@ defaults:
 - scope:
     path: ''
   values:
-    connect_with_us_background_image: ''
-    1_by_1_image: ''
-    title_1_by_1: ''
-    description_1_by_1: ''
-    image_2_by_2: ''
-    title_2_by_2: ''
-    description_2_by_2: ''
-    image_4_by_4: ''
-    title_4_by_4: ''
-    description_4_by_4: ''
-    intro_video_link: ''
+    intro text background: ''
 email: your-email@domain.com
 description: ''
 baseurl: ''
