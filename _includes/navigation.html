@@ -28,10 +28,18 @@
                 <li class="{% if page.url contains entry.url %}active{% endif %}">
                     <a class="nav-link" href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
                     {% include sub-navigation.html context=entry.url %}
+                                    {% if forloop.last == true %}
+                <div class="subscribe">
+                    <input type="text" placeholder="Subscribe Newsletter">
+                    <button class="subscribe__button"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+                {% endif %}
                 </li>
+
             {% endif %}
     
         {% endfor %}
+        
     </ul>
     {% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
     </nav>
