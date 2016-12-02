@@ -30,6 +30,8 @@ four_image_description: |2-
   Named after Fibonacci, also known as Leonardo of Pisa or Leonardo Pisano, Fibonacci numbers were first introduced in his Liber abaci in 1202. The son of a Pisan merchant, Fibonacci traveled widely and traded extensively. Math was incredibly important to those in the trading industry, and his passion for numbers was cultivated in his youth.
 
   Knowledge of numbers is said to have first originated in the Hindu-Arabic arithmetic system, which Fibonacci studied while growing up in North Africa. Prior to the publication of Liber abaci, the Latin-speaking world had yet to be introduced to the decimal number system. He wrote many books about geometry, commercial arithmetic and irrational numbers. He also helped develop the concept of zero.
+video_bg_image: "/uploads/walter.jpg"
+video_url: https://youtu.be/lwheP-Ggca8
 layout: home
 ---
 
