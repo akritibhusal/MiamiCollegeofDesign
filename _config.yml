@@ -18,7 +18,7 @@ defaults:
     path: ''
   values:
     connect_with_us_background_image: ''
-    image_1_by_1: ''
+    1_by_1_image: ''
     title_1_by_1: ''
     description_1_by_1: ''
     image_2_by_2: ''
