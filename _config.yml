@@ -17,6 +17,7 @@ defaults:
 - scope:
     path: ''
   values:
+    intro_bg_image: ''
     one_image: ''
     one_image_title: ''
     one_image_description: ''
