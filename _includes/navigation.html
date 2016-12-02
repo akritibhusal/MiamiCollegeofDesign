@@ -2,9 +2,25 @@
 		<div class="grid grid--1">
 			<nav class="main-nav">{% capture html %}
 				<ul>{% if include.context == "/" %}
+
 					<li>
-						<a href="index.html" class="nav-link {% if page.layout == "test" %} active {% endif %} full-logo" id="logo_full"><img src="{{ site.url }}/assets/img/logo.png" ></a>
-						<a href="index.html" class="nav-link {% if page.layout == "test" %} active {% endif %}" id="home-nav"><span>Home<span></a>
+						<a href="index.html" class="nav-link {% if page.layout == "home" %} active {% endif %}full-logo" id="logo_full"><img src="./assets/img/logo.png" ></a>
+						<a href="index.html" class="nav-link {% if page.layout == "home" %} active {% endif %}" id="home-nav"><span>Home<span></a>
+
+						<ul class="sub-nav dim">
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a> </li>
+							<li><a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i> Facebook</a></li>
+							<li>
+							<a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>	
+							</li>
+							<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
+						</ul>
+					</li>
+
+
+
+
+					<li>						
 					{% endif %}
 
 					{% assign entries = site.pages | sort: "path" %}
