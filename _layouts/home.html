@@ -34,7 +34,7 @@ layout: default
 							<div class="column">
 								<div class="aspect-ratio aspect-ratio--1">
 									<div class="block-content block-content--padded">
-										<div class="table table--cover bg bg--cover cross-bow scale--1-1--hover shadow--hover" data-open="about_cross_bow">
+										<div class="table table--cover bg bg--cover cross-bow scale--1-1--hover shadow--hover" data-open="about_two_image" style="background-image: url({{page.two_image}});">
 											<div class="half-triangle">
 												
 											</div>
@@ -46,7 +46,7 @@ layout: default
 					</div>
 					<div class="column">
 						<div class="aspect-ratio aspect-ratio--1">
-							<div class="block-content block-content--padded" data-open="about_fibo">
+							<div class="block-content block-content--padded" data-open="about_four_image" style="background-image: url({{page.four_image}});">
 								<div class="table table--cover bg bg--cover flower scale--1-05--hover shadow--hover"></div>
 							</div>
 						</div>
@@ -57,7 +57,7 @@ layout: default
 				<div class="grid grid--1">
 					<div class="aspect-ratio aspect-ratio--5-3">
 						<div class="block-content block-content--padded">
-							<div class="table table--cover bg bg--cover bg--overlay walter scale--1-025--hover shadow--hover" data-open="about_us">
+							<div class="table table--cover bg bg--cover bg--overlay scale--1-025--hover shadow--hover" data-open="about_us" style="background-image: url({{page.video_bg_image}});">
 								<div class="table-cell va--center text--center text--white " >
 									<img src="{{site.url}}/assets/img/ic_play.png" class="icon"/>
 									<p class="text--medium">Watch a video about us </p>
@@ -73,13 +73,11 @@ layout: default
 			<div class="column">
 				<div class="aspect-ratio aspect-ratio--5-6">
 					<div class="block-content block-content--padded overflow--hide">
-						<div class="table table--cover bg bg--cover bg--overlay nebula text--white">
+						<div class="table table--cover bg bg--cover bg--overlay text--white" style="background-image: url({{page.intro_bg_image}});">
 							<div class="table-cell va--center section">
-								<h2 class="section__heading">We support future leaders in design and innovation.</h2>
+								<h2 class="section__heading">{{page.intro_title}}</h2>
 								<div class="text--light">
-									<p>Innovation is crucial in today's competitive landscape. To nurture talent, we must create learning environments in which there is creative tension between a shared vision (stability) and open-ended risk taking (instability). From these environments, top students will emerge who can innovate from chaos.</p>
-									
-									<p>These students will generate long-term value through the development of distinctive products; they will be instrumental in the creation of the next generation of strategic businesses as they contribute with disruptive, breakthrough innovation leadership</p>
+									{{page.content}}
 								</div>
 								<div class="sep"></div>
 								<div class="table connect">

@@ -24,27 +24,20 @@
 
 
 	<div id="about_us" class="reveal full video" data-reveal >
-		<iframe src="https://www.youtube.com/embed/lwheP-Ggca8?rel=0" frameborder="0" allowfullscreen ></iframe>
+		<iframe src="{{page.video_url}}" frameborder="0" allowfullscreen ></iframe>
 		<button class="close-button" data-close aria-label="Close modal" type="button">
 			<span aria-hidden="true">&times;</span>
 		</button>
 	</div>
 
-	<div id="about_fibo" class="reveal large" data-reveal >
+	<div id="about_four_image" class="reveal large" data-reveal >
 		<div class="grid grid--2">
 			<div class="column">
-				<img src="assets/img/flower-1.png">
+				<img src="{{page.four_image}}">
 			</div>
 			<div class="column">
-				<h2> About Fibonacci Sequence</h2>
-				<p>
-					The Fibonacci sequence is a series of numbers where a number is found by adding up the two numbers before it. Starting with 0 and 1, the sequence goes 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, and so forth. Written as a rule, the expression is xn = xn-1 + xn-2.
-				</p>
-				<p>
-				Named after Fibonacci, also known as Leonardo of Pisa or Leonardo Pisano, Fibonacci numbers were first introduced in his Liber abaci in 1202. The son of a Pisan merchant, Fibonacci traveled widely and traded extensively. Math was incredibly important to those in the trading industry, and his passion for numbers was cultivated in his youth.
-				</p>
-				<p>
-				Knowledge of numbers is said to have first originated in the Hindu-Arabic arithmetic system, which Fibonacci studied while growing up in North Africa. Prior to the publication of Liber abaci, the Latin-speaking world had yet to be introduced to the decimal number system. He wrote many books about geometry, commercial arithmetic and irrational numbers. He also helped develop the concept of zero.</p>
+				<h2>{{page.four_image_title}}</h2>
+				{{page.four_image_description}}
 			</div>
 		</div>
 		<button class="close-button" data-close aria-label="Close modal" type="button">
@@ -63,20 +56,14 @@
 			</div>
 		</div>
 
-	<div id="about_cross_bow" class="reveal large" data-reveal>
+	<div id="about_two_image" class="reveal large" data-reveal>
 		<div class="grid grid--2">
 			<div class="column padding-right--xlarge">
-				<img src="assets/img/img_crossbow.jpg">
+				<img src="{{page.two_image}}">
 			</div>
 			<div class="column">
-				<h2>Giant Crossbow</h2>
-				<p>One thing Leonardo da Vinci may have understood better than any of his contemporaries was the psychological effects of weapons in warfare. Da Vinci knew that the fear weapons could instill in enemies was just as important (if not more so) than the damage they could actually inflict.</p>
-
-				<p>This was one of the main ideas behind many of da Vinci’s war inventions – among them, his giant crossbow. Designed for pure intimidation, da Vinci’s crossbow was to measure 42 braccia (or 27 yards) across. The device would have six wheels (three on each side) for mobility, and the bow itself would be made of thin wood for flexibility.</p>
-
-				<p>Rather than fire giant arrows, Leonardo’s crossbow instead seems to be designed to fire large stones or possibly flaming bombs. For use, a soldier spins a crank to pull back the bow and loads the artillery. The soldier would then use a mallet to knock out a holding pin and fire the weapon.</p>
-
-				<p>The giant crossbow invention is a great example of the way da Vinci’s artwork really brought his ideas to life. Through his illustrations, an idea, however improbable, becomes realistic and plausible. His vivid drawings of the giant crossbow invention also make it clear the idea behind the impressive weapon was to terrify enemies into fleeing rather than fighting.</p>
+				<h2>{{page.two_image_title}}</h2>
+				{{page.two_image_description}}
 			</div>
 		</div>
 		<button class="close-button" data-close aria-label="Close modal" type="button">

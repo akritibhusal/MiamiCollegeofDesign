@@ -29,7 +29,8 @@ defaults:
     four_image_title: ''
     four_image_description: ''
     video_bg_image: ''
-    video_url: ''
+    video_url: 'https://www.youtube.com/embed/lwheP-Ggca8?rel=0'
+    our_mission: ''
 email: your-email@domain.com
 description: ''
 baseurl: ''
