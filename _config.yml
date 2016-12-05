@@ -36,7 +36,7 @@ defaults:
     our_mission_text: ''
     bottomfold_two_image: ''
 - scope:
-    path: "events"
+    path: events
   values:
     event_venue: ''
     event_date: ''
