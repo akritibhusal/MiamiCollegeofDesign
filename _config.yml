@@ -15,7 +15,7 @@ defaults:
   values:
     layout: default
 - scope:
-    permalink: '/'
+    path: ''
   values:
     intro_title: We support future leaders in design and innovation.
     intro_bg_image: ''
