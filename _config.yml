@@ -2,6 +2,9 @@
 title: Miami College of Design
 timezone: UTC
 collections:
+  events:
+    title: Events
+    output: true
   posts:
     title: Posts
     output: true
