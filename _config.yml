@@ -30,7 +30,7 @@ defaults:
     four_image_description: ''
     video_bg_image: ''
     video_url: https://www.youtube.com/embed/lwheP-Ggca8?rel=0
-    our_mission: ''
+    our_mission_text: ''
     bottomfold_two_image: ''
 email: your-email@domain.com
 description: ''
