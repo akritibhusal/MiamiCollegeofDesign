@@ -1,6 +1,6 @@
 ---
 title: Home
-position: 2
+position: 1
 intro_bg_image: "/uploads/nebula.png"
 one_image: "/uploads/img_crossbow.jpg"
 one_image_title: Giant Crossbow
