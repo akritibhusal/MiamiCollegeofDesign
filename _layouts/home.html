@@ -138,7 +138,7 @@ layout: default
 				<div class="grid grid--1">
 					<div class="column">
 
-						{% for event in site.events sort: 'date'%}
+						{% for event in site.events | sort: 'date'%}
 						<div class="aspect-ratio aspect-ratio--10-7">
 							<div class="block-content block-content--padded">
 								<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
@@ -148,7 +148,7 @@ layout: default
 												<h3 class="event__heading bold">{{event.title}}</h3>
 												<div class="event__meta">
 													<span class="location">{{event.event_venue}}</span> - 
-													<span class="date-time">{{event.event_date | | date: "%B %-d, %Y" }}</span>
+													<span class="date-time">{{event.event_date | date: "%B %-d, %Y" }}</span>
 												</div>
 											</div>
 
