@@ -4,8 +4,8 @@
     <ul>
         {% if include.context == "/" %}
         <li>
-            <a href="index.html" class="nav-link full-logo {% if page.url == "/" %}active{% endif %}" id="logo_full"><img src="./assets/img/logo.png" ></a>
-                <a href="index.html" class="nav-link active" id="home-nav"><span>Home<span></a>
+            <a href="{{site.url}}/index.html" class="nav-link full-logo {% if page.url == "/" %}active{% endif %}" id="logo_full"><img src="./assets/img/logo.png" ></a>
+                <a href="{{site.url}}/index.html" class="nav-link active" id="home-nav"><span>Home<span></a>
 
                 <ul class="sub-nav dim">
                     <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a> </li>

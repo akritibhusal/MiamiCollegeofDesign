@@ -2,7 +2,7 @@
 		<div class="grid grid--1">
 			<div class="column">
 				<nav class="footer-nav">
-					<a class="nav-link" href="#">Home</a>
+					<a class="nav-link" href="{{site.url}}">Home</a>
 					<a class="nav-link" href="#">Academic Policies</a>
 					<a class="nav-link" href="#">Standards of Conduct</a>
 					<a class="nav-link" href="#">Blog</a>
@@ -37,7 +37,7 @@
 			</div>
 			<div class="column">
 				<h2>{{page.four_image_title}}</h2>
-				{{page.four_image_description}}
+				{{page.four_image_description | markdownify}}
 			</div>
 		</div>
 		<button class="close-button" data-close aria-label="Close modal" type="button">
@@ -52,7 +52,7 @@
 			</div>
 			<div class="column">
 				<h2>{{page.one_image_title}}</h2>
-				{{page.one_image_description}}
+				{{page.one_image_description | markdownify}}
 			</div>
 		</div>
 
@@ -63,7 +63,7 @@
 			</div>
 			<div class="column">
 				<h2>{{page.two_image_title}}</h2>
-				{{page.two_image_description}}
+				{{page.two_image_description | markdownify}}
 			</div>
 		</div>
 		<button class="close-button" data-close aria-label="Close modal" type="button">

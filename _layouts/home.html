@@ -77,7 +77,7 @@ layout: default
 							<div class="table-cell va--center section">
 								<h2 class="section__heading">{{page.intro_title}}</h2>
 								<div class="text--light">
-									{{page.content}}
+									{{page.content | markdownify}}
 								</div>
 								<div class="sep"></div>
 								<div class="table connect">
@@ -98,7 +98,7 @@ layout: default
 						<div class="table table--cover bg bg--grey">
 							<div class="va--middle table-cell section">
 								<h2 class="section__heading">Our Mission</h2>
-								{{page.our_mission}}
+								{{page.our_mission | markdownify}}
 								<div class="table connect">
 									<img src="{{site.url}}/assets/img/ic_arrow_dark.png" class="icon table-cell va--center"/><span class="table-cell va--center text--medium"> Meet our Team </span>
 								</div>
