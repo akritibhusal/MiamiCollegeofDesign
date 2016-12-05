@@ -35,6 +35,12 @@ defaults:
     video_url: https://www.youtube.com/embed/lwheP-Ggca8?rel=0
     our_mission_text: ''
     bottomfold_two_image: ''
+- scope:
+    path: "/events"
+  values:    
+    event_venue: ''
+    event_date: ''
+    event_image: ''
 email: your-email@domain.com
 description: ''
 baseurl: ''
