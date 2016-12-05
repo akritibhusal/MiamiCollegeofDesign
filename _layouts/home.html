@@ -137,8 +137,8 @@ layout: default
 
 				<div class="grid grid--1">
 					<div class="column">
-
-						{% for event in site.events | sort: 'event_date'%}
+						{% assign events = site.events | sort: 'event_date' | reverse %}
+						{% for event in events %}
 						<div class="aspect-ratio aspect-ratio--10-7">
 							<div class="block-content block-content--padded">
 								<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
