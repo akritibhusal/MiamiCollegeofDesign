@@ -5,6 +5,6 @@ layout: testlayout
 ---
 
 plain text
-{:#term} 
-1. list
+
+{:#list}1. list
 2. listt 
