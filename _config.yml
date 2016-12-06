@@ -44,8 +44,6 @@ defaults:
     event_image: ''
 email: your-email@domain.com
 description: ''
-baseurl: ''
-url: ''
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown

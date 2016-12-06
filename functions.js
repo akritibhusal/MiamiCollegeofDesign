@@ -85,3 +85,12 @@ $( document ).ready( function(){
 	}
 	$window.scroll( logo_position_handler );
 } );
+
+
+$( document ).ready( function(){
+	$('#event-carousel').owlCarousel({
+    margin:10,
+    nav:true,
+    items: 1
+})
+});

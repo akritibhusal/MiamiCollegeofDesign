@@ -21,7 +21,7 @@ layout: default
 							<div class="column">
 								<div class="aspect-ratio aspect-ratio--1">
 									<div class="block-content block-content--padded">
-										<div class="table table--cover bg bg--cover overflow--hide scale--1-1--hover shadow--hover" data-open="about_one_image" F33#F>
+										<div class="table table--cover bg bg--cover overflow--hide scale--1-1--hover shadow--hover" data-open="about_one_image" style="background-image: url({{page.one_image}});">
 											<div class="table-cell va--center ">
 											</div>
 										</div>
@@ -34,7 +34,7 @@ layout: default
 							<div class="column">
 								<div class="aspect-ratio aspect-ratio--1">
 									<div class="block-content block-content--padded">
-										<div class="table table--cover bg bg--cover cross-bow scale--1-1--hover shadow--hover" data-open="about_two_image" style="background-image: url({{page.two_image}});">
+										<div class="table table--cover bg bg--cover scale--1-1--hover shadow--hover" data-open="about_two_image" style="background-image: url({{page.two_image}});">
 											<div class="half-triangle">
 												
 											</div>
@@ -137,35 +137,98 @@ layout: default
 
 				<div class="grid grid--1">
 					<div class="column">
-						{% assign events = site.events | sort: 'event_date' | reverse %}
-						{% for event in events %}
 						<div class="aspect-ratio aspect-ratio--10-7">
 							<div class="block-content block-content--padded">
-								<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
-									<div class="va--bottom text--white table-cell">
-										<div class="event">
-											<div class="event__description">
-												<h3 class="event__heading bold">{{event.title}}</h3>
-												<div class="event__meta">
-													<span class="location">{{event.event_venue}}</span> - 
-													<span class="date-time">{{event.event_date | date: "%B %-d, %Y" }}</span>
+								<div class="event-carousel" id="event-carousel">
+									{% assign events = site.events | sort: 'event_date' | reverse %}
+									{% for event in events %}	
+									<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
+										<div class="va--bottom text--white table-cell">
+											<div class="event">
+												<div class="event__description">
+													<h3 class="event__heading bold">{{event.title}}</h3>
+													<div class="event__meta">
+														<span class="location">{{event.event_venue}}</span> - 
+														<span class="date-time">{{event.event_date | date: '%B %d, %Y'}}</span>
+													</div>
 												</div>
-											</div>
 
-											<div class="event__nav">
-												<img src="{{site.url}}/assets/img/ic_prev.png" class="icon"/>
-												<img src="{{site.url}}/assets/img/ic_next.png" class="icon"/>
+												<div class="event__nav">
+													<img src="assets/img/ic_prev.png" class="icon"/>
+													<img src="assets/img/ic_next.png" class="icon"/>
+												</div>
 											</div>
 										</div>
 									</div>
+
+									{% endfor %}
+{% comment %}									<div class="table table--cover bg bg--cover bg--gradient bg--event">
+										<div class="va--bottom text--white table-cell">
+											<div class="event">
+												<div class="event__description">
+													<h3 class="event__heading bold">Masters of Tomorrow 
+													: Summit</h3>
+													<div class="event__meta">
+														<span class="location">Miami</span> - 
+														<span class="date-time">November 30</span>
+													</div>
+												</div>
+
+												<div class="event__nav">
+													<img src="assets/img/ic_prev.png" class="icon"/>
+													<img src="assets/img/ic_next.png" class="icon"/>
+												</div>
+											</div>
+										</div>
+									</div>{% endcomment %}
 								</div>
 							</div>
 						</div>
+						
+							
+							{% comment %}<div class="aspect-ratio aspect-ratio--10-7">
+								<div class="block-content block-content--padded">
+									<div class="owl-carousel">
+									{% assign events = site.events | sort: 'event_date' | reverse %}
+									{% for event in events %}
 
-					{% endfor %}
+									<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
+										<div class="va--bottom text--white table-cell">
+											<div class="event">
+												<div class="event__description">
+													<h3 class="event__heading bold">{{event.title}}</h3>
+													<div class="event__meta">
+														<span class="location">{{event.event_venue}}</span> - 
+														<span class="date-time">{{event.event_date | date: "%B %-d, %Y" }}</span>
+													</div>
+												</div>
+							
+												<div class="event__nav">
+													<img src="{{site.url}}/assets/img/ic_prev.png" class="icon"/>
+													<img src="{{site.url}}/assets/img/ic_next.png" class="icon"/>
+												</div>
+											</div>
+										</div>
+									</div>
+									{% endfor %}
+									</div>
+
+								</div>
+							</div>{% endcomment %}
+							
+
+						
 
 					</div>
 				</div>
+
+
+
+
+
+
 			</div>
 		</div>
 	</div>
+
+

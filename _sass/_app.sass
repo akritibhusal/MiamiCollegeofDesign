@@ -3,6 +3,7 @@ $overlay-light: transparentize( $black, 0.7)
 
 $transition-timing: 300ms
 $transition-easing: ease-in-out
+$icon-width: 40px
 
 // @font-face
 // 	font-family: "FFDINWeb"
@@ -106,9 +107,7 @@ a
 	@extend %padding-top-bottom-medium
 
 .icon
-	width: 40px
-
-
+	width: $icon-width
 
 .section__heading
 	@extend %font-size-xl
@@ -384,6 +383,9 @@ $anchor-line-height: 5rem !default
 		&:last-child
 			margin-right: 0
 
+.owl-carousel .owl-item img.icon
+	@extend .icon
+
 
 // Backround properties
 .bg
@@ -607,3 +609,9 @@ $anchor-line-height: 5rem !default
 
 .connect > .icon
 	margin-right: 1rem
+
+// .owl-carousel
+// 	.owl-controls
+// 		.owl-nav 
+// 			.owl-prev
+// 				background: image( 'ic_prev.png' )
