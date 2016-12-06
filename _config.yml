@@ -49,7 +49,6 @@ defaults:
     category: no-sidemenu
 - scope:
     path: ''
-    category: 'sidemenu'
   values:
     coloured_logo: ''
     one_image: ''
