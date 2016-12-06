@@ -5,4 +5,3 @@ permalink: "/apply/"
 position: 6
 ---
 
-![this is t text](/uploads/blueprint.jpg)
