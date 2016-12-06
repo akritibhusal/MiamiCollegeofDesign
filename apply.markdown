@@ -53,6 +53,12 @@ You may be in your junior or senior year in high school thinking about college. 
 * Students must have their own laptop computer capable of running Linux or Mac OS;
 * Courses that develop visual and design skills (such as studio drawing) are strongly recommended as well as algebra, geometry and trigonometry and one year of science.
 
+{:.sep--line}
+&nbsp;
+
+![img_student.jpg](/uploads/img_student.jpg){:.float-left.img--small}
+
+
 **Preparing you for Miami College of Design as a high school student:**
 
 * Be sure you're ready to do the work;
