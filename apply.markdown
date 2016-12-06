@@ -13,11 +13,11 @@ You may be in your junior or senior year in high school thinking about college. 
 
 ### Preparing you for Miami College of Design as a high school student:
 
-1. Be sure you're ready to do the work;
+* Be sure you're ready to do the work;
 
-2. Take the time to explore industrial design projects that interest you, both inside and outside of school;
++ Take the time to explore industrial design projects that interest you, both inside and outside of school;
 
-3. Enroll in high school courses to get the most benefit at Miami College of Design (Examples include studio arts, mathematics and computer science, natural and social sciences, plus courses you find creative and engaging).
+* Enroll in high school courses to get the most benefit at Miami College of Design (Examples include studio arts, mathematics and computer science, natural and social sciences, plus courses you find creative and engaging).
 
 {:.list-left}
 
@@ -44,9 +44,9 @@ Florida Home Education graduation including receipt of proper state credential.
 
 In addition, the following is required:
 
-    Portfolio demonstrating depth and breadth of current experience in industrial design;
-    Personal interview (in person or electronically) where the applicant’s portfolio is presented and discussed and the applicant’s level of critical thinking skills is demonstrated;
-    Non-native speaking applicants must show documentation of a score of 60 TOEFL IBT or documentation of ESL diploma program completion. IELTS (International English Language Testing System is also accepted with the required score of 60.);
+Portfolio demonstrating depth and breadth of current experience in industrial design;
+Personal interview (in person or electronically) where the applicant’s portfolio is presented and discussed and the applicant’s level of critical thinking skills is demonstrated;
+Non-native speaking applicants must show documentation of a score of 60 TOEFL IBT or documentation of ESL diploma program completion. IELTS (International English Language Testing System is also accepted with the required score of 60.);
     A signed Enrollment Agreement;
     Students under 18 years of age must have all documents signed by their parents or legal guardians;
     Students must have their own laptop computer capable of running Linux or Mac OS;
