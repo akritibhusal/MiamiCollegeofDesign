@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-page
 ---
 
 	<div class="main-container">
@@ -162,61 +162,10 @@ layout: default
 									</div>
 
 									{% endfor %}
-{% comment %}									<div class="table table--cover bg bg--cover bg--gradient bg--event">
-										<div class="va--bottom text--white table-cell">
-											<div class="event">
-												<div class="event__description">
-													<h3 class="event__heading bold">Masters of Tomorrow 
-													: Summit</h3>
-													<div class="event__meta">
-														<span class="location">Miami</span> - 
-														<span class="date-time">November 30</span>
-													</div>
-												</div>
 
-												<div class="event__nav">
-													<img src="assets/img/ic_prev.png" class="icon"/>
-													<img src="assets/img/ic_next.png" class="icon"/>
-												</div>
-											</div>
-										</div>
-									</div>{% endcomment %}
 								</div>
 							</div>
 						</div>
-						
-							
-							{% comment %}<div class="aspect-ratio aspect-ratio--10-7">
-								<div class="block-content block-content--padded">
-									<div class="owl-carousel">
-									{% assign events = site.events | sort: 'event_date' | reverse %}
-									{% for event in events %}
-
-									<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
-										<div class="va--bottom text--white table-cell">
-											<div class="event">
-												<div class="event__description">
-													<h3 class="event__heading bold">{{event.title}}</h3>
-													<div class="event__meta">
-														<span class="location">{{event.event_venue}}</span> - 
-														<span class="date-time">{{event.event_date | date: "%B %-d, %Y" }}</span>
-													</div>
-												</div>
-							
-												<div class="event__nav">
-													<img src="{{site.url}}/assets/img/ic_prev.png" class="icon"/>
-													<img src="{{site.url}}/assets/img/ic_next.png" class="icon"/>
-												</div>
-											</div>
-										</div>
-									</div>
-									{% endfor %}
-									</div>
-
-								</div>
-							</div>{% endcomment %}
-							
-
 						
 
 					</div>
