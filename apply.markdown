@@ -28,6 +28,7 @@ You may be in your junior or senior year in high school thinking about college. 
 3. Consider your goals as a result of a Miami College of Design experience;
 
 {:.sep--line}
+&nbsp;
 
 ## ADMISSIONS REQUIREMENTS
 
