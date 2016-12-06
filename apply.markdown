@@ -33,6 +33,7 @@ You may be in your junior or senior year in high school thinking about college. 
 ## ADMISSIONS REQUIREMENTS
 
 **Students seeking admission must be at least 16 years of age to enroll and must have one of the following:**
+
 {:.float-right}
 ![img_student.jpg](/uploads/img_student.jpg)
 Verification of high school graduation (transcript, diploma, diploma of completion, etc.) showing/verifying date of graduation;
