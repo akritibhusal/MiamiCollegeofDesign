@@ -44,6 +44,7 @@ defaults:
     event_image: ''
 - scope:
     path: ''
+    layout: default
   values:
     coloured_logo: ''
     one_image: ''
