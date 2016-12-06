@@ -43,7 +43,7 @@ defaults:
     event_date: ''
     event_image: ''
 - scope:
-    path: apply
+    category: sidemenu
   values:
     coloured_logo: ''
     one_image: ''
