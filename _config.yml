@@ -42,21 +42,6 @@ defaults:
     event_venue: ''
     event_date: ''
     event_image: ''
-- scope:
-    path: ''
-    type: pages
-  values:
-    category: no-sidemenu
-- scope:
-    path: ''
-    category: 'sidemenu'
-  values:
-    coloured_logo: ''
-    one_image: ''
-    two_image: ''
-    hero_image: ''
-    hero_title: ''
-    hero_subtitle: ''
 email: your-email@domain.com
 description: ''
 twitter_username: jekyllrb
