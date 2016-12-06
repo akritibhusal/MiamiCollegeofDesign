@@ -56,5 +56,5 @@ You may be in your junior or senior year in high school thinking about college. 
 **Preparing you for Miami College of Design as a high school student:**
 
 * Be sure you're ready to do the work;
-*Take the time to explore industrial design projects that interest you, both inside and outside of school;
-*Enroll in high school courses to get the most benefit at Miami College of Design (Examples include studio arts, mathematics and computer science, natural and social sciences, plus courses you find creative and engaging).
+* Take the time to explore industrial design projects that interest you, both inside and outside of school;
+* Enroll in high school courses to get the most benefit at Miami College of Design (Examples include studio arts, mathematics and computer science, natural and social sciences, plus courses you find creative and engaging).
