@@ -43,6 +43,10 @@ defaults:
     event_date: ''
     event_image: ''
 - scope:
+    type: pages
+  values:
+    category: 'no-sidemenu'
+- scope:
     category: sidemenu
   values:
     coloured_logo: ''
