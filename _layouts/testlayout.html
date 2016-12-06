@@ -3,3 +3,10 @@ layout: default-page
 ---
 
 {{content | markdownify}}
+
+this is side menu
+
+{% for item in page.Sidemenu %}
+{{item[0]}},{{item[1]}}
+
+{% endfor %}
