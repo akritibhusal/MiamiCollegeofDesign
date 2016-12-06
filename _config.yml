@@ -43,11 +43,11 @@ defaults:
     event_date: ''
     event_image: ''
 - scope:
+    path: ''
     type: pages
   values:
-    category: 'no-sidemenu'
+    category: no-sidemenu
 - scope:
-    category: sidemenu
     path: ''
   values:
     coloured_logo: ''
