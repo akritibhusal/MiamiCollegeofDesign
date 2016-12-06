@@ -23,11 +23,11 @@ You may be in your junior or senior year in high school thinking about college. 
 
 ### Preparing yourself if you are currently in the workplace:
 
-1. Review the related experience you already have;
+* Review the related experience you already have;
 
-2. Think about what skills and subjects you want to know more about;
+* Think about what skills and subjects you want to know more about;
 
-3. Consider your goals as a result of a Miami College of Design experience;
+* Consider your goals as a result of a Miami College of Design experience;
 
 {:.sep--line}
 
