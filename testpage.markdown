@@ -1,6 +1,8 @@
 ---
 title: testpage
 date: 2016-12-06 08:16:00 Z
+Sidemenu:
+  menu1: list
 layout: testlayout
 ---
 
