@@ -45,7 +45,6 @@ defaults:
 - scope:
     path: ''
     type: pages
-    layout: default
   values:
     coloured_logo: ''
     one_image: ''
