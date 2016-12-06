@@ -137,11 +137,11 @@ layout: default-page
 
 				<div class="grid grid--1">
 					<div class="column">
-						<div class="aspect-ratio aspect-ratio--10-7">
-							<div class="block-content block-content--padded">
 								<div class="event-carousel" id="event-carousel">
 									{% assign events = site.events | sort: 'event_date' | reverse %}
 									{% for event in events %}	
+						<div class="aspect-ratio aspect-ratio--10-7">
+							<div class="block-content block-content--padded">
 									<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
 										<div class="va--bottom text--white table-cell">
 											<div class="event">
@@ -152,20 +152,22 @@ layout: default-page
 														<span class="date-time">{{event.event_date | date: '%B %d, %Y'}}</span>
 													</div>
 												</div>
-
+{% comment %}
 												<div class="event__nav">
 													<img src="assets/img/ic_prev.png" class="icon"/>
 													<img src="assets/img/ic_next.png" class="icon"/>
 												</div>
-											</div>
+{% endcomment %}											</div>
 										</div>
 									</div>
 
-									{% endfor %}
 
-								</div>
 							</div>
 						</div>
+									{% endfor %}
+								</div>
+
+								
 						
 
 					</div>

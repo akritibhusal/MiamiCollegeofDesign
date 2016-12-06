@@ -91,6 +91,8 @@ $( document ).ready( function(){
 	$('#event-carousel').owlCarousel({
     margin:10,
     nav:true,
-    items: 1
+    items: 1,
+    navText: [ '<img src="assets/img/ic_prev.png" class="icon"/>', 
+    '<img src="assets/img/ic_next.png" class="icon"/>']
 })
 });

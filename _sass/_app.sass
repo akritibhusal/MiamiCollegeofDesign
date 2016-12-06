@@ -610,8 +610,17 @@ $anchor-line-height: 5rem !default
 .connect > .icon
 	margin-right: 1rem
 
-// .owl-carousel
-// 	.owl-controls
-// 		.owl-nav 
-// 			.owl-prev
-// 				background: image( 'ic_prev.png' )
+.owl-controls
+	.owl-nav
+			
+		.owl-prev
+			display: inline-block
+			float: left
+			margin-right: 0.5rem
+
+		.owl-next
+			display: inline-block
+			float: left
+
+		@extend .event__nav
+
