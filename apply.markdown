@@ -35,7 +35,7 @@ You may be in your junior or senior year in high school thinking about college. 
 **Students seeking admission must be at least 16 years of age to enroll and must have one of the following:**
 
 
-![img_student.jpg](/uploads/img_student.jpg =400x){:.float-right}
+![img_student.jpg](/uploads/img_student.jpg){:.float-right}
 
 Verification of high school graduation (transcript, diploma, diploma of completion, etc.) showing/verifying date of graduation;
 Verification of GED completion (GED scores or GED diploma);
