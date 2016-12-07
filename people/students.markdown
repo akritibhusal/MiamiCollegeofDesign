@@ -12,7 +12,7 @@ sidemenu:
   financial-advisement: Financial Aid Advisement
   career-services: Career Services/Job Placement Assistance
   design-internship: Design Internships
-  pers-couns: Personal Advisement/Counseling
+  personal-counseling: Personal Advisement/Counseling
   alumni: Alumni Community
   classsize: Class Size
   sch-change: Schedule Changes
@@ -20,7 +20,7 @@ sidemenu:
   student-privacy: Privacy of Student Records
   transcripts: Transcripts
   institution-changes: Changes Made by the Institution
-  fire-pre: Fire Precautions
+  fire-precautions: Fire Precautions
   campus-safety: Campus Safety
   weapons: Weapons on Campus
   parking: Parking
@@ -83,7 +83,7 @@ A first aid station is available to treat minor cuts and scrapes that possibly o
 All students at Miami College of Design will engage in employment internships as part of their program of study. These internships may be paid or unpaid, depending on the location and the amount of training provided at the site. Internships are highly supervised and have specific learning objectives and require written evaluations by student, mentor, and on- and off-campus supervisors. They are arranged through an agreement with an affiliated company iBionics.
 
 ## Personal Advisement/Counseling
-{:#pers-couns}
+{:#personal-counseling}
 
 Our goal is to assist students to reach their goals. The faculty and staff are available by appointment or informally to meet with students to discuss most obstacles that may be in the way of success. Students may be referred to professional counseling within the community as appropriate.
 
@@ -125,7 +125,7 @@ Note: All financial obligations to the School must be paid before transcripts ar
 If the institution cancels or changes a program of study or location in such a way that the student who has started is unable to complete training, arrangements will be made in a timely manner to accommodate the needs of each student enrolled in the program who is affected by the cancellation or change. If the institution is unable to make alternative arrangements that are satisfactory to both parties, the institution will refund all money paid by the student according to the published Refund Policy.
 
 ## Fire Precautions
-{:#fire-pre}
+{:#fire-precautions}
 
 Students should take note of exit signs within the building and each classroom. In the event of an emergency:
 
