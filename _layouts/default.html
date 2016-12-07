@@ -10,7 +10,7 @@
 							<div class="block-content block-content--padded">
 								<a href="index.html">
 								<div class="logo-holder">
-											<img src="{{site.url}}/assets/img/iam-orange.png" alt="Miami College of Design Logo" class="miami-logo" id="logo"/>
+											<img src="{{site.url}}/{{page.coloured_logo}}" alt="Miami College of Design Logo" class="miami-logo" id="logo"/>
 								</div>
 								</a>
 							</div>
@@ -19,7 +19,7 @@
 					<div class="column">
 						<div class="aspect-ratio aspect-ratio--1">
 							<div class="block-content block-content--padded">
-								<div class="table table--cover bg bg--cover bg--eye">
+								<div class="table table--cover bg bg--cover" style="background-image: url({{page.one_image}});">
 									<div class="table-cell va--center">
 									</div>
 								</div>
@@ -31,7 +31,7 @@
 					<div class="column">
 						<div class="aspect-ratio aspect-ratio--1">
 							<div class="block-content block-content--padded">
-								<div class="table table--cover bg bg--cover bg--blueprint">
+								<div class="table table--cover bg bg--cover" style="background-image: url({{page.two_image}});">
 									<div class="table-cell va--center">
 									</div>
 								</div>
@@ -45,12 +45,12 @@
 			<div class="column">
 				<div class="aspect-ratio aspect-ratio--8-3">
 					<div class="block-content block-content--padded">
-						<div class="table table--cover bg bg--cover bg--overlay--light bg--featured">
+						<div class="table table--cover bg bg--cover bg--overlay--light" style="background-image: url({{page.header_image}});">
 							<div class="table-cell va--bottom padding--large text--white">
-								<h1 class="page__header">Admissions
+								<h1 class="page__header">{{page.header_title}}
 								</h1>
 								<h2 class="page__sub-head">
-									Admission Requirements and Procedures
+									{{page.header_subtitle}}
 								</h2>
 							</div>
 						</div>
