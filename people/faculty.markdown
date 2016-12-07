@@ -5,6 +5,7 @@ permalink: "/people/faculty/"
 position: 2
 sidemenu:
   senior-administration: Senior Administration
+  vacancies: We are hiring!
 header_title: Faculty
 ---
 
