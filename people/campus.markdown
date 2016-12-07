@@ -43,3 +43,20 @@ Miami College of Design is located in a busy Art District that accommodates the 
 ## Approvals and Licenses
 {:#approvals}
 
+The Miami College of Design has met all requirements, certification, licenses, and insurances to operate and conduct all business in the City of Miami, Miami/Dade County, and the State of Florida.
+
+## Equipment
+{:#equipment}
+
+All equipment needed to support the teaching of each subject is available. There are labs on site and also in nearby buildings. Examples of equipment include but are not limited to the following: 
+
+* water jet
+* vertical milling machine
+* laser cutter
+* CNC machine
+* 3D printers
+* mini mill
+* vinyl cutter
+* desktop cutter
+* large-format digital printer
+
