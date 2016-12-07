@@ -64,6 +64,7 @@ All equipment needed to support the teaching of each subject is available. There
 &nbsp;
 
 ## Software Resources
+{:#software-resources}
 
 Students at Miami College of Design will have access to state-of-the-art software tools. The College puts an emphasis on Free/Libre Software in order to ensure that students not only learn how to use tools, but also how the tools themselves are designed.
 
@@ -71,9 +72,12 @@ Students at Miami College of Design will have access to state-of-the-art softwar
 &nbsp;
 
 ## Resource Center and On-line Library
+{:#resource-center}
 
 The campus’s resource center contains instructional videos and journals, texts, and technical manuals. Miami College of Design has established an on-line library with LIRN that provides ample resources related to its programs of study and related employment and training. Students and instructors may use all resource materials and assigned computers for academic purposes and research while on campus when class is in session and offices are open. Students, faculty, and staff also have access to on-line library resources from any location.
 
-{:.sep--line}
-&nbsp;
+![Building-South.jpg](/uploads/Building-South.jpg){:.float-right.img--small}
+
+
+
 
