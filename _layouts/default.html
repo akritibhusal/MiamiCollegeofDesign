@@ -65,7 +65,7 @@
 					<ul class="side-nav padding-left-right--small padding-top-bottom--large uppercase">
 
 						{% for menu-item in page.sidemenu %}
-						<li class="side-menu uppercase"><a href="#{{menu-item[0]}}">{{menu-item[1]}}</a></li>
+						<li class="side-menu uppercase {% if menu-item[0] == 'sidemenu_link_ID' %} hidden {% endif %}"><a href="#{{menu-item[0]}}">{{menu-item[1]}}</a></li>
 						{% endfor %}
 						
 					</ul>
