@@ -6,6 +6,11 @@ position: 4
 sidemenu:
   about-campus: About the Campus
   spaces: Labs, classrooms, and other space
+  parking: Parking
+  approvals: Approvals and Licenses
+  equipment: Equipment
+  software-resources: Software Resources
+  resource-center: Resource Center and On-line Library
 header_title: Campus
 header_subtitle: Description of Facilities and Equipment
 ---
