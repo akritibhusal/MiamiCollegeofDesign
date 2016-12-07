@@ -61,20 +61,13 @@
 		
 		<div class="grid grid--2-8">
 			<div class="column">
-				<nav>
+				<nav class="sticky">
 					<ul class="side-nav padding-left-right--small padding-top-bottom--large uppercase">
 
 						{% for menu-item in page.sidemenu %}
-						<li class="uppercase"><a href="#{{menu-item[0]}}">{{menu-item[1]}}</a></li>
+						<li class="side-menu uppercase"><a href="#{{menu-item[0]}}">{{menu-item[1]}}</a></li>
 						{% endfor %}
-						<!-- <li class="active"><a href="#">ADMISSIONS PROCEDURES AND REQUIREMENTS</a></li>
-						<li><a href="#">Admission Requirements</a></li>
-						<li><a href="#">The Application Process</a></li>
-						<li><a href="#">Interview and Performance Assessment</a></li>
-						<li><a href="#">Acceptance by Institution</a></li>
-						<li><a href="#">Language</a></li>
-						<li><a href="#">Transfer of Credit Hours</a></li>
-						<li><a href="#">Life Experience Credit</a></li> -->
+						
 					</ul>
 
 				</nav>

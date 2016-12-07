@@ -96,3 +96,11 @@ $( document ).ready( function(){
     '<img src="assets/img/ic_next.png" class="icon"/>']
 })
 });
+
+
+$( document ).ready( function(){
+	$(".side-menu").click(function(){
+		$(".side-menu").removeClass("active");
+	    $(this).addClass("active");
+	});
+});
