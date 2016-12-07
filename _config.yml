@@ -43,15 +43,15 @@ defaults:
     path: ''
     type: pages
   values:
+    sidemenu:
+      sidemenu_link_ID: Title for sidemenu
     navbar_logo: "/uploads/logo.png"
     coloured_logo: "/uploads/iam-blue.png"
     one_image: "/uploads/eye.png"
     two_image: "/uploads/blueprint.jpg"
     header_image: "/uploads/about_featured.png"
     header_title: ''
-    header_subtitle: ''
-    sidemenu:
-      sidemenu_link_ID: Title for sidemenu
+    header_subtitle: ''    
 - scope:
     path: ''
     type: events
