@@ -25,6 +25,12 @@ sidemenu:
   weapons: Weapons on Campus
   parking: Parking
   conduct: Standards of Conduct
+  harassment: Sexual Harassment and Anti-hazing Policy
+  drug: Drug Policy
+  honor-code: Honor Code
+  appearance: Standards of Appearance
+  disciplinary: Student Disciplinary Procedures
+  grievance: Grievance Policy
 header_title: Students
 header_subtitle: Student Services
 ---
@@ -179,18 +185,26 @@ Miami College of Design is in compliance with the Federal Government Regulations
 No Smoking Institution and Workplace
 
 Smoking is not tolerated within 100 yards of the institution, offices, or any internship site.
-Honor Code
+
+## Honor Code
+{:#honor-code}
 
 Enrollment in Miami College of Design and the completion of the enrollment agreement represents a student’s pledge to respect the rights and property of the School and fellow students and to adhere to general principles of academic honesty.
-Standards of Appearance
+
+## Standards of Appearance
+{:#appearance}
 
 Appropriate dress and appearance is expected at Miami College of Design. Given the nature of the industry, students will work in a machine shop and other labs. Therefore it is appropriate to wear jeans, sneakers, or other non-slip shoes, and shirts w/o buttons and sleeves that can catch on equipment.
-Student Disciplinary Procedures
+
+## Student Disciplinary Procedures
+{:#disciplinary}
 
 If a student violates Miami College of Design’s Standards of Conduct in a classroom, the first level of discipline lies with the faculty member. If a situation demands further action, the Director of Student Services will determine the disciplinary action.
 
 The primary objective of Miami College of Design is to help their students achieve their career goals. If students have concerns or problems that need to be addressed, they can confidentially discuss their problems at any time with instructors, the Director of Student Services, or any staff member. The school maintains an open-door policy regarding any student issues.
-Grievance Policy
+
+## Grievance Policy
+{:#grievance}
 
 A student has the right to appeal any academic or disciplinary actions set forth by Miami College of Design. Whenever possible, students are encouraged to resolve problems through normal administrative channels.
 
@@ -209,4 +223,4 @@ Further details regarding student conduct are found in the Miami College of Desi
 We are accepting applications!
 
 Please contact us by email for further information about our 2017 academic year.
-  info@miamicollegeofdesign.com
+info@miamicollegeofdesign.com
