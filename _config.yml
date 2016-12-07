@@ -41,6 +41,16 @@ defaults:
     bottomfold_two_image: ''
 - scope:
     path: ''
+    type: pages
+  values:
+    coloured_logo: ''
+    one_image: ''
+    two_image: ''
+    header_image: ''
+    header_title: ''
+    header_subtitle: ''
+- scope:
+    path: ''
     type: events
   values:
     event_venue: ''
