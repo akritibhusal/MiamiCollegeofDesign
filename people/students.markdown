@@ -123,9 +123,9 @@ If the institution cancels or changes a program of study or location in such a w
 
 Students should take note of exit signs within the building and each classroom. In the event of an emergency:
 
-    Exit the building by the nearest exit in an orderly fashion, following the directions of the fire marshals (when relevant);
-    Stand at a safe distance from the building;
-    Do not re-enter the building until directed to do so by School administration.
+* Exit the building by the nearest exit in an orderly fashion, following the directions of the fire marshals (when relevant);
+* Stand at a safe distance from the building;
+* Do not re-enter the building until directed to do so by School administration.
 
 ## Campus Safety
 {:#campus-safety}
@@ -150,27 +150,30 @@ All students are expected and required to conduct themselves in a dignified and 
 
 Specific behaviors that may cause dismissal from Miami College of Design include, but are not limited to:
 
-    Willful destruction or defacement of institution or student property
-    Improper or illegal conduct
-    Use or possession of alcoholic beverages or illegal drugs while on campus, or being under the influence of alcoholic beverages or illegal drugs while on campus
-    Cheating, plagiarism, academic dishonesty and/or infractions of administrative policies
-    Theft of student or School property
-    Disruptive or inappropriate behavior
+* Willful destruction or defacement of institution or student property
+* Improper or illegal conduct
+* Use or possession of alcoholic beverages or illegal drugs while on campus, or being under the influence of alcoholic beverages or illegal drugs while on campus
+* Cheating, plagiarism, academic dishonesty and/or infractions of administrative policies
+* Theft of student or School property
+* Disruptive or inappropriate behavior
 
 A student may also be suspended or dismissed from Miami College of Design for violating administrative policies. Causes for suspension and/or dismissal include:
 
-    Failure to meet student responsibilities as contained within this catalog
-    Non-criminal, verbally offensive, disruptive or otherwise inappropriate conduct (whether directed toward another student or a School representative)
-    Continued inappropriate personal appearance
-    Continued unsatisfactory attendance
-    Non-payment for services rendered by the School
-    Failure to comply with policies listed in the current School catalog
-    Conduct prejudicial to a class, program or the School
+* Failure to meet student responsibilities as contained within this catalog
+* Non-criminal, verbally offensive, disruptive or otherwise inappropriate conduct (whether directed toward another student or a School representative)
+* Continued inappropriate personal appearance
+* Continued unsatisfactory attendance
+* Non-payment for services rendered by the School
+* Failure to comply with policies listed in the current School catalog
+* Conduct prejudicial to a class, program or the School
 
-Sexual Harassment and Anti-hazing Policy
+## Sexual Harassment and Anti-hazing Policy
+{:#harassment}
 
 It is Miami College of Design’s policy to prohibit sexual harassment, which includes a commitment to creating and maintaining a community in which students, faculty and administrative-academic staff can work together in an atmosphere free of all forms of harassment, exploitation, or intimidation. Sexual harassment includes unwelcome sexual advances or offensive comments, gestures, or physical contact of a sexual nature between and/or among students and staff. This includes any kind of intimidation or discrimination. Miami College of Design is strongly opposed to sexual harassment and such behavior is prohibited by law and by Miami College of Design policy. Any report of perceived harassment will be fully investigated and corrective action will be taken where appropriate. Behavior that denigrates the integrity of another student (hazing) will not be tolerated. If a student or employee feels that he or she has suffered a form of discrimination or harassment, the individual should immediately contact a supervisor or the Dean of Academic and Student Affairs. Violation of the policy can result in disciplinary action, up to and including discharge.
-Drug Policy
+
+## Drug Policy
+{:#drug}
 
 Miami College of Design is in compliance with the Federal Government Regulations for a Drug Free Workplace for students and employees. Any student or employee caught in possession, use or distribution of any illegal substances will be dismissed and/or referred to the appropriate agency for arrest.
 No Smoking Institution and Workplace
