@@ -89,7 +89,10 @@ What financing is available to assist students who did not qualify for the schol
 Will tuition paid by the student be covered by the Refund Policy?|Yes (See the Refund and Cancellation Policy Section below).
 What is the time-frame new and returning students are given as to whether they qualify for the scholarship and the amount?|New students will be told about their scholarship status three months prior to the due date for submission of the Enrollment Agreement. Continuing students will be told about their scholarship status three months prior to Registration Day.
 
-## REFUND AND CANCELLATION POLICY
+{:.sep--line}
+&nbsp;
+
+## Refund and Cancellation Policy
 {:#refund}
 
 Scholars are awarded scholarship for up to 90% of tuition. Should a Student Scholar drop out or withdraw, the student is due no refund and owes no fees to the school. A student who is not awarded a scholarship and chooses to pay their own tuition, will be subject to the following refund and cancellation policies.
@@ -106,6 +109,10 @@ Should a student’s enrollment be terminated or canceled for any reason, all re
 * Refunds will be made within 30 days of termination or receipt of cancellation notice;
 * Costs for books and learning materials and equipment will be refunded only if returned unused and in salable condition;
 * An applicant who signs up and fails to cancel within (3) business days will receive a refund less the non-refundable application fee in the amount of US $150.
+
+
+{:.sep--line}
+&nbsp;
 
 ## Course Cancellation and Refund Policy
 {:#course-cancellation}
