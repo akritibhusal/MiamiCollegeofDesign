@@ -9,6 +9,7 @@ sidemenu:
   compsci: Computer Science
   engg: Engineering
   enpship: Entrepreneurship
+  humanities: Humanities
 header_title: Course Description
 ---
 
@@ -148,5 +149,35 @@ This course provides students with an opportunity to engage in a social entrepre
 #### EPS-402 Sustainable Design, 3 credit hours theory, 3 credit hours lab
 
 This course provides students exposure to the environmental impacts and social-justice issues that are becoming increasingly important to today’s business leaders. Upon completion of this course, students will have exposure to the factors defining the challenge of meeting the needs of a business while taking into account social and environmental issues. (Prerequisite: EPS-301)
+
+{:.sep--line}
+&nbsp;
+
+## Humanities
+{:#humanities}
+
+#### HUM-101 English Writing and Communication, 3 credit hours theory
+
+This course provides students with written communication skills. Upon completion of this course, students will know the elements of effective written communication, ensuring that their written documents reflect a high level of professionalism and credibility. (Prerequisite: none)
+
+#### HUM-102 Effective Speaking and Communication, 3 credit hours theory
+
+This course provides the opportunity for students to study techniques of oral communication and to read and speak about the ideas they encounter in books on a variety of cultural, historical and social topics. Public speaking is essential in order to convey ones ideas and gain rapport with others. (Prerequisite: HUM-101)
+
+#### HUM-201 College Writing, 3 credit hours theory
+
+This course helps students to develop thinking and writing skills through frequent writing assignments based on critical response to intellectually challenging questions. Emphasis is on the writing process i.e. prewriting, drafting, revising, using peer and teacher critique, editing, and proofreading. Upon completion of this course, students will have completed four essays, including one that requires research. (Prerequisite: HUM-101)
+
+#### HUM-202 How to Write a Design Proposal, 3 credit hours theory
+
+This course provides students with an opportunity to refine their writing skills within the context of writing a design proposal. Upon completion of this course, students will be experienced in writing, editing, and critiquing proposals that make a persuasive case for a reasonable solution to a clearly articulated problem. (Prerequisite: HUM-101)
+
+#### HUM-301 Philosophy: Practice-based Inquiry, 3 credit hours theory
+
+This course provides an opportunity for students to establish or advance their understanding of practice-based inquiry through critical exploration of visual language, ethics, and approaches to knowledge acquisition. Students are introduced to quantitative and qualitative approaches to evaluating various processes. Upon completion of this course, students will be able to use these theoretical underpinnings to begin to critically review literature relevant to their field of interests. (Prerequisite: none)
+
+#### HUM-302 History of Design, 3 credit hours theory
+
+This course provides students with a historical perspective of design as an outgrowth of the Industrial Revolution, when an individual craftsman could no longer be responsible for every stage of the development of a product. Upon completion of this course, students will be familiar with the changing role of the designer within the context of the development of new production techniques and materials in the eighteenth and nineteenth centuries, the development of mass production, standardization, modularity and diversification. (Prerequisite: HUM-301)
 
 
