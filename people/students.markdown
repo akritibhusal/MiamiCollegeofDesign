@@ -8,7 +8,7 @@ sidemenu:
   housing: Housing
   ferpa: Family Educational Rights and Privacy Act (FERPA)
   orientation: Orientation - Advising Seminars
-  acadvisement: Academic Advisement
+  academic-advisement: Academic Advisement
   financial-advisement: Financial Aid Advisement
   career-services: Career Services/Job Placement Assistance
   des-internship: Design Internships
@@ -58,7 +58,7 @@ Miami College of Design fully complies with the Family Educational Rights and Pr
 Two Advising Seminars are held during the first two semesters of each program. They are designed as both an orientation to the institution and to address challenges and opportunities and how to handle them while in school. The goal is to head off challenges and increase student satisfaction, success, retention, and graduation. There is a Senior Seminar to assist students to select their Senior Project and a Professional Seminar to prepare students to successfully enter the job market.
 
 ## Academic Advisement
-{:#acadvisement}
+{:#academic-advisement}
 
 Academic advisement includes offering students skills and resources to successfully complete each course. Examples are consulting with professors and student services staff, study- skill coaching, as well as success strategies when combining school with other life requirements and tasks of daily living.
 
