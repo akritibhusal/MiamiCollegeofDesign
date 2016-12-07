@@ -11,29 +11,37 @@ header_title: Faculty
 ## Senior Administration
 {:#senior-administration}
 
+### President
+
+[Franco Lodato](https://en.wikipedia.org/wiki/Franco_Lodato) <br/>
+Master of Science <br/>
+Bio-Design <br/>
+European Institute of Design <br/>
+Milan, Italy <br/>
 
 
-| President   |
-| ------------- |
-| Franco Lodato    |
-| Master of Science   |
-| Bio-Design    |
-| European Institute of Design    |
-| Milan, Italy    |
+### Chief Operating Officer
+
+Antonio Malavé <br/>
+Masters of Science <br/>
+Advanced Defense Studies <br/>
+Insituto de Alto Estudios de la Defensa Nacional <br/>
+Caracas, Venezuela <br/>
 
 
+### Provost
 
-Chief Operating Officer
+[Walter Bender](https://en.wikipedia.org/wiki/Walter_Bender) <br/>
+Master of Science <br/>
+Visual Studies <br/>
+Massachusetts Institute of Technology <br/>
+Cambridge, MA <br/>
 
-Antonio Malavé
-Masters of Science
-Advanced Defense Studies
-Insituto de Alto Estudios de la Defensa Nacional
-Caracas, Venezuela
-Provost
+{:.sep--line}
+&nbsp;
 
-Walter Bender
-Master of Science
-Visual Studies
-Massachusetts Institute of Technology
-Cambridge, MA
+## We are hiring!
+{:#vacancies}
+
+Please contact us by email.
+[info@miamicollegeofdesign.com](mailto:info@miamicollegeofdesign.com)
