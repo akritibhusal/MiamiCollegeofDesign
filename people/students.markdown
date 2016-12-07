@@ -21,6 +21,8 @@ sidemenu:
   transcripts: Transcripts
   institution-changes: Changes Made by the Institution
   fire-pre: Fire Precautions
+  campus-safety: Campus Safety
+  weapons: Weapons on Campus
 header_title: Students
 header_subtitle: Student Services
 ---
@@ -123,13 +125,18 @@ Students should take note of exit signs within the building and each classroom. 
     Stand at a safe distance from the building;
     Do not re-enter the building until directed to do so by School administration.
 
-Campus Safety
+## Campus Safety
+{:#campus-safety}
 
 Miami College of Design maintains an alarmed and monitored well-lit building with appropriately well-lit gated parking areas. Miami College of Design maintains 24/7 video surveillance of all exterior and interior areas. Any and all incidents including damage to personal property or suspicious persons should be reported promptly to School administration. Miami College of Design provides security information, assistance, and service to aid campus occupants in the protection process. Miami College of Design employs patrolling safety officers to observe and detect crimes and threats on campus. Public Safety personnel are not police officers and are not empowered as such. The primary protective means used involves restricting campus access and use to only those authorized students, staff members, and employees, or their guests, for reasonable and safe purposes.
-Weapons on Campus
+
+## Weapons on Campus
+{:#weapons}
 
 Miami College of design does not allow firearms, deadly weapons, or dangerous instruments on its campus building or any lab sites. No concealed weapons or firearms of any kind are allowed on the property by anyone. Anyone found with weapons of any kind will be immediately arrested and expelled.
-Parking
+
+## Parking
+{:#parking}
 
 Miami College of Design maintains all parking areas and traffic regulations for the protection of all. Students must park in authorized spaces. Students must not park in areas designated for the handicapped (unless possessing the appropriate licensure), on sidewalks, or in “no parking” areas. Violators are subject to having their vehicle towed without prior warning or formal notification. Miami College of Design is not responsible for items left in a student’s car or for any towing charges if students have illegally parked.
 STANDARDS OF CONDUCT
