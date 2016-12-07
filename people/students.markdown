@@ -7,7 +7,7 @@ sidemenu:
   mentors: Mentors
   housing: Housing
   ferpa: Family Educational Rights and Privacy Act (FERPA)
-  Orientation: Orientation - Advising Seminars
+  orientation: Orientation - Advising Seminars
   acadvisement: Academic Advisement
   financial-advisement: Financial Aid Advisement
   career-services: Career Services/Job Placement Assistance
