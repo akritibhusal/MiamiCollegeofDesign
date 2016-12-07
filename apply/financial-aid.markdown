@@ -6,6 +6,9 @@ position: 1
 sidemenu:
   tuition: Tuition fees and other costs
   scholar: Industrial Arts & Method Scholars Program
+  scholar-summary: Scholars Program in Summary
+  refund: Refund and Cancellation Policy
+  course-cancellation: Course Cancellation and Refund Policy
 header_title: Financial Aid
 ---
 
@@ -85,3 +88,24 @@ What financing is available to assist students to pay for the 10% tuition not co
 What financing is available to assist students who did not qualify for the scholarship?|Miami College of Design has arranged with tuition-lending companies for students to seek tuition loan assistance.
 Will tuition paid by the student be covered by the Refund Policy?|Yes (See the Refund and Cancellation Policy Section below).
 What is the time-frame new and returning students are given as to whether they qualify for the scholarship and the amount?|New students will be told about their scholarship status three months prior to the due date for submission of the Enrollment Agreement. Continuing students will be told about their scholarship status three months prior to Registration Day.
+
+## REFUND AND CANCELLATION POLICY
+{:#refund}
+
+Scholars are awarded scholarship for up to 90% of tuition. Should a Student Scholar drop out or withdraw, the student is due no refund and owes no fees to the school. A student who is not awarded a scholarship and chooses to pay their own tuition, will be subject to the following refund and cancellation policies.
+ 
+
+Should a student’s enrollment be terminated or canceled for any reason, all refunds will be made according to the following refund schedule. This applies to students who did not qualify for a scholarship and are paying tuition in cash.
+
+* Cancellation must be made in writing;
+* All monies will be refunded if the applicant is not accepted by the School or if the student cancels within three (3) business days after signing the enrollment agreement and making an initial deposit;
+* Cancellation after the third (3rd) business day, but before the first class, will result in a refund of all monies paid, with the exception of the non-refundable application fee in the amount of US $150;
+* Cancellation or withdrawal after attendance has begun, but prior to 40% completion of the course, will result in a Pro Rata refund of tuition computed on the number of Credit Hours completed to the total course Credit Hours required;
+* Cancellation after completing 40% of the course will result in no refund;
+* The termination date for refund computation purposes is the last date of actual attendance by the student;
+* Refunds will be made within 30 days of termination or receipt of cancellation notice;
+* Costs for books and learning materials and equipment will be refunded only if returned unused and in salable condition;
+* An applicant who signs up and fails to cancel within (3) business days will receive a refund less the non-refundable application fee in the amount of US $150.
+
+## Course Cancellation and Refund Policy
+{:#course-cancellation}
