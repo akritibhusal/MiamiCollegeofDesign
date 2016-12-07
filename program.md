@@ -10,9 +10,7 @@ header_title: Academic Programs
 {:#bsid}
 
 Degree Awarded: Bachelor of Science
-
 Calendar Type: Semester
-
 Total Credit Hours: 145
 
 ### Occupational Information and Program Objectives
