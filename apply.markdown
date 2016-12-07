@@ -42,7 +42,8 @@ You may be in your junior or senior year in high school thinking about college. 
 {:.sep--line}
 &nbsp;
 
-## ADMISSIONS REQUIREMENTS{:#requirements}
+## ADMISSIONS REQUIREMENTS
+{:#requirements}
 
 **Students seeking admission must be at least 16 years of age to enroll and must have one of the following:**
 
