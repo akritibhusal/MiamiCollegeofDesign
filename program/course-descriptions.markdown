@@ -84,3 +84,18 @@ This course provides a broad range of advanced-level investigations in industria
 #### ID-499 Capstone Design Project, 4 credit hours lab
 
 This course provides an opportunity for student teams to integrate, apply, and demonstrate their skills. Capstone projects can be research-oriented or design-oriented. Upon completion of this course, students will have created an industrial design that can be implemented and used. All activity is closely monitored by Design Faculty. (Design Faculty) (Prerequisite: ID-450)
+
+{:.sep--line}
+&nbsp;
+
+## Mathematics
+
+#### MATH-101 College Algebra, 3 credit hours theory
+
+This course is an exploration of algebraic operations and properties, fractions, exponents and radicals, equations and systems of equations, polynomials and factoring, graphing, inequalities, and more. (Prerequisite: none)
+
+#### MATH-201 Statistics , 3 credit hours theory
+
+This course provides an introduction to fundamentals of statistics. Upon completion of this course, students will have exposure to statistics, estimation theory, hypothesis testing, measures of performance, and notions of optimality, analysis of variance, and simple linear regression. (Prerequisite: MATH-101)
+
+
