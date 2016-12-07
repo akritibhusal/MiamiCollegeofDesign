@@ -13,7 +13,7 @@ header_title: Faculty
 
 
 
-#### |President   |
+| #### President   |
 | ------------- |
 | Franco Lodato    |
 | Master of Science   |
