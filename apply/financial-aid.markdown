@@ -69,6 +69,7 @@ A minimum cumulative grade average of 3.0 and enrollment of at least 9 credits p
 Scholarships are awarded to as many qualified students as possible based on available scholarship funding.
 
 #### Scholars Program in Summary
+{:#scholar-summary}
 
 Amount of the scholarship.|The Scholarship covers up to 90% of tuition for those who qualify.
 -----|-----
