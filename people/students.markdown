@@ -214,7 +214,8 @@ The Dean of and Student Affairs, the student, and the Miami College of Design em
 
 If the student feels that his/her complaint cannot be resolved after exhausting the institution's grievance policies and procedures, or feels an appeal or grievance is still unresolved, the student may contact:
 
-Commission for Independent EducationFlorida Department of Education
+Commission for Independent Education <br/>
+Florida Department of Education <br/>
 325 West Gaines Street, Suite 1414 <br/>
 Tallahassee, Florida 32399-0400 <br/>
 850-245-3200; 888-224-6684 toll free <br/>
