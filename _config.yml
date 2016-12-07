@@ -21,7 +21,7 @@ defaults:
   values:
     layout: default
 - scope:
-    path: ""
+    path: ''
     type: home_page
   values:
     intro_title: We support future leaders in design and innovation.
