@@ -59,3 +59,6 @@ Work across these themes is coordinated to facilitate the development of experti
 
 Students enrolled in the Associate of Science program must complete 30 credit hours of general education.
 
+{:.sep--line}
+&nbsp;
+
