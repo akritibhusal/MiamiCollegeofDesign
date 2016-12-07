@@ -10,6 +10,9 @@ sidemenu:
   engg: Engineering
   enpship: Entrepreneurship
   humanities: Humanities
+  natscience: Natural Science
+  socscience: Social Sciences
+  advseminar: Advising Seminars
 header_title: Course Description
 ---
 
@@ -180,4 +183,48 @@ This course provides an opportunity for students to establish or advance their u
 
 This course provides students with a historical perspective of design as an outgrowth of the Industrial Revolution, when an individual craftsman could no longer be responsible for every stage of the development of a product. Upon completion of this course, students will be familiar with the changing role of the designer within the context of the development of new production techniques and materials in the eighteenth and nineteenth centuries, the development of mass production, standardization, modularity and diversification. (Prerequisite: HUM-301)
 
+{:.sep--line}
+&nbsp;
 
+## Natural Sciences
+{:#natscience}
+
+#### NATSCI-302 Biology: Visual Perception, 3 credit hours theory, 3 credit hours lab
+
+This course focuses on psychological theories of color, form, depth, and motion perception. Students will experience examples of visual processes through a number of in-class experiments. Upon completion of this course, students will have an understanding of the roles of learning, memory, imagination, and other cognitive processes on daily human experience. (Prerequisite: none)
+
+{:.sep--line}
+&nbsp;
+
+## Social Sciences
+{:#socscience}
+
+#### SOCSCI-201 The History of Free Culture, 3 credit hours theory
+
+This course provides an introduction to the free culture movement, a social movement that promotes the freedom to distribute and modify creative works in the form of free content. Upon completion of this course, students will have an understanding of the history of free culture, the underlying philosophical, social, and ethical frameworks, and familiarity with the various mechanism used for promoting and permitting the free exchange of ideas. (Prerequisite: none)
+
+#### SOCSCI-302 Social Psychology, 3 credit hours theory
+
+This course provides an introduction to social psychology, the science of how we influence the way people think, feel, and act. The aim of this course is to familiarize students with research and theory in social psychology in order to develop critical thinking skills about social-psychological phenomena. Another course object is to stimulate students to think about the implications of social-psychological research for their personal and work lives. (Prerequisite: none)
+
+{:.sep--line}
+&nbsp;
+
+## Advising Seminars
+{:#advseminar}
+
+#### SM-101 Advising Seminar, 1 credit hour theory
+
+This is the first of two seminars to introduce students to the challenges and opportunities of their training and college life. These seminars provide an orientation to Miami College of Design and how to navigate a successful path to graduation. Students participate in small-groups and have individual interactions and discuss challenges and opportunities that will occur and ways to handle them. (All faculty) (Prerequisite: none)
+
+#### SM-102 Advising Seminar, 1 credit hour1 theory
+
+This seminar provides additional orientation for first-year students. The goal of this seminar is to enhance student success and satisfaction. Upon completion, students will experience small-group and individual interactions and discuss solutions to personal and academic challenges. (All Faculty) (Prerequisite: SM-101)
+
+#### SM-401 Senior Seminar, 1 credit hour theory
+
+This seminar provides a forum for students to select their senior project topic. There are weekly class meetings as well as individual conference with faculty. Upon completion, students will have defined a method of approach and prepared a thesis proposal to successfully complete a BS degree in Industrial Design. (Design Faculty) (Prerequisite: simultaneous enrollment in ID-450)
+
+#### SM-402 Professional Seminar, 1 credit hour theory
+
+This seminar provides a forum for students to reflect upon their overall program of study at the Miami College of Design and develop a deeper understanding of how their studies have prepared them for their professional careers. Upon completion of this seminar, students will have amassed an annotated portfolio of their work suitable for presenting themselves to the job market. (Design Faculty) (Prerequisite: simultaneous enrollment in ID-499 or EPS-499)
