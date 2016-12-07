@@ -6,6 +6,5 @@ position: 1
 header_title: Academic Programs
 ---
 
-## Industrial Design
-Bachelor of Science (B.S.)
+## Industrial Design - Bachelor of Science (B.S.)
 {:#bsid}
