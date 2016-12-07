@@ -5,6 +5,10 @@ permalink: "/program/course-descriptions/"
 position: 2
 sidemenu:
   inddesign: Industrial Design
+  maths: Mathematics
+  compsci: Computer Science
+  engg: Engineering
+  enpship: Entrepreneurship
 header_title: Course Description
 ---
 
@@ -89,6 +93,7 @@ This course provides an opportunity for student teams to integrate, apply, and d
 &nbsp;
 
 ## Mathematics
+{:#maths}
 
 #### MATH-101 College Algebra, 3 credit hours theory
 
@@ -97,5 +102,51 @@ This course is an exploration of algebraic operations and properties, fractions,
 #### MATH-201 Statistics , 3 credit hours theory
 
 This course provides an introduction to fundamentals of statistics. Upon completion of this course, students will have exposure to statistics, estimation theory, hypothesis testing, measures of performance, and notions of optimality, analysis of variance, and simple linear regression. (Prerequisite: MATH-101)
+
+{:.sep--line}
+&nbsp;
+
+## Computer Science
+{:#compsci}
+
+#### COMP-201 Principles of Software Development, 3 credit hours theory, 3 credit hours lab
+
+This course provides an opportunity for students to explore the variety of principles of software design. Upon completion of this course, students will have knowledge of principles upon which common software tools are developed and maintained and an understanding of the theoretical constraints and limitations of software development. (Prerequisite: none)
+
+#### COMP-301 Introduction to Computational Thinking (Python), 3 credit hours theory, 3 credit hours lab
+
+This course provides an opportunity for students to explore the foundational tools of computer science necessary to understand and articulate computational approaches to problem-solving. Upon completion of this course, students will have experience using the Python programming language to express computational principles as applied to simple problem-solving. (Prerequisite: COMP-201)
+
+#### COMP-302 Introduction to Computational Thinking (JavaScript) , 3 credit hours theory, 3 credit hours lab
+
+This course provides an opportunity for students to explore the foundational tools of computer science necessary to understand and articulate computational approaches to problem-solving. Upon completion of this course, students will have experience using the JavaScript programming language to express computational principles as applied to simple problem-solving. (Prerequisite: COMP-201) 
+
+{:.sep--line}
+&nbsp;
+
+## Engineering
+{:#engg}
+
+#### ENG-102 Introduction to Rapid Prototyping Methods, 3 credit hours theory, 3 credit hours lab
+
+This course provides a practical hands-on introduction to digital fabrication. This includes CAD/CAM/CAE, NC machining, 3-D printing and scanning, molding and casting, composites, laser and water jet cutting, and PCB design and fabrication. Upon completion of this course, students will have an understanding of these capabilities through projects worked on individually and jointly to create functional systems. (Design Faculty) (Prerequisite: none)
+
+#### ENG-203 Methods of Sensor Design, 3 credit hours theory, 3 credit hours lab
+
+This course presents concepts, principles, and algorithms for sensing and computation related to the physical world. Upon completion of this course, student will have developed skills to design a small-scale yet complex robot capable of real-time interaction with the natural world. (Prerequisite: ENG-101 or COMP-102)
+
+{:.sep--line}
+&nbsp;
+
+## Entrepreneurship
+{:#enpship}
+
+#### EPS-401 Affordable Design, 3 credit hours theory, 3 credit hours lab
+
+This course provides students with an opportunity to engage in a social entrepreneurship and design project in partnership with urban and rural communities. Students focus on income generation and meeting daily human needs through new product and service design and development. The scope of their work takes into consideration the cultural appropriateness of design choices and their impact on social venture success. Upon completion of this course, students will have an understanding of the impact of innovation in different problem-opportunity contexts. (Prerequisite: none)
+
+#### EPS-402 Sustainable Design, 3 credit hours theory, 3 credit hours lab
+
+This course provides students exposure to the environmental impacts and social-justice issues that are becoming increasingly important to today’s business leaders. Upon completion of this course, students will have exposure to the factors defining the challenge of meeting the needs of a business while taking into account social and environmental issues. (Prerequisite: EPS-301)
 
 
