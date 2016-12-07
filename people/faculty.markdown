@@ -11,9 +11,9 @@ header_title: Faculty
 ## Senior Administration
 {:#senior-administration}
 
-#### President
 
-|               |
+
+|#### President   |
 | ------------- |
 | Franco Lodato    |
 | Master of Science   |
