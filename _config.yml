@@ -51,7 +51,7 @@ defaults:
     two_image: "/uploads/blueprint.jpg"
     header_image: "/uploads/about_featured.png"
     header_title: ''
-    header_subtitle: ''    
+    header_subtitle: ''
 - scope:
     path: ''
     type: events
