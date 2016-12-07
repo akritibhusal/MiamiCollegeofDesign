@@ -4,7 +4,7 @@
     <ul>
         {% if include.context == "/" %}
         <li>
-            <a href="{{site.url}}/index.html" class="nav-link full-logo {% if page.url == "/" %}active{% endif %}" id="logo_full"><img src="{{site.url}}/assets/img/logo.png" ></a>
+            <a href="{{site.url}}/index.html" class="nav-link full-logo {% if page.url == "/" %}active{% endif %}" id="logo_full"><img src="{{site.url}}/{{page.navbar_logo}}" ></a>
                 <a href="{{site.url}}/index.html" class="nav-link active" id="home-nav"><span>Home<span></a>
 
                 <ul class="sub-nav dim">

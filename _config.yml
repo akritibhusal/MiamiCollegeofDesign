@@ -43,6 +43,7 @@ defaults:
     path: ''
     type: pages
   values:
+    navbar_logo: ''
     coloured_logo: ''
     one_image: ''
     two_image: ''
