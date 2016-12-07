@@ -1,7 +1,7 @@
 ---
 layout: default-page
 ---
-
+	{% for item in site.home_page %}
 	<div class="main-container">
 		<div class="grid grid--2">
 			<div class="column">
@@ -21,7 +21,7 @@ layout: default-page
 							<div class="column">
 								<div class="aspect-ratio aspect-ratio--1">
 									<div class="block-content block-content--padded">
-										<div class="table table--cover bg bg--cover overflow--hide scale--1-1--hover shadow--hover" data-open="about_one_image" style="background-image: url({{page.one_image}});">
+										<div class="table table--cover bg bg--cover overflow--hide scale--1-1--hover shadow--hover" data-open="about_one_image" style="background-image: url({{item.one_image}});">
 											<div class="table-cell va--center ">
 											</div>
 										</div>
@@ -34,7 +34,7 @@ layout: default-page
 							<div class="column">
 								<div class="aspect-ratio aspect-ratio--1">
 									<div class="block-content block-content--padded">
-										<div class="table table--cover bg bg--cover scale--1-1--hover shadow--hover" data-open="about_two_image" style="background-image: url({{page.two_image}});">
+										<div class="table table--cover bg bg--cover scale--1-1--hover shadow--hover" data-open="about_two_image" style="background-image: url({{item.two_image}});">
 											<div class="half-triangle">
 												
 											</div>
@@ -47,7 +47,7 @@ layout: default-page
 					<div class="column">
 						<div class="aspect-ratio aspect-ratio--1">
 							<div class="block-content block-content--padded" data-open="about_four_image">
-								<div class="table table--cover bg bg--cover scale--1-05--hover shadow--hover" style="background-image: url({{page.four_image}});"></div>
+								<div class="table table--cover bg bg--cover scale--1-05--hover shadow--hover" style="background-image: url({{item.four_image}});"></div>
 							</div>
 						</div>
 					</div>
@@ -57,7 +57,7 @@ layout: default-page
 				<div class="grid grid--1">
 					<div class="aspect-ratio aspect-ratio--5-3">
 						<div class="block-content block-content--padded">
-							<div class="table table--cover bg bg--cover bg--overlay scale--1-025--hover shadow--hover" data-open="about_us" style="background-image: url({{page.video_bg_image}});">
+							<div class="table table--cover bg bg--cover bg--overlay scale--1-025--hover shadow--hover" data-open="about_us" style="background-image: url({{item.video_bg_image}});">
 								<div class="table-cell va--center text--center text--white " >
 									<img src="{{site.url}}/assets/img/ic_play.png" class="icon"/>
 									<p class="text--medium">Watch a video about us </p>
@@ -73,11 +73,11 @@ layout: default-page
 			<div class="column">
 				<div class="aspect-ratio aspect-ratio--5-6">
 					<div class="block-content block-content--padded overflow--hide">
-						<div class="table table--cover bg bg--cover bg--overlay text--white" style="background-image: url({{page.intro_bg_image}});">
+						<div class="table table--cover bg bg--cover bg--overlay text--white" style="background-image: url({{item.intro_bg_image}});">
 							<div class="table-cell va--center section">
-								<h2 class="section__heading">{{page.intro_title}}</h2>
+								<h2 class="section__heading">{{item.intro_title}}</h2>
 								<div class="text--light">
-									{{page.content | markdownify}}
+									{{item.content | markdownify}}
 								</div>
 								<div class="sep"></div>
 								<div class="table connect">
@@ -98,7 +98,7 @@ layout: default-page
 						<div class="table table--cover bg bg--grey">
 							<div class="va--middle table-cell section">
 								<h2 class="section__heading">Our Mission</h2>
-								{{page.our_mission | markdownify}}
+								{{item.our_mission | markdownify}}
 								<div class="table connect">
 									<img src="{{site.url}}/assets/img/ic_arrow_dark.png" class="icon table-cell va--center"/><span class="table-cell va--center text--medium"> Meet our Team </span>
 								</div>
@@ -127,7 +127,7 @@ layout: default-page
 					<div class="column">
 						<div class="aspect-ratio aspect-ratio--1">
 							<div class="block-content overflow--hide block-content--padded">
-								<div class="table table--cover bg bg--cover" style="background-image: url({{page.bottomfold_two_image}});">
+								<div class="table table--cover bg bg--cover" style="background-image: url({{item.bottomfold_two_image}});">
 									<div class="half-triangle half-triangle--rotate"></div>
 								</div>
 							</div>
@@ -181,5 +181,6 @@ layout: default-page
 			</div>
 		</div>
 	</div>
+	{% endfor %}
 
 
