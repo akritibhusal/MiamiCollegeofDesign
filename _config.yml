@@ -44,13 +44,14 @@ defaults:
     type: pages
   values:
     navbar_logo: "/uploads/logo.png"
-    coloured_logo: ''
-    one_image: ''
-    two_image: ''
-    header_image: ''
+    coloured_logo: '/uploads/iam-blue.png'
+    one_image: '/uploads/eye.png'
+    two_image: '/uploads/blueprint.jpg'
+    header_image: '/uploads/about_featured.png'
     header_title: ''
     header_subtitle: ''
     sidemenu: ''
+        navigationID: 'navigationTitle'
 - scope:
     path: ''
     type: events
