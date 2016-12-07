@@ -109,3 +109,5 @@ Should a student’s enrollment be terminated or canceled for any reason, all re
 
 ## Course Cancellation and Refund Policy
 {:#course-cancellation}
+
+Should a course be canceled by the administration for any reason, tuition for that course will be refunded in full to cash paying students. Fees paid for learning materials, equipment, and supplies will not be refunded.
