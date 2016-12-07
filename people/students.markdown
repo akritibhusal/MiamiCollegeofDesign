@@ -23,6 +23,8 @@ sidemenu:
   fire-pre: Fire Precautions
   campus-safety: Campus Safety
   weapons: Weapons on Campus
+  parking: Parking
+  conduct: Standards of Conduct
 header_title: Students
 header_subtitle: Student Services
 ---
@@ -139,7 +141,10 @@ Miami College of design does not allow firearms, deadly weapons, or dangerous in
 {:#parking}
 
 Miami College of Design maintains all parking areas and traffic regulations for the protection of all. Students must park in authorized spaces. Students must not park in areas designated for the handicapped (unless possessing the appropriate licensure), on sidewalks, or in “no parking” areas. Violators are subject to having their vehicle towed without prior warning or formal notification. Miami College of Design is not responsible for items left in a student’s car or for any towing charges if students have illegally parked.
-STANDARDS OF CONDUCT
+
+
+# STANDARDS OF CONDUCT
+{:#conduct}
 
 All students are expected and required to conduct themselves in a dignified and professional manner. Students must realize the responsibility for their success rests largely upon themselves. Any behavior that distracts other students or disrupts routine class procedure will not be tolerated. Such conduct is considered just cause for dismissal of a student from Miami College of Design.
 
