@@ -3,6 +3,24 @@ title: Students
 date: 2016-12-02 14:12:00 Z
 permalink: "/people/students/"
 position: 1
+sidemenu:
+  mentors: Mentors
+  housing: Housing
+  ferpa: Family Educational Rights and Privacy Act (FERPA)
+  Orientation: Orientation - Advising Seminars
+  acadvisement: Academic Advisement
+  financial-advisement: Financial Aid Advisement
+  career-services: Career Services/Job Placement Assistance
+  des-internship: Design Internships
+  pers-couns: Personal Advisement/Counseling
+  alumni: Alumni Community
+  classsize: Class Size
+  sch-change: Schedule Changes
+  syllabi: Syllabi
+  student-privacy: Privacy of Student Records
+  transcripts: Transcripts
+  institution-changes: Changes Made by the Institution
+  fire-pre: Fire Precautions
 header_title: Students
 header_subtitle: Student Services
 ---
@@ -13,59 +31,91 @@ Miami College of Design’s primary objective is to assist its students in achie
 {:#mentors}
 
 Based on person-centered planning, each student benefits from academic and/or social support. All students are partnered with a mentor. Mentors include faculty, staff, upper-class students, and professional industrial designers in the community.
-Housing
+
+## Housing
+{:#housing}
 
 Miami College of Design is located in the District of Wynwood. Recently around Wynwood, thousands of new housing units have become available. Miami College of Design will assist students in fulfilling their housing needs in this thriving local housing marketplace.
-Family Educational Rights and Privacy Act (FERPA)
+
+## Family Educational Rights and Privacy Act (FERPA)
+{:#ferpa}
 
 Miami College of Design fully complies with the Family Educational Rights and Privacy Act of the 1974 Buckley Amendment, Public Law 93-380, Section 438. All students’ records are confidential and are stored in locked cabinets in a locked office.
-Orientation – Advising Seminars
+
+## Orientation – Advising Seminars
+{:#orientation}
 
 Two Advising Seminars are held during the first two semesters of each program. They are designed as both an orientation to the institution and to address challenges and opportunities and how to handle them while in school. The goal is to head off challenges and increase student satisfaction, success, retention, and graduation. There is a Senior Seminar to assist students to select their Senior Project and a Professional Seminar to prepare students to successfully enter the job market.
-Academic Advisement
+
+## Academic Advisement
+{:#acadvisement}
 
 Academic advisement includes offering students skills and resources to successfully complete each course. Examples are consulting with professors and student services staff, study- skill coaching, as well as success strategies when combining school with other life requirements and tasks of daily living.
-Financial Aid Advisement
+
+## Financial Aid Advisement
+{:#financial-advisement}
 
 Miami College of Design is not approved for US Department of Education loans or grants. Prior to the time of enrollment, students are provide with information about institution scholarships, tuition payment plans, and private loans to those who qualify. (Please see for additional details.)
 
 A tuition interest-free payment plan is offered to students who wish to break down semester tuition into monthly installments.
-Career Services/Job Placement Assistance
+
+## Career Services/Job Placement Assistance
+{:#career-services}
 
 Job Placement Services and employment skills assistance shall be provided to all enrolled students and graduates without additional charge. There is no guarantee of placement directly or indirectly implied.
 First Aid
 
 A first aid station is available to treat minor cuts and scrapes that possibly occur using some equipment. Any injuries that require more than basic first aid are referred to local medical centers.
-Design Internships
+
+## Design Internships
+{:#des-internship}
 
 All students at Miami College of Design will engage in employment internships as part of their program of study. These internships may be paid or unpaid, depending on the location and the amount of training provided at the site. Internships are highly supervised and have specific learning objectives and require written evaluations by student, mentor, and on- and off-campus supervisors. They are arranged through an agreement with an affiliated company iBionics.
-Personal Advisement/Counseling
+
+## Personal Advisement/Counseling
+{:#pers-couns}
 
 Our goal is to assist students to reach their goals. The faculty and staff are available by appointment or informally to meet with students to discuss most obstacles that may be in the way of success. Students may be referred to professional counseling within the community as appropriate.
-Alumni Community
+
+## Alumni Community
+{:#alumni}
 
 Graduates are automatically accepted into Miami College of Design’s Alumni Community. Alumni receive a variety of benefits including: career services, auditing of selected courses, and invitations to social events on campus.
-Class Size
+
+## Class Size
+{:#classsize}
 
 Miami College of Design is proud of its small classes and individualized attention. Class size may vary according to program requirements. The institution monitors class size to ensure that program objectives are met. Generally, class size will not exceed 20 students.
-Schedule Changes
+
+## Schedule Changes
+{:#sch-change}
 
 Students who have scheduling errors, or would like to request a change in schedule, may request an appointment with the Registrar. All requests made before the first day of the semester will be considered. Requests made after the start of the semester will need to be approved by the Dean of Faculty.
-Syllabi
+
+## Syllabi
+{:#syllabi}
 
 On the first day of class for each course students receive a copy of the course syllabus and outlines. The student catalog is available one week prior to class start dates. Students always receive a catalog at the time of enrollment.
-Privacy of Student Records
+
+## Privacy of Student Records
+{:#student-privacy}
 
 Miami College of Design respects student’s personal information and guards all information carefully. The student’s Social Security number is not used as a student’s primary identifier. The school will assign each student an institutional Student ID number to use to access records and receive services. A student may choose to withhold directory information but must submit a written notice to the main office stating which of the above directory information items are not be released to the general public.
-Transcripts
+
+## Transcripts
+{:#transcripts}
 
 A request for a Miami College of Design transcript must be in writing, signed by the student and requested a minimum of two (2) weeks before a transcript is required. The complete address of the person/place to which the transcript is being sent must be included. An official transcript bearing the School seal will be forwarded to other institutions, to prospective employers, or to other agencies at the request of a student. Institutions typically consider a transcript “official” only if it is forwarded directly from the sending institution. Students may obtain unofficial copies of their transcripts at the campus. There is no charge for the student’s first transcript request. All other transcripts will require a fee of US $10 to be paid with an application. For those students who are dismissed or denied entry, records will remain on file in perpetuity.
 
 Note: All financial obligations to the School must be paid before transcripts are released.
-Changes Made by the Institution
+
+## Changes Made by the Institution
+{:#institution-changes}
 
 If the institution cancels or changes a program of study or location in such a way that the student who has started is unable to complete training, arrangements will be made in a timely manner to accommodate the needs of each student enrolled in the program who is affected by the cancellation or change. If the institution is unable to make alternative arrangements that are satisfactory to both parties, the institution will refund all money paid by the student according to the published Refund Policy.
-Fire Precautions
+
+## Fire Precautions
+{:#fire-pre}
 
 Students should take note of exit signs within the building and each classroom. In the event of an emergency:
 
