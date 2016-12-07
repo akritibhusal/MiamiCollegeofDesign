@@ -5,3 +5,7 @@ permalink: "/people/staff/"
 position: 3
 ---
 
+## We are hiring!
+
+Please contact us by email.
+[info@miamicollegeofdesign.com](mailto:info@miamicollegeofdesign.com)
