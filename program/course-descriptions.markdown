@@ -18,7 +18,7 @@ Students are provided with a course syllabus at the start of each course. It con
 * Course requirements
 * Value towards final grade
 
-### Industrial Design
+## Industrial Design
 {:#inddesign}
 
 #### ID-101 Design Practice, 3 credit hours theory, 3 credit hours lab
