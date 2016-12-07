@@ -2,7 +2,7 @@
 title: Program
 date: 2016-12-02 10:01:00 Z
 permalink: "/program/"
-position: 1
+position: 2
 header_title: Academic Programs
 sidemenu:
   bsid: Industrial Design - Bachelor of Science (B.S.)
