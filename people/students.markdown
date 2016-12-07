@@ -11,7 +11,7 @@ sidemenu:
   academic-advisement: Academic Advisement
   financial-advisement: Financial Aid Advisement
   career-services: Career Services/Job Placement Assistance
-  des-internship: Design Internships
+  design-internship: Design Internships
   pers-couns: Personal Advisement/Counseling
   alumni: Alumni Community
   classsize: Class Size
@@ -78,7 +78,7 @@ First Aid
 A first aid station is available to treat minor cuts and scrapes that possibly occur using some equipment. Any injuries that require more than basic first aid are referred to local medical centers.
 
 ## Design Internships
-{:#des-internship}
+{:#design-internship}
 
 All students at Miami College of Design will engage in employment internships as part of their program of study. These internships may be paid or unpaid, depending on the location and the amount of training provided at the site. Internships are highly supervised and have specific learning objectives and require written evaluations by student, mentor, and on- and off-campus supervisors. They are arranged through an agreement with an affiliated company iBionics.
 
