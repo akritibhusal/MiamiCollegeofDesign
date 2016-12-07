@@ -9,7 +9,7 @@ two_image: "/uploads/blueprint.jpg"
 header_image: "/uploads/about_featured.png"
 header_title: Admissions
 header_subtitle: Admission Requirements and Procedures
-Field name:
+sidemenu:
   determine: Admission Requirements and Procedures
   requirements: Admission Requirements
 ---
