@@ -62,6 +62,13 @@ defaults:
     event_venue: ''
     event_date: ''
     event_image: ''
+- scope:
+    path: ''
+    type: news
+  values:
+    news_location: ''
+    news_date: ''
+    news_image: ''
 email: your-email@domain.com
 description: ''
 twitter_username: jekyllrb
