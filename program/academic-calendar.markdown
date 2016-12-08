@@ -77,7 +77,7 @@ header_title: Academic Calendar
 {:#official-holidays}
 
 |Date|Holiday|
-| ------------- | ------------- | ------------- |
+| ------- | ------------ | ------------- |
 |January 1|New Year's Day|
 |January 16|MLK Day|
 |February 16|Presidents Day|
