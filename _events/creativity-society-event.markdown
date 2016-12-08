@@ -2,7 +2,7 @@
 title: Creativity Society Event
 date: 2016-12-08 06:28:00 Z
 event_venue: Asunción and Caacupé, Paraguay
-event_date: 2020-10-01 00:00:00 Z
+event_date: 2016-10-01 00:00:00 Z
 event_image: "/uploads/paraguay.png"
 ---
 
