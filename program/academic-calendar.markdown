@@ -7,6 +7,7 @@ sidemenu:
   academic-2017: Academic Calendar 2017
   summer-2017: Summer 2017
   fall-2017: Fall 2017
+  official-holidays: Official School Holidays
 header_title: Academic Calendar
 ---
 
@@ -68,8 +69,26 @@ header_title: Academic Calendar
 |14|December 11||
 |15|December 18|Final projects due|
 
+{:.sep-line}
+&nbsp;
 
+## Official School Holidays
+{:#official-holidays}
 
-
-
+|Date|Holiday|
+| ------------- | ------------- | ------------- |
+|January 1|New Year's Day|
+|January 16|MLK Day|
+|February 16|Presidents Day|
+|February 20-24|February break|
+|April 10-16|April break|
+|May 29|Memorial Day|
+|July 3-9|July break|
+|September 4|Labor Day|
+|October 9|Columbus Day|
+|October 9-13|October break|
+|November 11|Veterans Day|
+|November 20-24|November break|
+|November 23|Thanksgiving|
+|December 25|Christmas|
  
