@@ -24,7 +24,7 @@ header_title: Academic Calendar
 ## Summer 2017
 {:#summer-2017}
 
-|Week|Date||
+|Week|Date|Event|
 | ------------- | ------------- | ------------- |
 ||June 2|Summer term registration day|
 |1|June 5|First day of classes|
