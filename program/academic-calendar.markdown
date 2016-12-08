@@ -8,19 +8,17 @@ sidemenu:
 header_title: Academic Calendar
 ---
 
-## Academic Calendar
-{:#academic-2017}
-
 "Registration Day
 -----
-Summer Semester",June 2
+Summer Semester"
 "First Day of Classes
-Summer Semester",June 5
+Summer Semester"
 "Last Day of Classes
-Summer Semester",August 4
+Summer Semester"
 "Registration Day
-Fall Semester",August 25
+Fall Semester"
 "First Day of Classes
-Fall Semester",August 28
+Fall Semester"
 "Last Day of Classes
-Fall Semester",December 22
+Fall Semester"
+ 
