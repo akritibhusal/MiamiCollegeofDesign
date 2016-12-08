@@ -17,4 +17,29 @@ header_title: Academic Calendar
 |Registration DayFall Semester|August 25|
 |First Day of ClassesFall Semester|August 28|
 |Last Day of ClassesFall Semester|December 22|
+
+{:.sep-line}
+&nbsp;
+
+## Summer 2017
+{:#summer-2017}
+
+|Week|Date||
+| ------------- | ------------- | ------------- |
+||June 2|Summer term registration day|
+|1|June 5|First day of classes|
+|2|June 12||
+|3|June 19||
+|4|June 26|Mid-term projects due|
+||July 3|July break|
+|5|July 10|Last week to drop classes|
+|6|July 17||
+|7|July 24||
+|8|July 31|Final projects due|
+
+
+{:.sep-line}
+&nbsp;
+
+
  
