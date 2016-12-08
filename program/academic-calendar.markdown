@@ -4,7 +4,7 @@ date: 2016-12-02 13:51:00 Z
 permalink: "/program/academic-calendar/"
 position: 0
 sidemenu:
-  academic-2017: 
+  academic-2017: Academic Calendar 2017
 header_title: Academic Calendar
 ---
 
