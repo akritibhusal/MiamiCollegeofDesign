@@ -6,3 +6,4 @@ event_date: 2015-11-20 14:00:00 Z
 event_image: "/uploads/img_event.jpg"
 ---
 
+Masters of Tomorrow (MOT) Summit is tech and art conferences that takes place in Miami during Art Basel week. It gathers global thought-leaders, artists, technologists and entrepreneurs from around the world to learn, network and inspire each other.
