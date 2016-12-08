@@ -8,6 +8,9 @@ collections:
   home-page:
     title: Home Page
     output: true
+  news:
+    title: News
+    output: true
   posts:
     title: Posts
     output: true
