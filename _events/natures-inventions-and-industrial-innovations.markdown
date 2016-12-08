@@ -7,4 +7,5 @@ event_image: "/uploads/shell-f5e1b4.jpg"
 ---
 
 **An Introduction to the Bionic Principles and Methods of Biomimicry**
+
 As a preview of the Masters of Design conference curated by IAM Foundation, which is part of the Masters of Tomorrow Summit (MOTSummit.com), taking place on November 30th in Wynwood, industrial designer Franco Lodato will give an insightful presentation on his experience around nature-inspired Industrial Design.
