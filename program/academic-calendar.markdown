@@ -13,6 +13,7 @@ header_title: Academic Calendar
 
 ## Academic Calendar 2017
 {:#academic-2017}
+
 |Date|Event|
 | ------------- | ------------- |
 |June 2|Registration DaySummer Semester|
