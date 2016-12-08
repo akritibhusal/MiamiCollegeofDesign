@@ -74,20 +74,21 @@ Scholarships are awarded to as many qualified students as possible based on avai
 #### Scholars Program in Summary
 {:#scholar-summary}
 
-Amount of the scholarship.|The Scholarship covers up to 90% of tuition for those who qualify.
------|-----
-Programs that qualify|The Scholarship applies to both the B.S. and A.S. degree programs.
-Submissions required|Complete the entire Admissions process as described in the Admissions and Procedures requirements section.
-Process for student selection.|An Admissions Selection Committee makes the final admissions decisions according to a printed list of policies and procedures and criteria.
-Requirements to maintain the scholar award.|Students must maintain satisfactory academic standing (See Satisfactory Academic Progress in the Academic Policies Section on Page 24 of the Catalog).
-Number of scholarships awarded.|Qualified students (those who meet admissions and scholarship criteria) will be awarded the scholarship subject to available funds.
-Additional scholarship information.|Detailed information about the scholarship program is found under the Admissions Procedures and Requirements Section.
-Items not covered by the scholarship|One-time application fee; Books and learning materials; 10% of tuition.
-What if no funds are available to enrolled students to continue the next semester(s)?|"If no scholarship funds are available
-What financing is available to assist students to pay for the 10% tuition not covered by a scholarship?|Miami College of Design has arranged with tuition-lending companies for students to seek tuition loan assistance.
-What financing is available to assist students who did not qualify for the scholarship?|Miami College of Design has arranged with tuition-lending companies for students to seek tuition loan assistance.
-Will tuition paid by the student be covered by the Refund Policy?|Yes (See the Refund and Cancellation Policy Section below).
-What is the time-frame new and returning students are given as to whether they qualify for the scholarship and the amount?|New students will be told about their scholarship status three months prior to the due date for submission of the Enrollment Agreement. Continuing students will be told about their scholarship status three months prior to Registration Day.
+|Amount of the scholarship.|The Scholarship covers up to 90% of tuition for those who qualify.|
+|--- |--- |
+|Programs that qualify|The Scholarship applies to both the B.S. and A.S. degree programs.|
+|Submissions required|Complete the entire Admissions process as described in the Admissions and Procedures requirements section.|
+|Process for student selection.|An Admissions Selection Committee makes the final admissions decisions according to a printed list of policies and procedures and criteria.|
+|Requirements to maintain the scholar award.|Students must maintain satisfactory academic standing (See Satisfactory Academic Progress in the Academic Policies Section on Page 24 of the Catalog).|
+|Number of scholarships awarded.|Qualified students (those who meet admissions and scholarship criteria) will be awarded the scholarship subject to available funds.|
+|Additional scholarship information.|Detailed information about the scholarship program is found under the Admissions Procedures and Requirements Section.|
+|Items not covered by the scholarship|One-time application fee; Books and learning materials; 10% of tuition.|
+|What if no funds are available to enrolled students to continue the next semester(s)?|“If no scholarship funds are available|
+|What financing is available to assist students to pay for the 10% tuition not covered by a scholarship?|Miami College of Design has arranged with tuition-lending companies for students to seek tuition loan assistance.|
+|What financing is available to assist students who did not qualify for the scholarship?|Miami College of Design has arranged with tuition-lending companies for students to seek tuition loan assistance.|
+|Will tuition paid by the student be covered by the Refund Policy?|Yes (See the Refund and Cancellation Policy Section below).|
+|What is the time-frame new and returning students are given as to whether they qualify for the scholarship and the amount?|New students will be told about their scholarship status three months prior to the due date for submission of the Enrollment Agreement. Continuing students will be told about their scholarship status three months prior to Registration Day.|
+
 
 {:.sep--line}
 &nbsp;
