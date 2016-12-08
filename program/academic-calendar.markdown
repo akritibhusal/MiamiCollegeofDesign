@@ -50,24 +50,24 @@ header_title: Academic Calendar
 {:#fall-2017}
 
 |Week|Date|Event|
-| ------------- | ------------- | ------------- |
-||August  25|Fall term registration day|
-|1|August 28|First day of classes|
-|2|September 4||
-|3|September 11||
-|4|September 18||
-|5|September 25||
-|6|October 2||
-||October 9|October break|
-|7|October 16|Mid-term projects due|
-|8|October 23|Last week to drop classes|
-|9|October 30||
-|10|November 6||
-|11|November 13||
+| ----------- | ------------- | ------------- |
+|  |August  25|Fall term registration day|
+|1 |August 28|First day of classes|
+|2 |September 4|   |
+|3 |September 11|   |
+|4 |September 18|   |
+|5 |September 25|   |
+|6 |October 2|   |
+|  |October 9|October break|
+|7 |October 16|Mid-term projects due|
+|8 |October 23|Last week to drop classes|
+|9 |October 30|   |
+|10|November 6|   |
+|11|November 13|   |
 ||November 20|November break|
-|12|November 27||
-|13|December 4||
-|14|December 11||
+|12|November 27|   |
+|13|December 4|   |
+|14|December 11|   |
 |15|December 18|Final projects due|
 
 {:.sep--line}
