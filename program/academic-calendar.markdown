@@ -5,6 +5,7 @@ permalink: "/program/academic-calendar/"
 position: 0
 sidemenu:
   academic-2017: Academic Calendar 2017
+  summer-2017: Summer 2017
 header_title: Academic Calendar
 ---
 
