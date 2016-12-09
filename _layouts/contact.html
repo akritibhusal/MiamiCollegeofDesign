@@ -2,9 +2,69 @@
 layout: default
 ---
 
+
+<div class="grid grid--2-3">
+	<div class="column">
+		<h2>Our Address</h2>
+		<div>Highlights info row image</div>
+		<div>26 NE 25th Street</div>
+		<div>Miami, Florida</div>
+		<div>Highlights info row image</div>
+		<div>+1 800-848-0398</div>
+	</div>
+
+	<div class="column">
+		<div id="map"></div>
+	</div>
+</div>
+
+<div class="sep--line"></div>
+
+
+<h2>Leave Us a Message</h2>
+<div>We'll get back to you</div>
 <form action="https://formspree.io/akriti@expresivstudios.com"
       method="POST">
+    <h5>Your Name</h5>
     <input type="text" name="name">
+    <h5>Your Email Address</h5>
     <input type="email" name="_replyto">
+    <h5>Your Message</h5>
+    <textarea></textarea>
     <input type="submit" value="Send">
 </form> 
+
+
+
+
+
+
+
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCduqzl8qK4LqTOgLn3jE2B27RofW7oWJQ&callback=initMap"></script>
+<script>
+	function initMap() {
+		var miami = {lat: 25.765003, lng: -80.191441};
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 10,
+			center: miami,
+			draggable: false,
+		});
+		var marker = new google.maps.Marker({
+			position: miami,
+			map: map
+		});
+	}
+</script>
+
+
+
+
+
+
+
+
+
+
+
