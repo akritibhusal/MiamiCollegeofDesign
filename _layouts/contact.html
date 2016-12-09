@@ -17,16 +17,25 @@ layout: default
 
 
 <h2>Leave Us a Message</h2>
-<div>We'll get back to you</div>
-<form action="https://formspree.io/akriti@expresivstudios.com"
+<p>We'll get back to you</p>
+<form class="contact-form" action="https://formspree.io/akriti@expresivstudios.com"
       method="POST">
-    <h5>Your Name</h5>
-    <input type="text" name="name">
-    <h5>Your Email Address</h5>
-    <input type="email" name="_replyto">
-    <h5>Your Message</h5>
-    <textarea></textarea>
-    <input type="submit" value="Send">
+    <div class="grid grid--2">
+    	<div class="column">
+    		<label>Your Name</label>
+    		<input type="text" name="name" required>
+    	</div>
+    	<div class="column">
+    		<label>Your Email Address</label>
+    		<input type="email" name="_replyto" required>
+    	</div>
+    </div>
+    	
+    	<label>Your Message</label>
+    	<textarea rows="4" required></textarea>
+    <div>
+    	<input class="button" type="submit" value="Send">
+    </div>
 </form> 
 
 

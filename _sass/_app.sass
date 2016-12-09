@@ -750,3 +750,31 @@ p
 #map
 	height: 400px
 	width: 100%
+
+[type="text"], [type="email"], [type="number"], [type="url"], textarea
+	border: 1px solid $light-gray
+	border-radius: 4px
+	padding: 0.8rem
+	margin-bottom: 1rem
+
+	&:focus
+		border: 1px solid $miami-blue
+
+.button
+	background-color: $miami-blue
+	color: $white
+	padding: 0.8rem 1rem
+	border: 0
+	border-radius: 4px
+
+
+
+.contact-form
+	label
+		font-weight: bold
+		display: block
+		margin-bottom: 0.4rem
+		
+	[type="text"], [type="email"], textarea
+		margin-bottom: 3rem
+		width: 70%
