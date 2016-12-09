@@ -49,7 +49,6 @@ defaults:
     sidemenu:
       sidemenu_link_ID: Title for sidemenu
     navbar_logo: "/uploads/logo.png"
-    coloured_logo: "/uploads/iam-blue.png"
     one_image: "/uploads/eye.png"
     two_image: "/uploads/blueprint.jpg"
     header_image: "/uploads/about_featured.png"

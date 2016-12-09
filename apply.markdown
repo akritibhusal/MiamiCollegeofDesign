@@ -3,7 +3,6 @@ title: Apply
 date: 2016-12-02 13:25:00 Z
 permalink: "/apply/"
 position: 4
-coloured_logo: "/uploads/iam-orange.png"
 one_image: "/uploads/eye.png"
 two_image: "/uploads/blueprint.jpg"
 header_image: "/uploads/about_featured.png"

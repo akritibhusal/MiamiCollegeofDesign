@@ -69,6 +69,9 @@ a
 .text--center
 	text-align: center
 
+.text--left
+	text-align: left
+
 .text--medium
 	@extend %font-size-m 
 
@@ -274,9 +277,29 @@ $anchor-line-height: 5rem !default
 				padding-left: $padding-medium
 				margin-left: -$padding-medium
 				padding-bottom: 0
-				box-shadow: -4px 0 0 $miami-orange
+				box-shadow: -4px 0 0 $miami-blue
 				@extend .bold
 				color: $body-font-color
+
+			&.page-step--0
+				> a
+					box-shadow: -4px 0 0 $miami-blue
+
+			&.page-step--1
+				> a
+					box-shadow: -4px 0 0 $miami-gold
+
+			&.page-step--2
+				> a
+					box-shadow: -4px 0 0 $miami-orange
+
+			&.page-step--3
+				> a
+					box-shadow: -4px 0 0 $miami-green
+
+			&.page-step--4
+				> a
+					box-shadow: -4px 0 0 $color-tundora
 
 		> a
 			display: inline-block
@@ -634,3 +657,16 @@ $anchor-line-height: 5rem !default
 .content
 	h4
 		padding-top: 1rem
+
+table
+	@extend .text--left
+
+	td
+		padding: 0.5rem 2rem 0.5rem 0
+
+	th
+		padding-bottom: 0.5rem
+
+	tbody
+		border-top: 1px solid $dark-grey
+		border-bottom: 1px solid $dark-grey

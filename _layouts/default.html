@@ -10,7 +10,7 @@
 							<div class="block-content block-content--padded">
 								<a href="index.html">
 								<div class="logo-holder">
-											<img src="{{site.url}}/{{page.coloured_logo}}" alt="Miami College of Design Logo" class="miami-logo" id="logo"/>
+											<img src="{{site.url}}/assets/img/iam-{{page_index}}.png" alt="Miami College of Design Logo" class="miami-logo" id="logo"/>
 								</div>
 								</a>
 							</div>
@@ -65,7 +65,7 @@
 					<ul class="side-nav padding-left-right--small padding-top-bottom--large uppercase">
 
 						{% for menu-item in page.sidemenu %}
-						<li class="side-menu uppercase page_step_{{page_index}} {% if menu-item[0] == 'sidemenu_link_ID' %} hidden {% endif %}"><a href="#{{menu-item[0]}}">{{menu-item[1]}}</a></li>
+						<li class="side-menu uppercase page-step--{{page_index}} {% if menu-item[0] == 'sidemenu_link_ID' %} hidden {% endif %}"><a href="#{{menu-item[0]}}">{{menu-item[1]}}</a></li>
 						{% endfor %}
 						
 					</ul>
