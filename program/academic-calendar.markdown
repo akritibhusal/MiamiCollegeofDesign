@@ -23,7 +23,7 @@ header_title: Academic Calendar
 |August 28|First Day of ClassesFall Semester|
 |December 22|Last Day of ClassesFall Semester|
 
-{:.sep--line}
+{:.sep}
 &nbsp;
 
 ## Summer 2017
@@ -43,7 +43,7 @@ header_title: Academic Calendar
 |8|July 31|Final projects due|
 
 
-{:.sep--line}
+{:.sep}
 &nbsp;
 
 ## Fall 2017
@@ -70,7 +70,7 @@ header_title: Academic Calendar
 |14|December 11|   |
 |15|December 18|Final projects due|
 
-{:.sep--line}
+{:.sep}
 &nbsp;
 
 ## Official School Holidays
