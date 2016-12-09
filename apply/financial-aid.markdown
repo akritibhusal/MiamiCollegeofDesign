@@ -90,7 +90,7 @@ Scholarships are awarded to as many qualified students as possible based on avai
 |What is the time-frame new and returning students are given as to whether they qualify for the scholarship and the amount?|New students will be told about their scholarship status three months prior to the due date for submission of the Enrollment Agreement. Continuing students will be told about their scholarship status three months prior to Registration Day.|
 
 
-{:.sep--line}
+{:.sep}
 &nbsp;
 
 ## Refund and Cancellation Policy
