@@ -263,6 +263,38 @@ $anchor-line-height: 5rem !default
 		padding-left: $padding-small
 
 
+.page-step--0
+	a
+		&:hover
+			color: $miami-blue
+
+.page-step--1
+	a
+		&:hover
+			color: $miami-gold
+
+.page-step--2
+	a
+		&:hover
+			color: $miami-orange
+
+.page-step--3
+	a
+		&:hover
+			color: $miami-green
+
+
+.page-step--4
+	a
+		&:hover
+			color: $color-tundora
+
+
+
+
+
+
+
 // Side Navigation
 .side-nav	
 	list-style: none
@@ -271,6 +303,37 @@ $anchor-line-height: 5rem !default
 
 	> li
 		margin-bottom: $padding-medium
+
+	.page-step--0
+		a
+			&:hover
+				color: $miami-blue
+
+	.page-step--1
+		a
+			&:hover
+				color: $miami-gold
+
+	.page-step--2
+		a
+			&:hover
+				color: $miami-orange
+
+	.page-step--3
+		a
+			&:hover
+				color: $miami-green
+
+
+	.page-step--4
+		a
+			&:hover
+				color: $color-tundora
+
+
+
+
+
 		&.active
 			padding-bottom: $padding-medium
 			> a
@@ -283,24 +346,29 @@ $anchor-line-height: 5rem !default
 
 			&.page-step--0
 				> a
-					box-shadow: -4px 0 0 $miami-blue
+					box-shadow: -4px 0 0 $miami-blue				
 
 			&.page-step--1
 				> a
 					box-shadow: -4px 0 0 $miami-gold
 
+				
 			&.page-step--2
 				> a
 					box-shadow: -4px 0 0 $miami-orange
 
+				
 			&.page-step--3
 				> a
 					box-shadow: -4px 0 0 $miami-green
+
+				
 
 			&.page-step--4
 				> a
 					box-shadow: -4px 0 0 $color-tundora
 
+				
 		> a
 			display: inline-block
 			line-height: 1.2
@@ -668,5 +736,9 @@ table
 		padding-bottom: 0.5rem
 
 	tbody
-		border-top: 1px solid $light-gray
-		border-bottom: 1px solid $light-gray
+		border-top: 1px solid $color-boulder
+		border-bottom: 1px solid $color-boulder
+
+p 
+	a
+		color: $color-boulder
