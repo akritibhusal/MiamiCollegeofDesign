@@ -1,8 +1,0 @@
----
-title: Catalog
-date: 2016-12-02 13:58:00 Z
-permalink: "/program/catalog/"
-position: 1
-header_title: Catalog
----
-
