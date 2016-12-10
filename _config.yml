@@ -1,6 +1,4 @@
 ---
-repository: git@github.com:oxmint/miami.git
-
 title: Miami College of Design
 timezone: UTC
 collections:
@@ -70,6 +68,7 @@ defaults:
     news_location: ''
     news_date: ''
     news_image: ''
+repository: git@github.com:oxmint/miami.git
 email: your-email@domain.com
 description: ''
 twitter_username: jekyllrb
