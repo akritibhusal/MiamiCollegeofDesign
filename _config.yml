@@ -1,4 +1,6 @@
 ---
+repository: git@github.com:oxmint/miami.git
+
 title: Miami College of Design
 timezone: UTC
 collections:
