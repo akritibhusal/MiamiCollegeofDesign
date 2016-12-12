@@ -751,7 +751,7 @@ p
 	height: 400px
 	width: 100%
 
-[type="text"], [type="email"], [type="number"], [type="url"], textarea
+[type="text"], [type="email"], [type="number"], [type="url"], [type="date"],textarea
 	border: 1px solid $light-gray
 	border-radius: 4px
 	padding: 0.8rem
@@ -778,3 +778,34 @@ p
 	[type="text"], [type="email"], textarea
 		margin-bottom: 3rem
 		width: 70%
+
+.info-form
+	label
+		font-weight: bold
+		display: block
+		margin-bottom: 0.4rem
+
+		span
+			color: $light-gray-text
+		
+	[type="text"], [type="email"], [type="number"], [type="url"], [type="date"]
+		margin-bottom: 3rem
+		width: 90%
+
+	textarea
+		width: 100%
+
+.select-program
+	font-weight: bold
+	display: block
+	margin-bottom: 0.4rem
+	margin-bottom: 3rem
+	width: 90%
+	border: 1px solid $light-gray
+	border-radius: 4px
+	padding: 0.8rem
+	margin-bottom: 1rem
+	background-color: $white
+
+	&:focus
+		border: 1px solid $miami-blue

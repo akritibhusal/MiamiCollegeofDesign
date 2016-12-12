@@ -1,19 +1,98 @@
-<h2>Leave Us a Message</h2>
-<p>We'll get back to you</p>
-<form class="contact-form" action="https://formspree.io/akriti@expresivstudios.com"
+---
+layout: default
+---
+
+
+
+
+{{ page.content | markdownify}}
+
+<form class="info-form" action="https://formspree.io/akriti@expresivstudios.com"
       method="POST">
     <div class="grid grid--2">
-    	<div class="column">
-    		<label>Your Name</label>
+    	<div class="column padding-left-right--small">
+    		<label>Full Name</label>
     		<input type="text" name="name" required>
     	</div>
-    	<div class="column">
+    	<div class="column padding-left-right--small">
     		<label>Your Email Address</label>
     		<input type="email" name="_replyto" required>
     	</div>
     </div>
+
+    <div class="grid grid--2">
+        <div class="column padding-left-right--small">
+            <label>Street Address 1</label>
+            <input type="text" name="name" required>
+        </div>
+        <div class="column padding-left-right--small">
+            <label>Street Address 1 <span>(optional)</span></label>
+            <input type="text" name="_replyto">
+        </div>
+    </div>
+
+    <div class="grid grid--2">
+        <div class="column padding-left-right--small">
+            <label>City</label>
+            <input type="text" name="city" required>
+        </div>
+        <div class="column padding-left-right--small">
+            <label>State <span>(required for US addresses)</span></label>
+            <input type="text" name="state">
+        </div>
+    </div>
+
+    <div class="grid grid--2">
+        <div class="column padding-left-right--small">
+            <label>Postal/ Zip Code</label>
+            <input type="text" name="code" required>
+        </div>
+        <div class="column padding-left-right--small">
+            <label>Country</label>
+            <input type="text" name="country" required>
+        </div>
+    </div>
+
+    <div class="grid grid--2">
+        <div class="column padding-left-right--small">
+            <label>Home Phone</label>
+            <input type="number" name="h_phone" required>
+        </div>
+        <div class="column padding-left-right--small">
+            <label>Cell Phone</label>
+            <input type="number" name="c_phone" required>
+        </div>
+    </div>
+
+    <div class="grid grid--2">
+        <div class="column padding-left-right--small">
+            <label>Date of birth</label>
+            <input type="date" name="dob" required>
+        </div>
+        <div class="column padding-left-right--small">
+            <label>Gender</label>
+            <input type="text" name="gender" required>
+        </div>
+    </div>
+
+
+    <div class="grid grid--2">
+        <div class="column padding-left-right--small">
+            <label>Plan to attend in</label>
+            <input type="text" name="attend" placeholder="Fall 2017" required>
+        </div>
+        <div class="column padding-left-right--small">
+            <label>Program you are interested in</label>
+            <!-- <input type="text" name="program" required> -->
+            <select class="select-program" name="program">
+                <option value="bs">Industrial Design - Bachelor of Science (B.S.)</option>
+                <option value="as">Industrial Design - Associate of Science (A.S.)</option>
+            </select>
+        </div>
+    </div>
     	
-    	<label>Your Message</label>
+
+    	<label>Additional Message</label>
     	<textarea rows="4" required></textarea>
     <div>
     	<input class="button" type="submit" value="Send">
