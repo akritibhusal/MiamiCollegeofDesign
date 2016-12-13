@@ -5,7 +5,7 @@ layout: default-page
 	<!-- {% for item in site.home-page %} -->
 	{% assign item = site.home-page.page-items %}
 	<div class="main-container">
-		<div class="grid grid--2">
+		<div class="grid grid--2 md-grid--1">
 			<div class="column">
 				<div class="grid grid--2-3">
 					<div class="column">
@@ -73,7 +73,7 @@ layout: default-page
 
 
 			<div class="column">
-				<div class="aspect-ratio aspect-ratio--5-6">
+				<div class="aspect-ratio aspect-ratio--5-6 md-aspect-ratio--auto">
 					<div class="block-content block-content--padded overflow--hide">
 						<div class="table table--cover bg bg--cover bg--overlay text--white" style="background-image: url({{item.intro_bg_image}});">
 							<div class="table-cell va--center section">
@@ -83,7 +83,7 @@ layout: default-page
 								</div>
 								<div class="sep"></div>
 								<div class="table connect">
-									<img src="{{site.url}}/assets/img/ic_arrow.png" class="icon table-cell va--center"/><span class="table-cell va--center text--medium"> Connect with us </span>
+									<img src="{{site.url}}/assets/img/ic_arrow.png" class="icon table-cell va--center"/><span class="table-cell va--center text--medium"><a href="#">Connect with us </a></span>
 								</div>
 
 							</div>
@@ -93,16 +93,16 @@ layout: default-page
 			</div>
 		</div>
 
-		<div class="grid grid--2">
+		<div class="grid grid--2 md-grid--1">
 			<div class="column">
-				<div class="aspect-ratio aspect-ratio--5-6">
+				<div class="aspect-ratio aspect-ratio--5-6 md-aspect-ratio--auto">
 					<div class="block-content block-content--padded">
 						<div class="table table--cover bg bg--grey">
 							<div class="va--middle table-cell section">
 								<h2 class="section__heading">Our Mission</h2>
 								{{item.our_mission | markdownify}}
 								<div class="table connect">
-									<img src="{{site.url}}/assets/img/ic_arrow_dark.png" class="icon table-cell va--center"/><span class="table-cell va--center text--medium"> Meet our Team </span>
+									<img src="{{site.url}}/assets/img/ic_arrow_dark.png" class="icon table-cell va--center"/><span class="table-cell va--center text--medium"> <a href="#">Meet our Team </a></span>
 								</div>
 							</div>
 						</div>
@@ -111,9 +111,9 @@ layout: default-page
 			</div>
 
 			<div class="column">
-				<div class="grid grid--2">
+				<div class="grid grid--2 sm-grid--1">
 					<div class="column">
-						<div class="aspect-ratio aspect-ratio--1">
+						<div class="aspect-ratio aspect-ratio--1 sm-aspect-ratio--auto">
 							<div class="block-content block-content--padded">
 								<div class="table table--cover overflow--hide bg--flamenco">
 									<div class="half-triangle dim"></div>

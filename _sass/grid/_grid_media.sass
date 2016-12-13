@@ -1,0 +1,147 @@
+$medium-device-prefix  : 'md-' !default
+$small-device-prefix: 'sm-' !default
+$extra-small-device-prefix: 'xs-' !default
+
+// Extra small devices (portrait phones, less than 544px)
+@media (max-width: 543px)
+	.#{$extra-small-device-prefix}
+		// aspect ratio
+		&#{$container-aspect-ratio-prefix}
+			&--auto
+				padding-bottom: initial
+
+				> .block-content
+					position: static
+
+		&#{$grid-prefix}
+			&--1
+				& > .column
+					width: 100%
+
+					&:nth-child( odd ), &:nth-child( even )
+						width: 100%
+			
+			// Half sized grid
+			// Each columns of this grid are 
+			&--2
+				& > .column
+					width: 50%
+
+			//
+			// Variable column grid system
+			// This grid system contains only only two columns per row 
+			// 
+
+			&--2-3
+				> .column:nth-child( odd )
+					width: 40%
+
+				> .column:nth-child( even )
+					width: 60%
+
+			&--1-4, &--2-8
+				> .column:nth-child( odd )
+					width: 20%
+
+				> .column:nth-child( even )
+					width: 80%
+
+//Small devices (landscape phones, less than 768px)
+@media (max-width: 767px)
+	.#{$small-device-prefix}
+
+		//Visibility classes
+		&-hide
+			display: none
+
+		// aspect ratio
+		&#{$container-aspect-ratio-prefix}
+			&--auto
+				padding-bottom: initial
+
+				> .block-content
+					position: static
+
+		&#{$grid-prefix}
+			&--1
+				& > .column
+					width: 100%
+
+					&:nth-child( odd ), &:nth-child( even )
+						width: 100%
+			
+			// Half sized grid
+			// Each columns of this grid are 
+			&--2
+				& > .column
+					width: 50%
+
+			//
+			// Variable column grid system
+			// This grid system contains only only two columns per row 
+			// 
+
+			&--2-3
+				> .column:nth-child( odd )
+					width: 40%
+
+				> .column:nth-child( even )
+					width: 60%
+
+			&--1-4, &--2-8
+				> .column:nth-child( odd )
+					width: 20%
+
+				> .column:nth-child( even )
+					width: 80%
+
+
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px)
+	.#{$medium-device-prefix}
+
+		//Visibility classes
+		&-hide
+			display: none
+
+		// aspect ratio
+		&#{$container-aspect-ratio-prefix}
+			&--auto
+				padding-bottom: initial
+
+				> .block-content
+					position: static
+
+		// grid
+		&#{$grid-prefix}
+			&--1
+				& > .column
+					width: 100%
+					
+					&:nth-child( odd ), &:nth-child( even )
+						width: 100%
+			// Half sized grid
+			// Each columns of this grid are 
+			&--2
+				& > .column
+					width: 50%
+
+			//
+			// Variable column grid system
+			// This grid system contains only only two columns per row 
+			// 
+
+			&--2-3
+				> .column:nth-child( odd )
+					width: 40%
+
+				> .column:nth-child( even )
+					width: 60%
+
+			&--1-4, &--2-8
+				> .column:nth-child( odd )
+					width: 20%
+
+				> .column:nth-child( even )
+					width: 80%

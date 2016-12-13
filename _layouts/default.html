@@ -3,14 +3,14 @@
 
 	<div class="main-container page-step--{{page_index}}">
 		<div class="grid grid--2-8">
-			<div class="column">
-				<div class="grid grid--2">
+			<div class="column sm--hide">
+				<div class="grid grid--2 sm-grid--1">
 					<div class="column">
 						<div class="aspect-ratio aspect-ratio--1">
 							<div class="block-content block-content--padded">
 								<a href="index.html">
 								<div class="logo-holder">
-											<img src="{{site.url}}/assets/img/iam-{{page_index}}.png" alt="Miami College of Design Logo" class="miami-logo" id="logo"/>
+									<img src="{{site.url}}/assets/img/iam-{{page_index}}.png" alt="Miami College of Design Logo" class="miami-logo" id="logo"/>
 								</div>
 								</a>
 							</div>
@@ -62,7 +62,7 @@
 		<div class="grid grid--2-8">
 			<div class="column">
 				<nav class="sticky">
-					<ul class="side-nav padding-left-right--small padding-top-bottom--large uppercase">
+					<ul class="side-nav padding-left-right--small padding-top-bottom--large uppercase md--hide">
 
 						{% for menu-item in page.sidemenu %}
 						<li class="side-menu uppercase page-step--{{page_index}} {% if menu-item[0] == 'sidemenu_link_ID' %} hidden {% endif %}"><a href="#{{menu-item[0]}}">{{menu-item[1]}}</a></li>
