@@ -1,3 +1,4 @@
+{% assign item = site.home-page.page-items %}
 <footer class="footer">
 		<div class="grid grid--1">
 			<div class="column">
@@ -22,55 +23,7 @@
 		</div>
 	</footer>
 
-
-	<div id="about_us" class="reveal full video" data-reveal >
-		<iframe src="{{page.video_url}}" frameborder="0" allowfullscreen ></iframe>
-		<button class="close-button" data-close aria-label="Close modal" type="button">
-			<span aria-hidden="true">&times;</span>
-		</button>
-	</div>
-
-	<div id="about_four_image" class="reveal large" data-reveal >
-		<div class="grid grid--2">
-			<div class="column">
-				<img src="{{page.four_image}}">
-			</div>
-			<div class="column">
-				<h2>{{page.four_image_title}}</h2>
-				{{page.four_image_description | markdownify}}
-			</div>
-		</div>
-		<button class="close-button" data-close aria-label="Close modal" type="button">
-			<span aria-hidden="true">&times;</span>
-		</button>
-	</div>
-
-	<div id="about_one_image" class="reveal large" data-reveal>
-		<div class="grid grid--2">
-			<div class="column padding-right--xlarge">
-				<img src="{{page.one_image}}">
-			</div>
-			<div class="column">
-				<h2>{{page.one_image_title}}</h2>
-				{{page.one_image_description | markdownify}}
-			</div>
-		</div>
-
-	<div id="about_two_image" class="reveal large" data-reveal>
-		<div class="grid grid--2">
-			<div class="column padding-right--xlarge">
-				<img src="{{page.two_image}}">
-			</div>
-			<div class="column">
-				<h2>{{page.two_image_title}}</h2>
-				{{page.two_image_description | markdownify}}
-			</div>
-		</div>
-		<button class="close-button" data-close aria-label="Close modal" type="button">
-			<span aria-hidden="true">&times;</span>
-		</button>
-	</div>
-
+	
 
 </body>
 
