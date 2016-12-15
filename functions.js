@@ -43,7 +43,6 @@ $( document ).ready( function(){
 	var $home_nav = $('#home-nav');
 	var $full_logo = $('#logo_full');
 
-	console.log( $full_logo );
 	var logo_position  = $logo.offset().top - 8;
 
 	var initial_width = $logo.width();
@@ -63,11 +62,6 @@ $( document ).ready( function(){
 				"opacity" : 0,
 			});
 			$full_logo.addClass( 'full-logo--opaque' )
-			$logo.css( {
-				// "top" : 0 + 'px',
-				"z-index" : 400,
-				"width" : final_width + 'px',
-			}).addClass('miami-logo--transparent');
 		} else {
 			var progress =  animation_progress( logo_position, $window.scrollTop() );
 			$home_nav.css( {
@@ -75,12 +69,6 @@ $( document ).ready( function(){
 			});
 
 			$full_logo.removeClass( 'full-logo--opaque' );
-
-			$logo.css( {
-				// "top" :  0 + 'px',
-				"width" : animation_state( final_width, initial_width, progress) + 'px',
-				"z-index": 200
-			}).removeClass('miami-logo--transparent');
 		}
 	}
 	$window.scroll( logo_position_handler );
@@ -98,9 +86,26 @@ $( document ).ready( function(){
 });
 
 
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top - 100
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+
 $( document ).ready( function(){
-	$(".side-menu").click(function(){
+	$(".side-menu a ").click(function(){
 		$(".side-menu").removeClass("active");
-	    $(this).addClass("active");
+	    $(this).parent().addClass("active");
+	    console.log( 'clicked');
 	});
 });

@@ -23,7 +23,7 @@ GEM
     ffi (1.9.14-x64-mingw32)
     forwardable-extended (2.6.0)
     gemoji (2.1.0)
-    github-pages (109)
+    github-pages (110)
       activesupport (= 4.2.7)
       github-pages-health-check (= 1.3.0)
       jekyll (= 3.3.1)
@@ -43,7 +43,19 @@ GEM
       jekyll-seo-tag (= 2.1.0)
       jekyll-sitemap (= 0.12.0)
       jekyll-swiss (= 0.4.0)
-      jekyll-theme-primer (= 0.1.1)
+      jekyll-theme-architect (= 0.0.3)
+      jekyll-theme-cayman (= 0.0.3)
+      jekyll-theme-dinky (= 0.0.3)
+      jekyll-theme-hacker (= 0.0.3)
+      jekyll-theme-leap-day (= 0.0.3)
+      jekyll-theme-merlot (= 0.0.3)
+      jekyll-theme-midnight (= 0.0.3)
+      jekyll-theme-minimal (= 0.0.3)
+      jekyll-theme-modernist (= 0.0.3)
+      jekyll-theme-primer (= 0.1.5)
+      jekyll-theme-slate (= 0.0.3)
+      jekyll-theme-tactile (= 0.0.3)
+      jekyll-theme-time-machine (= 0.0.3)
       jekyll-titles-from-headings (= 0.1.2)
       jemoji (= 0.7.0)
       kramdown (= 1.11.1)
@@ -107,7 +119,31 @@ GEM
     jekyll-sitemap (0.12.0)
       jekyll (~> 3.3)
     jekyll-swiss (0.4.0)
-    jekyll-theme-primer (0.1.1)
+    jekyll-theme-architect (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-cayman (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-dinky (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-hacker (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-leap-day (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-merlot (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-midnight (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-minimal (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-modernist (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-primer (0.1.5)
+      jekyll (~> 3.3)
+    jekyll-theme-slate (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-tactile (0.0.3)
+      jekyll (~> 3.3)
+    jekyll-theme-time-machine (0.0.3)
       jekyll (~> 3.3)
     jekyll-titles-from-headings (0.1.2)
       jekyll (~> 3.3)
@@ -162,12 +198,13 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  github-pages (= 109)
+  github-pages (= 110)
   jekyll-feed (~> 0.6)
+  json
   minima (~> 2.0)
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.2.2p95
 
 BUNDLED WITH
    1.13.6
