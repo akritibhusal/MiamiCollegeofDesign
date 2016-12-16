@@ -2,222 +2,225 @@
 layout: default-page
 ---
 
-	<!-- {% for item in site.home-page %} -->
-	{% assign item = site.home-page.page-items %}
-	<div class="main-container">
-		<div class="grid grid--2 md-grid--1">
-			<div class="column">
-				<div class="grid grid--2-3">
-					<div class="column">
-						<div class="grid grid--2">
-							<div class="column">
-								<div class="aspect-ratio aspect-ratio--1">
-									<div class="block-content block-content--padded">
-										<a href="index.html"><div class="logo-holder">
-											<img src="{{site.url}}/assets/img/iam-0.png" alt="Miami College of Design Logo" class="miami-logo" id="logo"/>
-										</div>
-										</a>
+<!-- {% for item in site.home-page %} -->
+{% assign item = site.home-page.page-items %}
+<div class="main-container">
+	<div class="grid grid--2 md-grid--1">
+		<div class="column">
+			<div class="grid grid--2-3">
+				<div class="column">
+					<div class="grid grid--2">
+						<div class="column">
+							<div class="aspect-ratio aspect-ratio--1">
+								<div class="block-content block-content--padded">
+									<a href="index.html"><div class="logo-holder">
+										<img src="{{site.url}}/assets/img/iam-0.png" alt="Miami College of Design Logo" class="miami-logo" id="logo"/>
 									</div>
-								</div>
-							</div>
-							<div class="column">
-								<div class="aspect-ratio aspect-ratio--1">
-									<div class="block-content block-content--padded">
-										<div class="table table--cover bg bg--cover overflow--hide scale--1-1--hover shadow--hover" data-open="about_one_image" style="background-image: url({{item.one_image}});">
-											<div class="table-cell va--center ">
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="grid grid--1">
-							<div class="column">
-								<div class="aspect-ratio aspect-ratio--1">
-									<div class="block-content block-content--padded">
-										<div class="table table--cover bg bg--cover scale--1-1--hover shadow--hover" data-open="about_two_image" style="background-image: url({{item.two_image}});">
-											<div class="half-triangle">
-												
-											</div>
-										</div>
-									</div>
-								</div>
+								</a>
 							</div>
 						</div>
 					</div>
 					<div class="column">
 						<div class="aspect-ratio aspect-ratio--1">
-							<div class="block-content block-content--padded" data-open="about_four_image">
-								<div class="table table--cover bg bg--cover scale--1-05--hover shadow--hover" style="background-image: url({{item.four_image}});"></div>
+							<div class="block-content block-content--padded">
+								<div class="table table--cover bg bg--cover overflow--hide scale--1-1--hover shadow--hover" data-open="about_one_image" style="background-image: url({{item.one_image}});">
+									<div class="table-cell va--center ">
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 
-
 				<div class="grid grid--1">
-					<div class="aspect-ratio aspect-ratio--5-3">
-						<div class="block-content block-content--padded">
-							<div class="table table--cover bg bg--cover bg--overlay scale--1-025--hover shadow--hover" data-open="about_us" style="background-image: url({{item.video_bg_image}});">
-								<div class="table-cell va--center text--center text--white " >
-									<img src="{{site.url}}/assets/img/ic_play.png" class="icon"/>
-									<p class="text--medium">Watch a video about us </p>
+					<div class="column">
+						<div class="aspect-ratio aspect-ratio--1">
+							<div class="block-content block-content--padded">
+								<div class="table table--cover bg bg--cover scale--1-1--hover shadow--hover" data-open="about_two_image" style="background-image: url({{item.two_image}});">
+									<div class="half-triangle">
+
+									</div>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</div>
 			</div>
-
-
 			<div class="column">
-				<div class="aspect-ratio aspect-ratio--5-6 md-aspect-ratio--auto">
-					<div class="block-content block-content--padded overflow--hide">
-						<div class="table table--cover bg bg--cover bg--overlay text--white" style="background-image: url({{item.intro_bg_image}});">
-							<div class="table-cell va--center section">
-								<h2 class="section__heading">{{item.intro_title}}</h2>
-								<div class="text--light">
-									{{item.content | markdownify}}
-								</div>
-								<div class="sep"></div>
-								<div>
-									<a href="#" class="table connect has-white-text"><img src="{{site.url}}/assets/img/ic_arrow.png" class="icon table-cell va--center"/><span class="table-cell va--center text--medium">Connect with us </a></span>
-								</div>
-
-							</div>
-						</div>
+				<div class="aspect-ratio aspect-ratio--1">
+					<div class="block-content block-content--padded" data-open="about_four_image">
+						<div class="table table--cover bg bg--cover scale--1-05--hover shadow--hover" style="background-image: url({{item.four_image}});"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="grid grid--2 md-grid--1">
+
+		<div class="grid grid--1">
+			<div class="aspect-ratio aspect-ratio--5-3">
+				<div class="block-content block-content--padded">
+					<div class="table table--cover bg bg--cover bg--overlay scale--1-025--hover shadow--hover" data-open="about_us" style="background-image: url({{item.video_bg_image}});">
+						<div class="table-cell va--center text--center text--white " >
+							<img src="{{site.url}}/assets/img/ic_play.png" class="icon"/>
+							<p class="text--medium">Watch a video about us </p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="column">
+		<div class="aspect-ratio aspect-ratio--5-6 md-aspect-ratio--auto">
+			<div class="block-content block-content--padded overflow--hide">
+				<div class="table table--cover bg bg--cover bg--overlay text--white" style="background-image: url({{item.intro_bg_image}});">
+					<div class="table-cell va--center section">
+						<h2 class="section__heading">{{item.intro_title}}</h2>
+						<div class="text--light">
+							{{item.content | markdownify}}
+						</div>
+						<div class="sep"></div>
+						<div>
+							<a href="#" class="table connect has-white-text"><img src="{{site.url}}/assets/img/ic_arrow.png" class="icon table-cell va--center"/><span class="table-cell va--center text--medium">Connect with us </span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="grid grid--2 md-grid--1">
+	<div class="column">
+		<div class="aspect-ratio aspect-ratio--5-6 md-aspect-ratio--auto">
+			<div class="block-content block-content--padded">
+				<div class="table table--cover bg bg--grey">
+					<div class="va--middle table-cell section">
+						<h2 class="section__heading">Our Mission</h2>
+						{{item.our_mission | markdownify}}
+						<div>
+							<a href="#" class="table connect"><img src="{{site.url}}/assets/img/ic_arrow_dark.png" class="icon table-cell va--center"/><span class="table-cell va--center text--medium"> Meet our Team </span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="column">
+		<div class="grid grid--2 sm-grid--1">
 			<div class="column">
-				<div class="aspect-ratio aspect-ratio--5-6 md-aspect-ratio--auto">
+				<div class="aspect-ratio aspect-ratio--1 sm-aspect-ratio--auto">
 					<div class="block-content block-content--padded">
-						<div class="table table--cover bg bg--grey">
-							<div class="va--middle table-cell section">
-								<h2 class="section__heading">Our Mission</h2>
-								{{item.our_mission | markdownify}}
-								<div>
-									<a href="#" class="table connect"><img src="{{site.url}}/assets/img/ic_arrow_dark.png" class="icon table-cell va--center"/><span class="table-cell va--center text--medium"> Meet our Team </a></span>
-								</div>
+						<div class="table table--cover overflow--hide bg--twitter-card twitter-card" id="twitter_container">
+							<div class="half-triangle dim"></div>
+							<div class="va--middle table-cell table--cover text--white text--center padding--medium">
+								<img src="{{site.url}}/assets/img/ic_twitter.png"/>
+								<p class="tweet">Miami Design School On Twitter</p>
 							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="aspect-ratio aspect-ratio--1">
+					<div class="block-content overflow--hide block-content--padded">
+						<div class="table table--cover bg bg--cover" style="background-image: url({{item.bottomfold_two_image}});">
+							<div class="half-triangle half-triangle--rotate"></div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 
+		<div class="grid grid--1">
 			<div class="column">
-				<div class="grid grid--2 sm-grid--1">
-					<div class="column">
-						<div class="aspect-ratio aspect-ratio--1 sm-aspect-ratio--auto">
-							<div class="block-content block-content--padded">
-								<div class="table table--cover overflow--hide bg--twitter-card twitter-card" id="twitter_container">
-									<div class="half-triangle dim"></div>
-									<div class="va--middle table-cell table--cover text--white text--center padding--medium">
-										<img src="{{site.url}}/assets/img/ic_twitter.png"/>
-										<p class="tweet">Miami Design School On Twitter</p>
-									</div>
-								</div>
-					
-							</div>
-						</div>
-					</div>
-					<div class="column">
-						<div class="aspect-ratio aspect-ratio--1">
-							<div class="block-content overflow--hide block-content--padded">
-								<div class="table table--cover bg bg--cover" style="background-image: url({{item.bottomfold_two_image}});">
-									<div class="half-triangle half-triangle--rotate"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="grid grid--1">
-					<div class="column">
-								<div class="event-carousel" id="event-carousel">
-									{% assign events = site.events | sort: 'event_date' | reverse %}
-									{% for event in events %}	
-						<div class="aspect-ratio aspect-ratio--10-7">
-							<div class="block-content block-content--padded">
-									<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
-										<div class="va--bottom text--white table-cell">
-											<div class="event">
-												<div class="event__description">
-													<h3 class="event__heading bold">{{event.title}}</h3>
-													<div class="event__meta">
-														<span class="location">{{event.event_venue}}</span> - 
-														<span class="date-time">{{event.event_date | date: '%B %d, %Y'}}</span>
-													</div>
-												</div>
-{% comment %}
-												<div class="event__nav">
-													<img src="assets/img/ic_prev.png" class="icon"/>
-													<img src="assets/img/ic_next.png" class="icon"/>
-												</div>
-{% endcomment %}											</div>
+				<div class="event-carousel" id="event-carousel">
+					{% assign events = site.events | sort: 'event_date' | reverse %}
+					{% for event in events %}	
+					<div class="aspect-ratio aspect-ratio--10-7">
+						<div class="block-content block-content--padded">
+							<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
+								<div class="va--bottom text--white table-cell">
+									<div class="event">
+										<div class="event__description">
+											<h3 class="event__heading bold">{{event.title}}</h3>
+											<div class="event__meta">
+												<span class="location">{{event.event_venue}}</span> - 
+												<span class="date-time">{{event.event_date | date: '%B %d, %Y'}}</span>
+											</div>
 										</div>
+										{% comment %}
+										<div class="event__nav">
+											<img src="assets/img/ic_prev.png" class="icon"/>
+											<img src="assets/img/ic_next.png" class="icon"/>
+										</div>
+										{% endcomment %}											</div>
 									</div>
+								</div>
 
 
 							</div>
 						</div>
-									{% endfor %}
-								</div>
-
-								
-						
-
+						{% endfor %}
 					</div>
+
+
+
+
 				</div>
-
-
-
-
-
-
 			</div>
+
+
+
+
+
+
 		</div>
 	</div>
+</div>
 
 
 
-		<div id="about_us" class="reveal full video" data-reveal >
-		<iframe src="{{item.video_url}}" frameborder="0" allowfullscreen ></iframe>
-		<button class="close-button" data-close aria-label="Close modal" type="button">
-			<span aria-hidden="true">&times;</span>
-		</button>
-	</div>
 
-	<div id="about_four_image" class="reveal large" data-reveal >
-		<div class="grid grid--2">
-			<div class="column">
-				<img src="{{item.four_image}}">
-			</div>
-			<div class="column">
-				<h2>{{item.four_image_title}}</h2>
-				{{item.four_image_description | markdownify}}
-			</div>
+
+
+<div id="about_us" class="reveal full video" data-reveal >
+	<iframe src="{{item.video_url}}" frameborder="0" allowfullscreen ></iframe>
+	<button class="close-button" data-close aria-label="Close modal" type="button">
+		<span aria-hidden="true">&times;</span>
+	</button>
+</div>
+
+<div id="about_four_image" class="reveal large" data-reveal >
+	<div class="grid grid--2">
+		<div class="column">
+			<img src="{{item.four_image}}">
 		</div>
-		<button class="close-button" data-close aria-label="Close modal" type="button">
-			<span aria-hidden="true">&times;</span>
-		</button>
-	</div>
-
-	<div id="about_one_image" class="reveal large" data-reveal>
-		<div class="grid grid--2">
-			<div class="column padding-right--xlarge">
-				<img src="{{item.one_image}}">
-			</div>
-			<div class="column">
-				<h2>{{item.one_image_title}}</h2>
-				{{item.one_image_description | markdownify}}
-			</div>
+		<div class="column">
+			<h2>{{item.four_image_title}}</h2>
+			{{item.four_image_description | markdownify}}
 		</div>
+	</div>
+	<button class="close-button" data-close aria-label="Close modal" type="button">
+		<span aria-hidden="true">&times;</span>
+	</button>
+</div>
+
+<div id="about_one_image" class="reveal large" data-reveal>
+	<div class="grid grid--2">
+		<div class="column padding-right--xlarge">
+			<img src="{{item.one_image}}">
+		</div>
+		<div class="column">
+			<h2>{{item.one_image_title}}</h2>
+			{{item.one_image_description | markdownify}}
+		</div>
+	</div>
+</div>
 
 	<div id="about_two_image" class="reveal large" data-reveal>
 		<div class="grid grid--2">
@@ -235,6 +238,5 @@ layout: default-page
 	</div>
 
 
-{% include footer.html %}
 	<!-- {% endfor %} -->
 
