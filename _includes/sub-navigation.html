@@ -3,17 +3,8 @@
         {% if include.context == "/" %}
         <li>
             <a href="index.html" class="nav-link full-logo {% if page.url == "/" %}active{% endif %}" id="logo_full"><img src="./assets/img/logo.png" ></a>
-                <a href="index.html" class="nav-link active" id="home-nav"><span>Home<span></a>
-
-                <ul class="sub-nav dim">
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a> </li>
-                    <li><a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i> Facebook</a></li>
-                    <li>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin</a>  
-                    </li>
-                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a></li>
-                </ul>
-            </li>
+            <a href="index.html" class="nav-link active" id="home-nav"><span>Home<span></a>
+        </li>
         {% endif %}
     
         {% assign entries = site.pages | sort: "path" %}
