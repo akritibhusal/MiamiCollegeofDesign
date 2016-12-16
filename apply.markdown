@@ -3,14 +3,14 @@ title: Apply
 date: 2016-12-02 13:25:00 Z
 permalink: "/apply/"
 position: 4
-one_image: "/uploads/eye.png"
-two_image: "/uploads/blueprint.jpg"
-header_image: "/uploads/about_featured.png"
-header_title: Admissions
-header_subtitle: Admission Requirements and Procedures
 sidemenu:
   determine: Admission Requirements and Procedures
   requirements: Admission Requirements
+one_image: "/uploads/eye.png"
+two_image: "/uploads/blueprint.jpg"
+header_image: "/uploads/shell-f5e1b4.jpg"
+header_title: Admissions
+header_subtitle: Admission Requirements and Procedures
 ---
 
 ## DETERMINE IF MIAMI COLLEGE OF DESIGN IS FOR YOU
