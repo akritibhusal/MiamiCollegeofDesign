@@ -70,7 +70,7 @@ defaults:
     news_image: ''
 repository: git@github.com:oxmint/miami.git
 email: your-email@domain.com
-description: ''
+description: 
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
