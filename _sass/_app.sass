@@ -515,6 +515,8 @@ $anchor-line-height: 5rem !default
 	&--flamenco
 		background-color: $miami-orange
 
+	&--twitter-card
+		@extend .bg--flamenco
 
 
 // Table and vertical align properties
@@ -533,6 +535,29 @@ $anchor-line-height: 5rem !default
 
 	&--bottom
 		vertical-align: bottom
+
+
+
+
+
+// Twitter card
+.twitter-card
+	background-size: cover
+
+	a
+		max-width: 200px
+		vertical-align: middle
+		padding-left: 0.2rem
+		white-space: nowrap
+		overflow: hidden
+		display: inline-block
+		text-overflow: ellipsis
+		color: rgba(255,255,255,0.8)
+
+		&:hover
+			color: rgb(255,255,255)
+
+
 
 
 

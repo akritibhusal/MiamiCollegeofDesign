@@ -109,3 +109,37 @@ $( document ).ready( function(){
 	    console.log( 'clicked');
 	});
 });
+
+
+// Twitter fetch handelr
+$(document).ready( function(){
+	var TWITTER_CONTAINER = $('#twitter_container');
+	var TWEET_TEXT = TWITTER_CONTAINER.find( '.tweet')[0];
+	var DEFAULT_BG_CLASS = 'bg--twitter-card';
+	var OVERLAY_CLASS = 'bg--overlay';
+
+
+	var configProfile = {
+		"profile": {"screenName": 'IamDesignMethod'},
+		"dataOnly": true,
+		"customCallback": handleTweets,
+		"showImages": true,
+		"maxTweets": 1
+	}
+
+	twitterFetcher.fetch(configProfile);
+
+	function handleTweets(tweets) {
+		tweet = tweets[0];
+		console.log( tweet );
+		TWEET_TEXT.innerHTML = tweet.tweet;
+
+		if( tweet.image ){
+			TWITTER_CONTAINER.removeClass( DEFAULT_BG_CLASS );
+			TWITTER_CONTAINER.addClass( OVERLAY_CLASS );
+			TWITTER_CONTAINER.css(	{
+				'background-image' : 'url(' + tweet.image + ')'
+			});
+		}
+	}
+});
