@@ -131,6 +131,7 @@ $anchor-line-height: 5rem !default
 
 .logo-holder
 	@extend %position-relative
+	z-index: 999
 
 .footer
 	@extend %padding-top-bottom-large
@@ -140,7 +141,7 @@ $anchor-line-height: 5rem !default
 .main-header
 	@extend %position-fixed
 	padding-bottom: $padding-medium
-	z-index: 100
+	z-index: 1000
 	width: 100%
 	background-color: rgba(255,255,255,0.98)
 	max-height: $anchor-line-height
@@ -157,13 +158,14 @@ $anchor-line-height: 5rem !default
 	top: -2px
 	z-index: -1
 	margin-left: -30px
-	transition: all $transition-timing*2 $transition-easing
+	transition: all $transition-timing $transition-easing
 	opacity: 0
-	transform: scale( 0.99 )
+	transform: scale( 0.8 )
+	transform-origin: 15% 50%
 
 	> img
 		height: 54px
-		margin-top: 30px
+		margin-top: 16px
 
 	&.full-logo--opaque
 		transform: scale(1)
@@ -291,13 +293,27 @@ $anchor-line-height: 5rem !default
 
 
 
+.side-nav__outer
+	height: 1px
+	width: 100%
 
+.side-nav__holder
+	position: absolute
+	width: 260px
+	height: 100%
+	overflow-y: auto
+	margin-left: -20px
+
+	&.sticky
+		position: fixed
+		top: 96px
 
 
 // Side Navigation
 .side-nav	
 	list-style: none
 	margin: 0
+	margin-left: 20px
 	@extend %font-size-s
 
 	> li
@@ -306,14 +322,15 @@ $anchor-line-height: 5rem !default
 		> a
 			display: inline-block
 			line-height: 1.2
-			padding-bottom: $padding-medium
+			// padding-bottom: $padding-medium
+			margin: $padding-medium/2 0
 	
 		&.active
-			padding-bottom: $padding-medium
+			// padding-bottom: $padding-medium
 			> a
 				padding-left: $padding-medium
 				margin-left: -$padding-medium
-				padding-bottom: 0
+				// padding-bottom: 0
 				box-shadow: -4px 0 0 $miami-blue
 				@extend .bold
 				color: $body-font-color
@@ -626,17 +643,38 @@ $anchor-line-height: 5rem !default
 		margin-bottom: $padding-xlarge
 		width: 100%
 		display: block
-		border-top: 1px solid $gray
+		border-top: 1px solid #EEEEEE
 
 	img 
 		margin-bottom: $padding-large
 
+		&.float-right
+			margin-left: $padding-xlarge
 
-	img.float-right
-		margin-left: $padding-xlarge
+		&.float-left
+			margin-right: $padding-xlarge
 
-	img.float-left
-		margin-right: $padding-xlarge
+		&.small
+			max-width: 400px
+
+	.img--small
+		@extend img.small
+
+		
+@media (max-width: $extra-small-device-width)
+	img.float-left.small, img.float-right.small
+		float: none
+		max-width: 100%
+	
+	img.float-left.small
+		margin-right: 0
+
+	img.float-right.small
+		margin-left: 0
+	
+
+	.img--small
+		float: none
 
 
 

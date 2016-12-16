@@ -143,3 +143,29 @@ $(document).ready( function(){
 		}
 	}
 });
+
+
+// Stick sidenav on scroll
+$(document).ready( function(){
+	var stickHeader = function( options ){
+		$sticky_container = $( options.stickyContainer ) || $( window );
+		$sticky = $sticky_container.find('.sticky_box');
+
+		$stickAt = options.stickAt || 0;
+		$stickAt = $sticky_container.position().top - $stickAt;
+		
+		$(window).on( 'scroll',  function(e){
+			if( $(this).scrollTop() > $stickAt) {
+				$sticky.addClass( options.stickyClass );
+			} else {
+				$sticky.removeClass( options.stickyClass );
+			}
+		});
+	}
+
+	stickHeader( {
+		'stickyContainer' : '#main_sticky_container',
+		'stickAt' : 96,
+		'stickyClass' : 'sticky'
+	});
+});

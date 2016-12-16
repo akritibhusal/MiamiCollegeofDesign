@@ -2,8 +2,14 @@ $medium-device-prefix  : 'md-' !default
 $small-device-prefix: 'sm-' !default
 $extra-small-device-prefix: 'xs-' !default
 
+$medium-device-width  : 991px !default
+$small-device-width: 767px !default
+$extra-small-device-width: 543px !default
+
+
+
 // Extra small devices (portrait phones, less than 544px)
-@media (max-width: 543px)
+@media (max-width: $extra-small-device-width)
 	.#{$extra-small-device-prefix}
 		// aspect ratio
 		&#{$container-aspect-ratio-prefix}
@@ -47,13 +53,8 @@ $extra-small-device-prefix: 'xs-' !default
 					width: 80%
 
 //Small devices (landscape phones, less than 768px)
-@media (max-width: 767px)
+@media (max-width: $small-device-width)
 	.#{$small-device-prefix}
-
-		//Visibility classes
-		&-hide
-			display: none
-
 		// aspect ratio
 		&#{$container-aspect-ratio-prefix}
 			&--auto
@@ -101,10 +102,6 @@ $extra-small-device-prefix: 'xs-' !default
 @media (max-width: 991px)
 	.#{$medium-device-prefix}
 
-		//Visibility classes
-		&-hide
-			display: none
-
 		// aspect ratio
 		&#{$container-aspect-ratio-prefix}
 			&--auto
@@ -118,9 +115,7 @@ $extra-small-device-prefix: 'xs-' !default
 			&--1
 				& > .column
 					width: 100%
-					
-					&:nth-child( odd ), &:nth-child( even )
-						width: 100%
+			
 			// Half sized grid
 			// Each columns of this grid are 
 			&--2

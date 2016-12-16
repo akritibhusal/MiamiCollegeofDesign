@@ -61,16 +61,17 @@
 		
 		<div class="grid grid--2-8">
 			<div class="column">
-				<nav class="sticky">
-					<ul class="side-nav padding-left-right--small padding-top-bottom--large uppercase md--hide">
+				<div class="side-nav__outer" id="main_sticky_container">
+					<nav class="side-nav__holder sticky_box">
+						<ul class="side-nav padding-left-right--small padding-top-bottom--large uppercase md--hide">
 
-						{% for menu-item in page.sidemenu %}
-						<li class="side-menu uppercase page-step--{{page_index}} {% if menu-item[0] == 'sidemenu_link_ID' %} hidden {% endif %}"><a href="#{{menu-item[0]}}">{{menu-item[1]}}</a></li>
-						{% endfor %}
-						
-					</ul>
-
-				</nav>
+							{% for menu-item in page.sidemenu %}
+							<li class="side-menu uppercase page-step--{{page_index}} {% if menu-item[0] == 'sidemenu_link_ID' %} hidden {% endif %}"><a href="#{{menu-item[0]}}">{{menu-item[1]}}</a></li>
+							{% endfor %}
+							
+						</ul>
+					</nav>
+				</div>
 			</div>
 
 			<div class="column padding--large">
