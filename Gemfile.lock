@@ -200,11 +200,10 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 110)
   jekyll-feed (~> 0.6)
-  json
   minima (~> 2.0)
 
 RUBY VERSION
-   ruby 2.2.2p95
+   ruby 2.3.1p112
 
 BUNDLED WITH
    1.13.6
