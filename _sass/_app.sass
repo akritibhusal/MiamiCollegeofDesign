@@ -78,6 +78,8 @@ a
 .text--light
 	color: $gray 
 
+
+
 .sep
 	margin-bottom: 2rem
 
@@ -446,6 +448,19 @@ $anchor-line-height: 5rem !default
 	&:hover
 		box-shadow: 1px 1px 6px rgba(0,0,0,0.3)
 
+
+
+.has-white-text
+	&:hover
+		color: $white
+
+.connect 
+	img 
+		@extend %transition-all
+
+.connect:hover
+	img
+		transform: scale( 1.1)
 
 
 // Footer
