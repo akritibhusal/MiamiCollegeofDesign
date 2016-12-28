@@ -5,6 +5,9 @@ collections:
   events:
     title: Events
     output: true
+  faculty:
+    title: Faculty
+    output: true
   home-page:
     title: Home Page
     output: true
