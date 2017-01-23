@@ -3,11 +3,14 @@
 	<div class="grid grid--1">
 		<div class="column">
 			<nav class="footer-nav">
+				{% for footlink in site.footer-links %}
 				<a class="nav-link" href="{{site.url}}">Home</a>
-				<a class="nav-link" href="#">Academic Policies</a>
+				
+				{% endfor %}
+				<!-- <a class="nav-link" href="#">Academic Policies</a>
 				<a class="nav-link" href="#">Standards of Conduct</a>
 				<a class="nav-link" href="#">Blog</a>
-				<a class="nav-link" href="#">Contact Us</a>
+				<a class="nav-link" href="#">Contact Us</a> -->
 			</nav>
 		</div>
 		<div class="column padding-left-right--small">
