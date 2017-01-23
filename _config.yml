@@ -8,6 +8,9 @@ collections:
   faculty:
     title: Faculty
     output: true
+  footer:
+    title: Footer
+    output: true
   home-page:
     title: Home Page
     output: true
