@@ -24,6 +24,8 @@ tags:
 - The Lab Miami
 - wynwood
 - miami
+- Franco Lodato
+- Walter Bender
 ---
 
 Vice Chair of IDSA, Franco Lodato shares his dream project “Miami College of Design” and “Masters of Design” Summit in November
