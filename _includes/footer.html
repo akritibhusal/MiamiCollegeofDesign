@@ -1,18 +1,20 @@
 {% assign item = site.home-page.page-items %}
+{% for item in site.footer %}
 <footer class="footer">
 	<div class="grid grid--1">
 		<div class="column">
 			<nav class="footer-nav">
 				<a class="nav-link" href="{{site.url}}">Home</a>
-				{% for footlink in site.footer-links %}
-					{% for item in footlink.menu-items %}
-					<a class="nav-link" href="{{item[1]}}">item[0]</a>
-					{% endfor %}
-				{% endfor %}
-				<!-- <a class="nav-link" href="#">Academic Policies</a>
-				<a class="nav-link" href="#">Standards of Conduct</a>
-				<a class="nav-link" href="#">Blog</a>
-				<a class="nav-link" href="#">Contact Us</a> -->
+
+				
+				
+
+				<a class="nav-link" href="{{item.academic_policies}}">Academic Policies</a>
+				<a class="nav-link" href="{{item.standards_of_conduct}}">Standards of Conduct</a>
+				<a class="nav-link" href="{{item.blog}}">Blog</a>
+				<a class="nav-link" href="{{item.contact_us}}">Contact Us</a>
+				
+
 			</nav>
 		</div>
 		<div class="column padding-left-right--small">
@@ -20,14 +22,14 @@
 				Miami College of Design, 2016
 			</span>
 			<span class="privacy-nav">
-				<a class="nav-link" href="#">Terms of use</a>
-				<a class="nav-link" href="#">Privacy Policy</a>
-				<a class="nav-link" href="#">Cookies</a>
+				<a class="nav-link" href="{{item.terms_of_use}}">Terms of use</a>
+				<a class="nav-link" href="{{item.privacy_policy}}">Privacy Policy</a>
+				<a class="nav-link" href="{{item.cookies}}">Cookies</a>
 			</span>
 		</div>
 	</div>
 </footer>
-
+{% endfor %}
 
 
 
