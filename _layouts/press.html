@@ -79,31 +79,39 @@ layout: default-page
 				<article class="content">
 					
 				{% assign allposts = site.posts | sort: 'post_date' | reverse %}
-				{% for post in allposts %}
 				
 				<div class="grid grid--2">
+				{% for post in allposts %}
 					<div class="column">
-						<div class="aspect-ratio aspect-ratio--5-3">
-							<div class="block-content block-content--padded">
-								<a href="{{post.post_url}}"><div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{post.post_image}});">
-										<div class="va--bottom text--white table-cell">
-											<div class="post">
-												
+						<div class="post__container block-content--padded">
+							<div class="aspect-ratio aspect-ratio--5-3">
+								<div class="block-content">
+									<a href="{{post.post_url}}"><div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{post.post_image}});">
+											<div class="va--bottom text--white table-cell">
+												<div class="post">
+													
+												</div>
 											</div>
-										</div>
-									</div></a>
+										</div></a>
+								</div>
 							</div>
+							
+								<div class="">
+									<h2><strong>{{post.title}}</strong></h2>
+									<div>{{post.post_date | date: '%B %d, %Y'}}</div>
+									<div>{{post.content | markdownify}}</div>
+									<div>
+										<a class="view-more" href="{{post.post_url}}">View More</a>
+									</div>
+								</div>
 						</div>
 					</div>
 					
-					<div class="column  padding-left-right--large">
-					<h2><strong>{{post.title}}</strong></h2>
-					<div>{{post.post_date | date: '%B %d, %Y'}}</div>
-						{{post.content | markdownify}}
-					</div>
-				</div>
-				<div class="sep--line"></div>
+					
+
 				{% endfor %}
+				</div>
+				
 				</article>
 
 			</div>
