@@ -35,6 +35,7 @@ defaults:
   values:
     post_date: ''
     post_image: ''
+    post_url: ''
 - scope:
     path: ''
     type: home_page
