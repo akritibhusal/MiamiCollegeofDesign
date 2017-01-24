@@ -31,6 +31,12 @@ defaults:
     layout: default
 - scope:
     path: ''
+    type: posts
+  values:
+    post_date: ''
+    post_image: ''
+- scope:
+    path: ''
     type: home_page
   values:
     intro_title: We support future leaders in design and innovation.
