@@ -2,7 +2,7 @@
 title: People
 date: 2016-12-02 13:27:00 Z
 permalink: "/people/"
-position: 5
+position: 4
 layout: default
 sidemenu:
   senior-administration: Senior Administration
