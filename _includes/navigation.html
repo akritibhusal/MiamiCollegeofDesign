@@ -1,4 +1,4 @@
-<header class="main-header" id="main-header">
+<header class="main-header md--hide" id="main-header">
         {% assign entries = site.pages | sort: "position" %}
         {% assign counter = '' %}
         {% assign page_index = 0 %}
@@ -10,7 +10,10 @@
             <a href="{{site.url}}/index.html" class="nav-link full-logo " id="logo_full">
 
 
-            <img src="{{site.url}}/assets/img/logo-0.png" ></a>
+            <img src="{{site.url}}/assets/img/logo-0.png" class="logo-1">
+            <img src="{{site.url}}/assets/img/iam-0.png" class="logo-2">
+
+            </a>
                 <a href="{{site.url}}/index.html" class="nav-link {% if page.url == '/' or page.url == site.url page.title == 'Home'  %} active {% endif %}" id="home-nav"><span>Home<span></a>
             </li>
         {% endif %}
@@ -55,7 +58,64 @@
     </ul>
     {% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
     </nav>
+
 </div>
 </header>
 
 
+<!-- duplicate -->
+<nav class="side-nav">{% capture html %}
+    <ul>
+        {% if include.context == "/" %}
+        <li>
+            <a href="{{site.url}}/index.html" class="nav-link full-logo " id="logo_full">
+
+
+            <img src="{{site.url}}/assets/img/logo-0.png" class="logo-1">
+            <img src="{{site.url}}/assets/img/iam-0.png" class="logo-2">
+
+            </a>
+                <a href="{{site.url}}/index.html" class="nav-link nav-title {% if page.url == '/' or page.url == site.url page.title == 'Home'  %} active {% endif %}" id="home-nav"><span>Home<span></a>
+            </li>
+        {% endif %}
+    
+        {% assign page_index = 0 %}
+        {% assign counter = '' %}    
+        {% for entry in entries %}
+
+    
+            {% capture slug    %}{{ entry.url | split: "/"   | last                       }}{% endcapture %}
+            {% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
+    
+             {% assign active_test = entry.url | remove: "/" %}
+            
+
+            {% if current == include.context %}
+                {% assign counter = counter | append: 'x' %}
+                
+                <li>
+                    <a class="nav-link nav-title {% if page.url contains active_test %}active  {% assign page_index = counter.size %}    {% endif %}" href="{{ site.baseurl }}{{ entry.url }}"><span>{{ entry.title }}</span></a>
+                    {% include sub-navigation.html context=entry.url %}
+            {% if forloop.last == true %}
+
+                <div class="social">
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                    <a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                    
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>   
+                    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                </div>
+                <div class="subscribe">
+                    <input type="text" placeholder="Subscribe Newsletter">
+                    <button class="subscribe__button"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            {% endif %}
+                </li>
+
+            {% endif %}
+    
+        {% endfor %}
+        
+    </ul>
+    {% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
+    </nav>

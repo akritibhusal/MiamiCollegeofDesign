@@ -3,15 +3,15 @@ layout: default-page
 ---
 
 <div class="main-container">
-		<div class="grid grid--2-8">
-			<div class="column">
-				<div class="grid grid--2">
+		<div class="grid grid--2-8 sm-grid--1">
+			<div class="column sm--hide">
+				<div class="grid grid--2 sm-grid--1">
 					<div class="column">
 						<div class="aspect-ratio aspect-ratio--1">
 							<div class="block-content block-content--padded">
 								<a href="index.html">
 								<div class="logo-holder">
-											<img src="{{site.url}}/{{page.coloured_logo}}" alt="Miami College of Design Logo" class="miami-logo" id="logo"/>
+										<img src="{{site.url}}/{{page.coloured_logo}}" alt="Miami College of Design Logo" class="miami-logo" id="logo"/>
 								</div>
 								</a>
 							</div>
@@ -44,7 +44,7 @@ layout: default-page
 
 
 			<div class="column">
-				<div class="aspect-ratio aspect-ratio--8-3">
+				<div class="aspect-ratio aspect-ratio--8-3 sm-aspect-ratio--auto">
 					<div class="block-content block-content--padded">
 						<div class="table table--cover bg bg--cover bg--overlay--light" style="background-image: url({{page.header_image}});">
 							<div class="table-cell va--bottom padding--large text--white">
@@ -60,8 +60,8 @@ layout: default-page
 			</div>
 		</div>
 		
-		<div class="grid grid--2-8">
-			<div class="column">
+		<div class="grid grid--2-8 md-grid--1">
+			<div class="column md--hide">
 				<nav class="sticky">
 					<ul class="side-nav padding-left-right--small padding-top-bottom--large uppercase">
 
@@ -81,7 +81,7 @@ layout: default-page
 				{% assign items = site.news | sort: 'news_date' | reverse %}
 				{% for item in items %}
 				
-<div class="grid grid--2">
+<div class="grid grid--2 sm-grid--1">
 	<div class="column">
 		<div class="aspect-ratio aspect-ratio--5-3">
 			<div class="block-content block-content--padded">

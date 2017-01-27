@@ -63,6 +63,10 @@ $extra-small-device-width: 543px !default
 				> .block-content
 					position: static
 
+			&--1
+				padding-bototm: 100%
+				
+
 		&#{$grid-prefix}
 			&--1
 				& > .column
@@ -115,6 +119,9 @@ $extra-small-device-width: 543px !default
 			&--1
 				& > .column
 					width: 100%
+
+					&:nth-child( odd ), &:nth-child( even )
+						width: 100%
 			
 			// Half sized grid
 			// Each columns of this grid are 

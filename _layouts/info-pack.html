@@ -6,7 +6,7 @@ layout: default
 
 <form class="info-form" action="https://formspree.io/akriti@expresivstudios.com"
       method="POST">
-    <div class="grid grid--2">
+    <div class="grid grid--2 sm-grid--1">
     	<div class="column padding-left-right--small">
     		<label>Full Name</label>
     		<input type="text" name="name" required>
@@ -15,9 +15,7 @@ layout: default
     		<label>Your Email Address</label>
     		<input type="email" name="_replyto" required>
     	</div>
-    </div>
 
-    <div class="grid grid--2">
         <div class="column padding-left-right--small">
             <label>Street Address 1</label>
             <input type="text" name="name" required>
@@ -26,9 +24,7 @@ layout: default
             <label>Street Address 1 <span>(optional)</span></label>
             <input type="text" name="_replyto">
         </div>
-    </div>
 
-    <div class="grid grid--2">
         <div class="column padding-left-right--small">
             <label>City</label>
             <input type="text" name="city" required>
@@ -37,9 +33,7 @@ layout: default
             <label>State <span>(required for US addresses)</span></label>
             <input type="text" name="state">
         </div>
-    </div>
 
-    <div class="grid grid--2">
         <div class="column padding-left-right--small">
             <label>Postal/ Zip Code</label>
             <input type="text" name="code" required>
@@ -48,9 +42,7 @@ layout: default
             <label>Country</label>
             <input type="text" name="country" required>
         </div>
-    </div>
 
-    <div class="grid grid--2">
         <div class="column padding-left-right--small">
             <label>Home Phone</label>
             <input type="number" name="h_phone" required>
@@ -59,9 +51,7 @@ layout: default
             <label>Cell Phone</label>
             <input type="number" name="c_phone" required>
         </div>
-    </div>
 
-    <div class="grid grid--2">
         <div class="column padding-left-right--small">
             <label>Date of birth</label>
             <input type="date" name="dob" required>
@@ -70,10 +60,7 @@ layout: default
             <label>Gender</label>
             <input type="text" name="gender" required>
         </div>
-    </div>
 
-
-    <div class="grid grid--2">
         <div class="column padding-left-right--small">
             <label>Plan to attend in</label>
             <input type="text" name="attend" placeholder="Fall 2017" required>
@@ -88,9 +75,12 @@ layout: default
         </div>
     </div>
     	
-
-    	<label>Additional Message</label>
-    	<textarea rows="4" required></textarea>
+    <div class="grid--1">
+    	<div class="column padding-left-right--small">
+            <label>Additional Message</label>
+            <textarea rows="4" required></textarea>
+        </div>
+    </div>
     <div>
     	<input class="button" type="submit" value="Send">
     </div>

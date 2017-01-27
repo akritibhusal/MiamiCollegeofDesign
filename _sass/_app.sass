@@ -118,6 +118,19 @@ a
 	@extend %padding-left-right-xlarge
 	@extend %padding-top-bottom-medium
 
+
+@media (max-width: $small-device-width)
+	.section
+		padding: $padding-large
+
+
+@media (max-width: $medium-device-width)
+	.section
+		padding-top: $padding-xlarge
+		padding-bottom: $padding-xlarge
+
+
+
 .icon
 	width: $icon-width
 
@@ -164,6 +177,9 @@ $anchor-line-height: 5rem !default
 	opacity: 0
 	transform: scale( 0.8 )
 	transform-origin: 15% 50%
+	
+	> .logo-2
+		display: none
 
 	> img
 		height: 54px
@@ -172,6 +188,19 @@ $anchor-line-height: 5rem !default
 	&.full-logo--opaque
 		transform: scale(1)
 		opacity: 1
+
+@media (max-width: 1024px)
+	.full-logo 
+		margin-left: 0
+		> .logo-1
+			display: none
+		
+		> .logo-2 
+			display: block
+
+
+
+
 
 .miami-logo
 	&.miami-logo--transparent
@@ -858,7 +887,7 @@ p
 		span
 			color: $light-gray-text
 		
-	[type="text"], [type="email"], [type="number"], [type="url"], [type="date"]
+	[type="text"], [type="email"], [type="number"], [type="url"], [type="date"], select, textarea
 		margin-bottom: 3rem
 		width: 90%
 
@@ -885,3 +914,70 @@ p
 
 	.block-content
 		margin-bottom: $padding-medium
+
+
+
+// Hide classes
+@media (max-width: $extra-small-device-width)
+	.#{$extra-small-device-prefix}
+		&-hide 
+			display: none
+
+		&-show 
+			display: block
+
+@media (max-width: $small-device-width)
+	.#{$small-device-prefix}
+		&-hide 
+			display: none
+
+		&-show 
+			display: block
+
+
+@media (max-width: $medium-device-width)
+	.#{$medium-device-prefix}
+		&-hide 
+			display: none
+
+		&-show 
+			display: block
+
+
+
+
+// Responsive Navigation
+
+.side-nav
+	display: none
+
+
+@media (max-width: $medium-device-width)
+	.side-nav
+		display: block
+		position: fixed
+		overflow-y: auto
+		max-height: 100%
+		max-width: 100%
+		width: 340px
+		margin: 0
+		background-color: $white
+		z-index: 1200
+
+		ul
+			list-style: none
+
+		> ul
+			padding-left: 1rem
+
+		.nav-link, .sub-nav a 
+			display: block
+			padding: 0.8rem 0
+
+		.sub-nav
+			padding-left: 1.5rem
+
+		.nav-title
+			font-weight: bold
+
+		
