@@ -14,8 +14,8 @@
             <img src="{{site.url}}/assets/img/iam-0.png" class="logo-2">
 
             </a>
-                <a href="{{site.url}}/index.html" class="nav-link {% if page.url == '/' or page.url == site.url page.title == 'Home'  %} active {% endif %}" id="home-nav"><span>Home<span></a>
-            </li>
+            <a href="{{site.url}}/index.html" class="nav-link {% if page.url == '/' or page.url == site.url page.title == 'Home'  %} active {% endif %}" id="home-nav"><span>Home<span></a>
+        </li>
         {% endif %}
     
         {% assign page_index = 0 %}
@@ -63,18 +63,30 @@
 </header>
 
 
+<header class="responsive-header main-header">
+    <div class="grid grid--2 padding-left-right--small">
+        <div class="column">
+            <a href="{{site.url}}/index.html"><img src="{{site.url}}/assets/img/logo-0.png" class="logo"></a>
+        </div>
+
+        <div class="column text--right">
+            <a href="#" id="js-menu">
+                <span class="menu-icon">Menu</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+
 <!-- duplicate -->
-<nav class="side-nav">{% capture html %}
+<nav class="side-nav" id="js-side-nav">{% capture html %}
+    <span class="cross" id="js-cancel"><img src="{{site.url}}/assets/img/cancel.png"/></span>
     <ul>
         {% if include.context == "/" %}
+        <li class="side-nav__logo__holder">
+            <img src="{{site.url}}/assets/img/logo-0.png" class="side-nav__logo">
+        </li>
         <li>
-            <a href="{{site.url}}/index.html" class="nav-link full-logo " id="logo_full">
-
-
-            <img src="{{site.url}}/assets/img/logo-0.png" class="logo-1">
-            <img src="{{site.url}}/assets/img/iam-0.png" class="logo-2">
-
-            </a>
                 <a href="{{site.url}}/index.html" class="nav-link nav-title {% if page.url == '/' or page.url == site.url page.title == 'Home'  %} active {% endif %}" id="home-nav"><span>Home<span></a>
             </li>
         {% endif %}
@@ -119,3 +131,7 @@
     </ul>
     {% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
     </nav>
+
+    <div class="nav-overlay" id="js-overlay">
+        
+    </div>

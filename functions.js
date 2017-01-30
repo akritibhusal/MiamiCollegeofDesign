@@ -77,12 +77,12 @@ $( document ).ready( function(){
 
 $( document ).ready( function(){
 	$('#event-carousel').owlCarousel({
-    margin:10,
-    nav:true,
-    items: 1,
-    navText: [ '<img src="assets/img/ic_prev.png" class="icon"/>', 
-    '<img src="assets/img/ic_next.png" class="icon"/>']
-})
+		margin:10,
+		nav:true,
+		items: 1,
+		navText: [ '<img src="assets/img/ic_prev.png" class="icon"/>', 
+		'<img src="assets/img/ic_next.png" class="icon"/>']
+	})
 });
 
 
@@ -106,7 +106,29 @@ $( document ).ready( function(){
 	$(".side-menu a ").click(function(){
 		$(".side-menu").removeClass("active");
 	    $(this).parent().addClass("active");
-	    console.log( 'clicked');
+	});
+
+
+	// Hamburger Menu trigger
+
+	function handleMenu( navContainer, toggleClass){
+		if( navContainer.hasClass(toggleClass)){
+			navContainer.removeClass(toggleClass);
+		} else {
+			navContainer.addClass(toggleClass);
+		}
+	}
+
+	var SIDE_NAV = $('#js-side-nav');
+	$('#js-menu').click( function(){
+		handleMenu(SIDE_NAV, 'active');
+	});
+	$('#js-cancel').click( function(){
+		handleMenu(SIDE_NAV, 'active');
+	});
+
+	$('#js-overlay').click( function(){
+		handleMenu(SIDE_NAV, 'active');
 	});
 });
 
@@ -127,11 +149,12 @@ $(document).ready( function(){
 		"maxTweets": 1
 	}
 
-	twitterFetcher.fetch(configProfile);
+	if( TWITTER_CONTAINER.length == 1 ){
+		twitterFetcher.fetch(configProfile);
+	}
 
 	function handleTweets(tweets) {
 		tweet = tweets[0];
-		console.log( tweet );
 		TWEET_TEXT.innerHTML = tweet.tweet;
 
 		if( tweet.image ){

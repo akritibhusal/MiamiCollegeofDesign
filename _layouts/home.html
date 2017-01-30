@@ -115,7 +115,7 @@ layout: default-page
 				<div class="aspect-ratio aspect-ratio--1 sm-aspect-ratio--auto">
 					<div class="block-content block-content--padded">
 						<div class="table table--cover overflow--hide bg--twitter-card twitter-card" id="twitter_container">
-							<div class="half-triangle dim"></div>
+							<div class="half-triangle md--hide dim"></div>
 							<div class="va--middle table-cell table--cover text--white text--center padding--medium">
 								<img src="{{site.url}}/assets/img/ic_twitter.png"/>
 								<p class="tweet">Miami Design School On Twitter</p>
@@ -196,7 +196,7 @@ layout: default-page
 </div>
 
 <div id="about_four_image" class="reveal large" data-reveal >
-	<div class="grid grid--2">
+	<div class="grid grid--2 md-grid--1">
 		<div class="column">
 			<img src="{{item.four_image}}">
 		</div>
@@ -211,7 +211,7 @@ layout: default-page
 </div>
 
 <div id="about_one_image" class="reveal large" data-reveal>
-	<div class="grid grid--2">
+	<div class="grid grid--2 md-grid--1">
 		<div class="column padding-right--xlarge">
 			<img src="{{item.one_image}}">
 		</div>
@@ -220,10 +220,13 @@ layout: default-page
 			{{item.one_image_description | markdownify}}
 		</div>
 	</div>
+	<button class="close-button" data-close aria-label="Close modal" type="button">
+		<span aria-hidden="true">&times;</span>
+	</button>
 </div>
 
 	<div id="about_two_image" class="reveal large" data-reveal>
-		<div class="grid grid--2">
+		<div class="grid grid--2 md-grid--1">
 			<div class="column padding-right--xlarge">
 				<img src="{{item.two_image}}">
 			</div>
