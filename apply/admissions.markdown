@@ -3,14 +3,14 @@ title: Admissions
 date: 2016-12-02 14:08:00 Z
 permalink: "/apply/admissions/"
 position: 0
+sidemenu:
+  determine: Admission Requirements and Procedures
+  requirements: Admission Requirements
 one_image: "/uploads/eye.png"
 two_image: "/uploads/blueprint.jpg"
 header_image: "/uploads/about_featured.png"
 header_title: Admissions
 header_subtitle: Admission Requirements and Procedures
-sidemenu:
-  determine: Admission Requirements and Procedures
-  requirements: Admission Requirements
 ---
 
 ## DETERMINE IF MIAMI COLLEGE OF DESIGN IS FOR YOU
@@ -64,7 +64,6 @@ You may be in your junior or senior year in high school thinking about college. 
 * Courses that develop visual and design skills (such as studio drawing) are strongly recommended as well as algebra, geometry and trigonometry and one year of science.
 
 {:.sep--line}
-&nbsp;
 
 ![img_student.jpg](/uploads/img_student.jpg){:.float-left.img--small}
 
