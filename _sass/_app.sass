@@ -880,6 +880,9 @@ p
 	[type="text"], [type="email"], textarea
 		margin-bottom: 3rem
 		width: 70%
+	
+	.contact-message
+		width: 85%
 
 .info-form
 	label
@@ -896,6 +899,16 @@ p
 
 	textarea
 		width: 100%
+
+.indicates-required
+	margin-bottom: 2rem
+
+.response
+	padding: 2rem 1rem
+	background-color: #DAFDC7
+	border: 1px solid #9DDB7C
+	border-radius: 4px
+	margin-bottom: 2rem
 
 .select-program
 	font-weight: bold
@@ -1015,10 +1028,14 @@ p
 		z-index: 1200
 		transform: translateX( 100% )
 		box-shadow: none
-		transition: transform 300ms ease-in-out, box-shadow 300ms ease-in-out
+		opacity: 0
+		transition: transform 300ms ease-in-out, box-shadow 300ms ease-in-out, opacity 3s, ease-in-out
 
 		&.active
 			transform: translateX( 0 )
+			opacity: 1
+			transition: transform 300ms ease-in-out, box-shadow 300ms ease-in-out, opacity 1ms, ease-in-out
+
 
 
 			& + .nav-overlay
