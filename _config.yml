@@ -1,6 +1,6 @@
 ---
 title: Miami College of Design
-timezone: UTC
+timezone: America/New_York
 collections:
   events:
     title: Events
@@ -82,10 +82,11 @@ defaults:
     news_date: ''
     news_image: ''
 repository: git@github.com:oxmint/miami.git
-email: your-email@domain.com
-description: 
-twitter_username: jekyllrb
-github_username: jekyll
+email: hello@miamicollegeofdesign.com
+description: The super wonderful cool homepage for the Miami College of Design in
+  Wynwood
+twitter_username: iam_mcod
+github_username: walterbender
 markdown: kramdown
 theme: minima
 gems:
