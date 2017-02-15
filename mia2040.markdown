@@ -1,7 +1,10 @@
 ---
 title: MIAMI 2040
 date: 2017-02-15 20:41:00 Z
+published: false
 ---
+
+<img src="/uploads/miami2040.png">
 
 #ADAPTING TO CLIMATE CHANGE THROUGH DESIGN#
 
