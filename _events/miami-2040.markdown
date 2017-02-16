@@ -9,6 +9,7 @@ tags:
 - global warming
 event_date: 2017-03-03 19:00:00 -05:00
 event_image: "/uploads/miami2040.png"
+layout: events
 ---
 
 # ADAPTING TO CLIMATE CHANGE THROUGH DESIGN
