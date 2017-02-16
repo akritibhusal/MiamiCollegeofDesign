@@ -1,6 +1,7 @@
 ---
 title: MIAMI 2040
 date: 2017-02-15 15:41:00 -05:00
+published: false
 position: 0
 navbar_logo: "/uploads/miami%20logo1.png"
 one_image: "/uploads/1_Page_1_Image_0001.png"
@@ -16,7 +17,7 @@ MIAMI 2040 is an unprecedented opportunity for Miami’s youth to engage in solv
 
 # MANAGING THE UNAVOIDABLE IN MIAMI #
 
-For the third year in a row, a new record for global temperature was set: 2016 was the hottest year ever recorded. Climate change is not just an abstract problem for future generations; it is happening now. Coastal populations are among the most vulnerable, and South Florida arguably faces the most pointed risks of any region in the United States for sea-level rise, storm surge, and intensification of hurricanes. As residents of South Florida, we cannot afford to wait for others to fix a problem as complex, massive, and pressing as climate change. We need to take local action.
+For the third year in a row, a new record for global temperature was set: 2016 was the hottest year ever recorded. Climate change is not just an abstract problem for future generations; it is happening now. Coastal populations are among most vulnerable, and South Florida arguably faces the most pointed risks of any region in the United States for sea-level rise, storm surge, and intensification of hurricanes. As residents of South Florida, we cannot afford to wait for others to fix a problem as complex, massive, and pressing as climate change. We need to take local action.
 
 {:.sep--line}
 
@@ -28,7 +29,7 @@ Every Saturday morning in March and the first half of April, students will gathe
 
 At the 4 March workshop, students will work with a data scientist, applying models to data from the National Oceanic and Atmospheric Administration (NOAA), National Aeronautics and Space Administration (NASA), and the private sector in order to define the conditions and specific risks that the City of Miami will face in 2040.
 
-In subsequent workshops, the faculty of the Miami College of Design will apply the college’s philosophy of practical learning—learning-by-doing. Students will drive the conversation by identifying the problems they want to work on, self-selecting into design teams, which will be led through a process of discovery, framing, and prototyping, culminating in a design proposal.
+In subsequent workshops, the faculty of the Miami College of Design will apply the college’s philosophy of practical learning—learning-by-doing. Students will drive the conversation by identifying the problems they want to work on, self-selecting into design teams, which will be lead through a process of discovery, framing, and prototyping, culminating in a design proposal.
 
 The workshop series will cover the following topics:
 
@@ -46,13 +47,13 @@ The workshop series will cover the following topics:
 
 # A PRACTICAL LESSON IN DESIGNING FOR THE FUTURE #
 
-At the end of the workshops, the students will have the opportunity to develop a presentation of their project proposals. At the end of June, they will present their projects to two hundred and fifty (250) mayors from around the U.S. at the opening reception to the Mayor’s Convention hosted in the City of Miami Beach this year. They will also present their project proposals to Miami-Dade public officials.
+At the end of the workshops, the students will have the opportunity to develop a presentation of their project proposals. At the end of June, they will present their projects at Deep Sea, a two-week public art installation. They will also present their project proposals to Miami-Dade public officials.
 
 {:.sep--line}
 
 ## STUDENT RECRUITMENT ##
 
-Miami College of Design aspires to engage local high schools, colleges, and community-support organizations in its design process with the goal of informing potential students of the opportunity to study at the College. Miami College of Design faculty members will host a series of portfolio workshops through March and April to help students prepare their applications to the college, which are portfolio-based. The Dean of Students will also help direct students towards the needs-based scholarship program, which provides up to 90% of tuition for qualified full-time students.
+Miami College of Design aspires to engage local high schools, colleges, and community-support organizations in its design process with the goal of the informing potential students of the opportunity to study at the College. Miami College of Design faculty members will host a series of portfolio workshops through March and April to help students prepare their applications to the college, which are portfolio-based. The Dean of Students will also help direct students towards the needs-based scholarship program, which provides up to 90% of tuition for full-time students.
 
 {:.sep--line}
 
