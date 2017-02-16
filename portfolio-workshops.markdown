@@ -16,7 +16,7 @@ layout: default
 **WHAT**
 As your personal portfolio is the key criterion for admission to the College, we offer a series of workshops on how to develop your portfolio. We suggest you take advantage of this resource, come meet the team, and ask your questions.
 
-#[SIGN-UP](http://twitter.us13.list-manage1.com/subscribe?u=22ea9a71440103660b3899d3f&id=d788a70a98)#
+[SIGN-UP](http://twitter.us13.list-manage1.com/subscribe?u=22ea9a71440103660b3899d3f&id=d788a70a98)
 
 **WHERE**
 
