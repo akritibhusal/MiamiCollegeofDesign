@@ -1,7 +1,6 @@
 ---
 title: MIAMI 2040
 date: 2017-02-15 15:41:00 -05:00
-published: false
 navbar_logo: "/uploads/miami%20logo1.png"
 one_image: "/uploads/1_Page_1_Image_0001.png"
 two_image: "/uploads/1_Page_2_Image_0001.png"
