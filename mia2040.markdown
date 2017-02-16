@@ -27,7 +27,7 @@ Every Saturday morning in March and the first half of April, students will gathe
 
 At the 4 March workshop, students will work with a data scientist, applying models to data from the National Oceanic and Atmospheric Administration (NOAA), National Aeronautics and Space Administration (NASA), and the private sector in order to define the conditions and specific risks that the City of Miami will face in 2040.
 
-In subsequent workshops, the faculty of the Miami College of Design will apply the college’s philosophy of practical learning—learning-by-doing. Students will drive the conversation by identifying the problems they want to work on, self-selecting into design teams, which will be lead through a process of discovery, framing, and prototyping, culminating in a design proposal.
+In subsequent workshops, the faculty of the Miami College of Design will apply the college’s philosophy of practical learning—learning-by-doing. Students will drive the conversation by identifying the problems they want to work on, self-selecting into design teams, which will be led through a process of discovery, framing, and prototyping, culminating in a design proposal.
 
 The workshop series will cover the following topics:
 
