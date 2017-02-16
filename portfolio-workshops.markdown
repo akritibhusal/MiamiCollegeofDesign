@@ -13,26 +13,25 @@ header_subtitle: ABOUT THE PORTFOLIO WORKSHOPS
 layout: default-page
 ---
 
-** WHAT **
+**WHAT**
 As your personal portfolio is the key criterion for admission to the College, we offer a series of workshops on how to develop your portfolio. We suggest you take advantage of this resource, come meet the team, and ask your questions.
 
-[SIGN-UP](http://twitter.us13.list-manage1.com/subscribe?u=22ea9a71440103660b3899d3f&id=d788a70a98)
+#[SIGN-UP](http://twitter.us13.list-manage1.com/subscribe?u=22ea9a71440103660b3899d3f&id=d788a70a98)#
 
-** WHERE **
+**WHERE**
 
-*** The portfolio workshops will be held at: ***
+***The portfolio workshops will be held at:***
 
-** LAB Miami **
+**The LAB Miami**
 
 400 NW 26th St.
 
 Miami, FL 33127
 
-** WHEN **
+**WHEN**
 
-*** Portfolio sessions are offered on: ***
+***Portfolio sessions are offered on:***
 
 02/15, 03/01, 03/15, 03/29, 04/12, and 04/26 from 4–8 PM 
 and 
 5/13 from 9AM–5PM
-
