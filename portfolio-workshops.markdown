@@ -10,7 +10,7 @@ two_image: "/uploads/portfolio4.jpg"
 header_image: "/uploads/portfolio.jpg"
 header_title: PORTFOLIO WORKSHOPS
 header_subtitle: ABOUT THE PORTFOLIO WORKSHOPS
-layout: default-page
+layout: default
 ---
 
 **WHAT**
