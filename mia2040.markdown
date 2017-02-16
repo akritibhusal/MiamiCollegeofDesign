@@ -5,7 +5,7 @@ published: false
 navbar_logo: "/uploads/miami%20logo1.png"
 one_image: "/uploads/1_Page_1_Image_0001.png"
 two_image: "/uploads/1_Page_2_Image_0001.png"
-header_image: "/uploads/miami2040sq.png"
+header_image: "/uploads/evanimages_Page_1_Image_0002.png"
 header_title: MIAMI 2040
 header_subtitle: ADAPTING TO CLIMATE CHANGE THROUGH DESIGN
 ---
