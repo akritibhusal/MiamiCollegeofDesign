@@ -39,7 +39,7 @@ The workshop series will cover the following topics:
 * DOCUMENTATION AND PRESENTATION OF DESIGNS TO CLIENTS
 
 
-# EXPECTED OUTCOMES
+### EXPECTED OUTCOMES
 ## A PRACTICAL LESSON IN DESIGNING FOR THE FUTURE
 
 At the end of the workshops, the students will have the opportunity to develop a presentation of their project proposals. At the end of June, they will present their projects to two hundred and fifty (250) mayors from around the U.S. at the opening reception to the Mayor’s Convention hosted in the City of Miami Beach this year. They will also present their project proposals to Miami-Dade public officials.
