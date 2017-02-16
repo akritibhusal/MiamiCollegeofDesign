@@ -15,7 +15,8 @@ layout: events
 # ADAPTING TO CLIMATE CHANGE THROUGH DESIGN
 
 MIAMI 2040 is an unprecedented opportunity for Miami’s youth to engage in solving the problems of the future city they will inhabit. Miami College of Design and high school students from South Florida will design solutions for the most daunting challenges for South Florida facing the next generation. At the end of a series of workshops, in which the students will have worked in teams with world-renowned industrial designers, their proposed solutions will be presented in June at the Deep Sea, a two-week public art installation on the shores of Miami Beach, adjacent to the US Conference of Mayors.
-MANAGING THE UNAVOIDABLE IN MIAMI
+
+# MANAGING THE UNAVOIDABLE IN MIAMI
 
 For the third year in a row, a new record for global temperature was set: 2016 was the hottest year ever recorded. Climate change is not just an abstract problem for future generations; it is happening now. Coastal populations are among most vulnerable, and South Florida arguably faces the most pointed risks of any region in the United States for sea-level rise, storm surge, and intensification of hurricanes. As residents of South Florida, we cannot afford to wait for others to fix a problem as complex, massive, and pressing as climate change. We need to take local action.
 
@@ -48,6 +49,8 @@ At the end of the workshops, the students will have the opportunity to develop a
 ### STUDENT RECRUITMENT
 
 Miami College of Design aspires to engage local high schools, colleges, and community-support organizations in its design process with the goal of the informing potential students of the opportunity to study at the College. Miami College of Design faculty members will host a series of portfolio workshops through March and April to help students prepare their applications for the college, which are portfolio-based. The Dean of Students will also help direct students towards the needs-based scholarship program, which provides up to 90% of tuition for full-time students.
+
+{:.sep--line}
 
 FOR MORE INFORMATION:
 
