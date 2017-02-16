@@ -4,9 +4,12 @@ date: 2016-12-02 09:08:00 -05:00
 permalink: "/apply/admissions/"
 position: 0
 sidemenu:
-  determine: Admission Requirements and Procedures
-  requirements: Admission Requirements
+  sidemenu_link_ID: ADMISSIONS
+  procedures: PROCEDURES
+  requirements: REQUIREMENTS
   checklist: APPLICATION CHECKLIST
+  dates: IMPORTANT DATES
+  credits: CREDIT HOURS
 navbar_logo: "/uploads/miami%20logo1.png"
 one_image: "/uploads/eye.png"
 two_image: "/uploads/blueprint.jpg"
@@ -16,7 +19,7 @@ header_subtitle: Admission Requirements and Procedures
 ---
 
 ## DETERMINE IF MIAMI COLLEGE OF DESIGN IS FOR YOU 
-{:#determine}
+{:#procedures}
 
 You may be in your junior or senior year in high school thinking about college. Or, you might be in the workplace considering another career or how to enhance your current opportunities in Industrial Design. Therefore, ask yourself if you are ready to join a class of students who will work as a team on a series of interdisciplinary specialties (Robotics, Marine Science, Sports Technology, Transportation Design, and more). We seek individuals who have the training, stamina, and passion for a rigorous, immersive program. We seek students who can add useful and intriguing elements to the team, from a sense of humor to compelling work experiences to a wide range of individual gifts, talents, interests, and achievements. Our ideal and diverse team includes capable people who will support, surprise, and inspire each other. Is this you?
 
@@ -44,7 +47,6 @@ You may be in your junior or senior year in high school thinking about college. 
 
 ## ADMISSIONS REQUIREMENTS
 {:#requirements}
-
 ![img_student.jpg](/uploads/img_student.jpg){:.float-right.img--small}
 
 1.  You must be at least 16 years of age at the time of enrollment; 
@@ -59,6 +61,8 @@ You may be in your junior or senior year in high school thinking about college. 
 
 Results of the SAT Reasoning Test or the ACT (American College Testing program) are not required for admission to the Miami College of Design.
 
+{:.sep--line}
+
 ## CONTACTING THE OFFICE OF ADMISSIONS
 
 You can contact us by email at:
@@ -68,8 +72,11 @@ You can contact us by email at:
 or through regular mail to:
 
 Office of Admissions
+
 Miami College of Design
+
 7950 NW 53rd St. Suite 337
+
 Miami, FL 33166
 
 {:.sep--line}
@@ -112,7 +119,8 @@ The application fee may be waived on a case-by-case basis. Please contact the Of
 {:.sep--line}
 
 ## IMPORTANT DATES
-
+{:#dates}
+![application-timeline.png](/uploads/application-timeline.png)
 
 {:.sep--line}
 
