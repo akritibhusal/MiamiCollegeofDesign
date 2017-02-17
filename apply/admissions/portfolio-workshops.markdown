@@ -61,7 +61,13 @@ Wednesday, April 12, 4–8 PM
 Wednesday, April 26, 4–8 PM
 
 
-Saturday, May 13: All-day Portfolio Workshop Marathon (9AM -5PM)
+Saturday, May 13: All-day Portfolio Workshop Marathon
+(9AM -5PM)
+
+
+
+{:.sep--line}
+
 
 We suggest you take advantage of this resource, come meet the team, and ask your questions.
 
