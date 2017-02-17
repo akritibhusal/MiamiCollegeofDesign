@@ -21,19 +21,17 @@ layout: default
 
 {:.sep--line}
 
+![20100515220029006_0001 - Copy.png](/uploads/20100515220029006_0001%20-%20Copy.png){:.float-right.img--small}
 
 # WHAT
 {:#what}
 
 As your personal portfolio is the key criterion for admission to the College, we offer a series of workshops on how to develop your portfolio. 
 
-![20100515220029006_0001 - Copy.png](/uploads/20100515220029006_0001%20-%20Copy.png){:.float-right.img--small}
+![20100515214334775_0001.png](/uploads/20100515214334775_0001.png){:.float-right.img--small}
 
 
 {:.sep--line}
-
-
-![20100515214334775_0001.png](/uploads/20100515214334775_0001.png){:.float-right.img--small}
 
 # WHERE
 {:#where}
@@ -50,14 +48,13 @@ Miami, FL 33127
 
 {:.sep--line}
 
+![20100515214313700_0001.png](/uploads/20100515214313700_0001.png){:.float-right.img--small}
 
 # WHEN
 {:#when}
 
 ***Portfolio sessions are offered on:***
 02/15, 03/01, 03/15, 03/29, 04/12, and 04/26 from 4–8 PM and  5/13 from 9AM–5PM
-
-![20100515214313700_0001.png](/uploads/20100515214313700_0001.png){:.float-right.img--small}
 
 We suggest you take advantage of this resource, come meet the team, and ask your questions.
 
