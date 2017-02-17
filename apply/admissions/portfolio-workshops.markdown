@@ -52,7 +52,13 @@ Miami, FL 33127
 {:#when}
 
 ***Portfolio sessions are offered on:***
-02/15, 03/01, 03/15, 03/29, 04/12, and 04/26 from 4–8 PM and  5/13 from 9AM–5PM
+Wednesday, March 1, 4–8 PM
+Wednesday, March 15, 4–8 PM
+Wednesday, March 29, 4–8 PM
+Wednesday, April 12, 4–8 PM
+Wednesday, April 26, 4–8 PM
+
+Saturday, May 13: All-day Portfolio Workshop Marathon (9AM -5PM)
 
 We suggest you take advantage of this resource, come meet the team, and ask your questions.
 
