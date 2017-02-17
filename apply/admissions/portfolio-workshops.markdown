@@ -16,30 +16,27 @@ header_subtitle: ABOUT THE PORTFOLIO WORKSHOPS
 layout: default
 ---
 
-When you’re applying for a degree in any area of Design we will want to see a portfolio of your recent work to help us assess your suitability for the degree you have applied for.
+**When you’re applying for a degree in any area of Design we will want to see a portfolio of your recent work to help us assess your suitability for the degree you have applied for.**
 
 ![20100515220029006_0001 - Copy.png](/uploads/20100515220029006_0001%20-%20Copy.png){:.float-right.img--small}
 
 {:.sep--line}
 
 
-*WHAT*
+# WHAT
 {:#what}
 
 As your personal portfolio is the key criterion for admission to the College, we offer a series of workshops on how to develop your portfolio. 
 
-![20100515220029006_0001 - Copy.png](/uploads/20100515220029006_0001%20-%20Copy.png)
+![20100515220029006_0001 - Copy.png](/uploads/20100515220029006_0001%20-%20Copy.png){:.float-right.img--small}
 
-We suggest you take advantage of this resource, come meet the team, and ask your questions.
-
-[SIGN-UP](http://twitter.us13.list-manage1.com/subscribe?u=22ea9a71440103660b3899d3f&id=d788a70a98)
 
 {:.sep--line}
 
 
 ![20100515214334775_0001.png](/uploads/20100515214334775_0001.png){:.float-right.img--small}
 
-*WHERE*
+# WHERE
 {:#where}
 
 ***The portfolio workshops will be held at:***
@@ -55,10 +52,14 @@ Miami, FL 33127
 {:.sep--line}
 
 
-*WHEN*
+# WHEN
 {:#when}
 
 ***Portfolio sessions are offered on:***
 02/15, 03/01, 03/15, 03/29, 04/12, and 04/26 from 4–8 PM and  5/13 from 9AM–5PM
 
 ![20100515214313700_0001.png](/uploads/20100515214313700_0001.png){:.float-right.img--small}
+
+We suggest you take advantage of this resource, come meet the team, and ask your questions.
+
+# [SIGN-UP](http://twitter.us13.list-manage1.com/subscribe?u=22ea9a71440103660b3899d3f&id=d788a70a98)
