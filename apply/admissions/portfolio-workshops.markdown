@@ -18,7 +18,6 @@ layout: default
 
 **When you’re applying for a degree in any area of Design we will want to see a portfolio of your recent work to help us assess your suitability for the degree you have applied for.**
 
-![20100515220029006_0001 - Copy.png](/uploads/20100515220029006_0001%20-%20Copy.png){:.float-right.img--small}
 
 {:.sep--line}
 
