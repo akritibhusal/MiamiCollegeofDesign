@@ -16,17 +16,14 @@ header_subtitle: ABOUT THE PORTFOLIO WORKSHOPS
 layout: default
 ---
 
-**When you’re applying for a degree in any area of Design we will want to see a portfolio of your recent work to help us assess your suitability for the degree you have applied for.**
-
+![20100515220029006_0001 - Copy.png](/uploads/20100515220029006_0001%20-%20Copy.png){:.float-right.img--small}
 
 {:.sep--line}
-
-![20100515220029006_0001 - Copy.png](/uploads/20100515220029006_0001%20-%20Copy.png){:.float-right.img--small}
 
 # WHAT
 {:#what}
 
-As your personal portfolio is the key criterion for admission to the College, we offer a series of workshops on how to develop your portfolio. 
+When applying for a degree in any area of design, you will undoubtedly be asked for a personal portfolio of your recent work, which will be used as a key criterion of assessment. At Miami College of Design, we offer a series of workshops on how to develop your personal portfolio.
 
 ![20100517211837051_0001.png](/uploads/20100517211837051_0001.png){:.float-right.img--small}
 
@@ -52,11 +49,17 @@ Miami, FL 33127
 {:#when}
 
 ***Portfolio sessions are offered on:***
+
 Wednesday, March 1, 4–8 PM
+
 Wednesday, March 15, 4–8 PM
+
 Wednesday, March 29, 4–8 PM
+
 Wednesday, April 12, 4–8 PM
+
 Wednesday, April 26, 4–8 PM
+
 
 Saturday, May 13: All-day Portfolio Workshop Marathon (9AM -5PM)
 
