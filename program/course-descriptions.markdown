@@ -1,8 +1,8 @@
 ---
 title: Course Descriptions
-date: 2016-12-02 13:57:00 Z
+date: 2016-12-02 08:57:00 -05:00
 permalink: "/program/course-descriptions/"
-position: 2
+position: 3
 sidemenu:
   inddesign: Industrial Design
   maths: Mathematics
