@@ -232,6 +232,10 @@ $anchor-line-height: 5rem !default
 			vertical-align: top
 			@extend %font-size-s
 			@extend .bold !optional
+			
+			
+
+
 
 			&:first-child a
 				&:hover
@@ -283,6 +287,10 @@ $anchor-line-height: 5rem !default
 				box-shadow: 0 4px $miami-blue inset
 				display: inline-block
 				line-height: $anchor-line-height
+
+
+.footer-main-nav > ul > li:nth-child(1n) a.nav-link.active > span
+	box-shadow: none
 
 .sub-nav
 	margin: 0
@@ -496,6 +504,12 @@ $anchor-line-height: 5rem !default
 
 
 // Footer
+footer
+	background-color: #fafafa
+	margin-top: 4rem
+	padding: 2rem 0
+
+
 .footer-nav
 	margin-bottom: $padding-medium
 

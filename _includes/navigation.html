@@ -1,12 +1,14 @@
+{% assign home_tag = '<!--home_tag-->' %}
 <header class="main-header md--hide" id="main-header">
         {% assign entries = site.pages | sort: "position" %}
         {% assign counter = '' %}
         {% assign page_index = 0 %}
 <div class="grid grid--1">
     <nav class="main-nav">{% capture html %}
-    <ul>
+    <ul class="grid grid--5 sm-grid--2">
         {% if include.context == "/" %}
-        <li>
+        <li class="column">
+
             <a href="{{site.url}}/index.html" class="nav-link full-logo " id="logo_full">
 
 
@@ -15,6 +17,8 @@
 
             </a>
             <a href="{{site.url}}/index.html" class="nav-link {% if page.url == '/' or page.url == site.url page.title == 'Home'  %} active {% endif %}" id="home-nav"><span>Home<span></a>
+
+            {{home_tag}}
         </li>
         {% endif %}
     
@@ -32,8 +36,8 @@
             {% if current == include.context %}
                 {% assign counter = counter | append: 'x' %}
                 
-                <li>
-                    <a class="nav-link {% if page.url contains active_test %}active  {% assign page_index = counter.size %}    {% endif %}" href="{{ site.baseurl }}{{ entry.url }}"><span>{{ entry.title }}</span></a>
+                <li class="column">
+                    <a class="nav-link " href="{{ site.baseurl }}{{ entry.url }}"><span>{{ entry.title }}</span></a>
                     {% include sub-navigation.html context=entry.url %}
             {% if forloop.last == true %}
 
@@ -79,57 +83,19 @@
 
 
 <!-- duplicate -->
-<nav class="side-nav" id="js-side-nav">{% capture html %}
+<nav class="side-nav" id="js-side-nav">
     <span class="cross" id="js-cancel"><img src="{{site.url}}/assets/img/cancel.png"/></span>
     <ul>
         {% if include.context == "/" %}
         <li class="side-nav__logo__holder">
             <img src="{{site.url}}/assets/img/logo-0.png" class="side-nav__logo">
         </li>
-        <li>
-                <a href="{{site.url}}/index.html" class="nav-link nav-title {% if page.url == '/' or page.url == site.url page.title == 'Home'  %} active {% endif %}" id="home-nav"><span>Home<span></a>
-            </li>
+
         {% endif %}
     
-        {% assign page_index = 0 %}
-        {% assign counter = '' %}    
-        {% for entry in entries %}
-
-    
-            {% capture slug    %}{{ entry.url | split: "/"   | last                       }}{% endcapture %}
-            {% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
-    
-             {% assign active_test = entry.url | remove: "/" %}
-            
-
-            {% if current == include.context %}
-                {% assign counter = counter | append: 'x' %}
-                
-                <li>
-                    <a class="nav-link nav-title {% if page.url contains active_test %}active  {% assign page_index = counter.size %}    {% endif %}" href="{{ site.baseurl }}{{ entry.url }}"><span>{{ entry.title }}</span></a>
-                    {% include sub-navigation.html context=entry.url %}
-            {% if forloop.last == true %}
-
-                <div class="social">
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                    <a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
-                    
-                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>   
-                    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                </div>
-                <div class="subscribe">
-                    <input type="text" placeholder="Subscribe Newsletter">
-                    <button class="subscribe__button"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-                </div>
-            {% endif %}
-                </li>
-
-            {% endif %}
-    
-        {% endfor %}
-        
+        {{html | replace:'<ul class="grid grid--5 sm-grid--2">','<ul>' | replace:'<li class="column">','<li>'}}
     </ul>
-    {% endcapture %}{{ html | strip_newlines | replace:'    ','' | replace:'    ','' | replace:'  ',' ' }}
+    
     </nav>
 
     <div class="nav-overlay" id="js-overlay">
