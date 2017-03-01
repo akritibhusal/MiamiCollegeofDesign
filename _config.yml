@@ -29,7 +29,6 @@ defaults:
     type: pages
   values:
     layout: default
-    facebook_pixel_code: ''
 - scope:
     path: ''
     type: posts
