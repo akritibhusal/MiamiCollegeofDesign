@@ -1,6 +1,6 @@
 ---
 title: Financial Aid
-date: 2016-12-02 14:09:00 Z
+date: 2016-12-02 09:09:00 -05:00
 permalink: "/apply/financial-aid/"
 position: 1
 sidemenu:
