@@ -1,7 +1,7 @@
 ---
 title: Home
-date: 2017-02-08 15:28:00 Z
-position: 1
+date: 2017-02-08 10:28:00 -05:00
+position: 0
 layout: home
 ---
 

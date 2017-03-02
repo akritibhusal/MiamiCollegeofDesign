@@ -1,8 +1,8 @@
 ---
 title: About
-date: 2016-12-02 14:11:00 Z
+date: 2016-12-02 09:11:00 -05:00
 permalink: "/people/about/"
-position: 0
+position: 3
 sidemenu:
   history: History
   mission: Mission
