@@ -2,7 +2,7 @@
 title: Apply
 date: 2016-12-02 08:25:00 -05:00
 permalink: "/apply/"
-position: 3
+position: 4
 sidemenu:
   determine: Admission Requirements and Procedures
   requirements: Admission Requirements
