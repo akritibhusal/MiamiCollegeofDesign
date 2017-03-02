@@ -2,7 +2,7 @@
 title: Program
 date: 2016-12-02 05:01:00 -05:00
 permalink: "/program/"
-position: 2
+position: 0
 sidemenu:
   bsid: Industrial Design - Bachelor of Science (B.S.)
   idas: Industrial Design Associate of Science (A.S.)
