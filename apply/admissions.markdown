@@ -2,7 +2,7 @@
 title: Admissions
 date: 2016-12-02 09:08:00 -05:00
 permalink: "/apply/admissions/"
-position: 2
+position: 0
 sidemenu:
   sidemenu_link_ID: ADMISSIONS
   procedures: PROCEDURES
