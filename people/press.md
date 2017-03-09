@@ -1,7 +1,7 @@
 ---
 title: Press
-date: 2016-12-02 10:01:00 Z
-permalink: "/people/press/"
+date: 2016-12-02 05:01:00 -05:00
+permalink: "/program/press/"
 position: 6
 layout: press
 ---
