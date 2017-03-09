@@ -2,7 +2,7 @@
 title: Contact Us
 date: 2016-12-02 08:49:00 -05:00
 permalink: "/contact/"
-position: 6
+position: 7
 header_image: "/uploads/Building-North.jpg"
 header_title: Contact Us
 layout: contact
