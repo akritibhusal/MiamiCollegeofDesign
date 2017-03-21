@@ -1,12 +1,11 @@
 ---
 title: Footer Links
-date: 2017-01-23 10:04:00 Z
-academic_policies: "#"
-standards_of _conduct: "#"
-blog: "#"
-contact_us: "#"
-terms_of_use: "#"
-privacy_policy: "#"
-cookies: "#"
+date: 2017-01-23 05:04:00 -05:00
+Facebook: http://facebook.com/miamicollegeofdesign
+Twitter: http://twitter.com/iam_mcod
+Instagram: http://instagram.com/miamicollegeofdesign
+Google+: https://plus.google.com/b/101318520222028561228/101318520222028561228
+Snapchat: https://www.snapchat.com/add/iam_mcod
+Github: https://github.com/MiamiCollegeDesign
 ---
 
