@@ -1,4 +1,3 @@
-{% assign home-item = site.home-page.page-items %}
 {% assign home_tag = '<!--home_tag-->' %}
 <header class="main-header md--hide" id="main-header">
         {% assign entries = site.pages | sort: "position" %}
@@ -11,11 +10,12 @@
         {% if include.context == "/" %}
         <li class="column">
 
+                {% assign item = site.home-page.page-items %}
             <a href="{{site.url}}/index.html" class="nav-link full-logo " id="logo_full">
 
-
-            <img src="{{home-item.navbar_logo}}" class="logo-1">
-            <img src="{{home-item.navbar_logo}}" class="logo-2">
+            this is {{item.navbar_logo}}
+            <img src="{{item.navbar_logo}}" class="logo-1">
+            <img src="{{item.navbar_logo}}" class="logo-2">
 
             </a>
             <a href="{{site.url}}/index.html" class="nav-link {% if page.url == '/' or page.url == site.url page.title == 'Home'  %} active {% endif %}" id="home-nav"><span>Home<span></a>
