@@ -40,8 +40,8 @@ defaults:
     path: ''
     type: home_page
   values:
-    navbar_logo: ''
-    responsive_logo: ''
+    navbar_logo: '/uploads/logo-0.png'
+    responsive_logo: '/uploads/iam-0.png'
     intro_title: We support future leaders in design and innovation.
     intro_bg_image: ''
     one_image: ''
@@ -63,7 +63,6 @@ defaults:
   values:
     sidemenu:
       sidemenu_link_ID: Title for sidemenu
-    navbar_logo: "/uploads/logo.png"
     one_image: "/uploads/eye.png"
     two_image: "/uploads/blueprint.jpg"
     header_image: "/uploads/about_featured.png"

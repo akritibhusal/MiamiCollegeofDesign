@@ -1,8 +1,10 @@
+{% assign home-item = site.home-page.page-items %}
 {% assign home_tag = '<!--home_tag-->' %}
 <header class="main-header md--hide" id="main-header">
         {% assign entries = site.pages | sort: "position" %}
         {% assign counter = '' %}
         {% assign page_index = 0 %}
+        
 <div class="grid grid--1">
     <nav class="main-nav">{% capture html %}
     <ul class="grid grid--5 sm-grid--2">
@@ -12,8 +14,8 @@
             <a href="{{site.url}}/index.html" class="nav-link full-logo " id="logo_full">
 
 
-            <img src="{{site.url}}/assets/img/logo-0.png" class="logo-1">
-            <img src="{{site.url}}/assets/img/iam-0.png" class="logo-2">
+            <img src="{{home-item.navbar_logo}}" class="logo-1">
+            <img src="{{home-item.navbar_logo}}" class="logo-2">
 
             </a>
             <a href="{{site.url}}/index.html" class="nav-link {% if page.url == '/' or page.url == site.url page.title == 'Home'  %} active {% endif %}" id="home-nav"><span>Home<span></a>
