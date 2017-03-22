@@ -1,7 +1,5 @@
 ---
 title: Page Items
-navbar_logo: "/uploads/logo-0.png"
-responsive_logo: "/uploads/logo-0.png"
 intro_title: We support future leaders in design and innovation.
 intro_bg_image: "/uploads/nebula.png"
 one_image: "/uploads/img_crossbow.jpg"

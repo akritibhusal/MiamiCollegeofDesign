@@ -40,8 +40,6 @@ defaults:
     path: ''
     type: home_page
   values:
-    navbar_logo: '/uploads/logo-0.png'
-    responsive_logo: '/uploads/logo-0.png'
     intro_title: We support future leaders in design and innovation.
     intro_bg_image: ''
     one_image: ''
