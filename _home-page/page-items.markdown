@@ -1,6 +1,6 @@
 ---
 title: Page Items
-intro_title: We support future leaders in design and innovation.
+intro_title: We
 intro_bg_image: "/uploads/nebula.png"
 one_image: "/uploads/img_crossbow.jpg"
 one_image_title: Giant Crossbow
