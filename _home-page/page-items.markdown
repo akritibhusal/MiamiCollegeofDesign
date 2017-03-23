@@ -2,7 +2,7 @@
 title: Page Items
 intro_title: We support future leaders in design and innovation.
 intro_bg_image: "/uploads/nebula.png"
-intro_button_text: 'Connect with us '
+intro_button_text: 'Connect with us'
 intro_button_url: 
 one_image: "/uploads/img_crossbow.jpg"
 one_image_title: Giant Crossbow
