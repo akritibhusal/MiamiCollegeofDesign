@@ -49,7 +49,7 @@ defaults:
     path: ''
     type: home_page
   values:
-    intro_button_text: ''
+    intro_button_text: 'We'
     intro_button_url: ''
     intro_title: We support future leaders in design and innovation.
     intro_bg_image: ''
