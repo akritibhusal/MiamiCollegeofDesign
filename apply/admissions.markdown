@@ -6,7 +6,6 @@ position: 0
 sidemenu:
   sidemenu_link_ID: ADMISSIONS
   procedures: PROCEDURES
-  requirements: REQUIREMENTS
   checklist: APPLICATION CHECKLIST
   dates: IMPORTANT DATES
   credits: CREDIT HOURS
