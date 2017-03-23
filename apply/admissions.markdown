@@ -10,12 +10,12 @@ sidemenu:
   checklist: APPLICATION CHECKLIST
   dates: IMPORTANT DATES
   credits: CREDIT HOURS
-navbar_logo: "/uploads/miami%20logo1.png"
 one_image: "/uploads/eye.png"
 two_image: "/uploads/blueprint.jpg"
 header_image: "/uploads/about_featured.png"
 header_title: Admissions
 header_subtitle: Admission Requirements and Procedures
+navbar_logo: "/uploads/miami%20logo1.png"
 ---
 
 ## DETERMINE IF MIAMI COLLEGE OF DESIGN IS FOR YOU
@@ -43,9 +43,7 @@ header_subtitle: Admission Requirements and Procedures
 
 2. You must have your own laptop computer capable of running GNU/Linux or Mac OS.
 
-Results of the SAT Reasoning Test or the ACT (American College Testing program) are not required for admission to the Miami College of Design.
-
-{:.sep--line}
+Results of the SAT Reasoning Test or the ACT (American College Testing program) are not required for admission to the Miami College of Design.{:.sep--line}
 
 ## CONTACTING THE OFFICE OF ADMISSIONS
 
