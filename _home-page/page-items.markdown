@@ -2,6 +2,8 @@
 title: Page Items
 intro_title: We support future leaders in design and innovation.
 intro_bg_image: "/uploads/nebula.png"
+intro_button_text: 
+intro_button_url: 
 one_image: "/uploads/img_crossbow.jpg"
 one_image_title: Giant Crossbow
 one_image_description: |-
@@ -38,12 +40,9 @@ our_mission: |-
   Our objective is to create a learning environment in which students work side-by-side with leading-edge designers, immersed in professional practice, to create disruptions and, consequently, opportunities for innovation.
 
   We seek to advance the integration of design, science, and engineering, exploring new approaches and solutions through experience design. We value active learning, exploration, creativity, breakthrough innovation, and the use of technology and applied design, all of which serve to advance the quality of the human experience.
-bottomfold_two_image: "/uploads/img1.png"
-intro_button_text: 
-intro_button_url: 
 mission_button_text: 
 mission_button_url: 
-sssasa: 
+bottomfold_two_image: "/uploads/img1.png"
 layout: home
 ---
 
