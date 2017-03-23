@@ -40,6 +40,10 @@ our_mission: |-
   We seek to advance the integration of design, science, and engineering, exploring new approaches and solutions through experience design. We value active learning, exploration, creativity, breakthrough innovation, and the use of technology and applied design, all of which serve to advance the quality of the human experience.
 bottomfold_two_image: "/uploads/img1.png"
 intro_button_text: 
+intro_button_url: 
+mission_button_text: 
+mission_button_url: 
+sssasa: 
 layout: home
 ---
 
