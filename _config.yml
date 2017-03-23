@@ -41,6 +41,12 @@ defaults:
     post_url: ''
 - scope:
     path: ''
+    type: header
+  values:
+    navbar_logo: ''
+    responsive_logo: ''
+- scope:
+    path: ''
     type: home_page
   values:
     intro_title: We support future leaders in design and innovation.
