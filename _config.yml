@@ -11,6 +11,9 @@ collections:
   footer:
     title: Footer
     output: true
+  header:
+    title: Header
+    output: true
   home-page:
     title: Home Page
     output: true
