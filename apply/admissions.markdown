@@ -42,7 +42,10 @@ navbar_logo: "/uploads/miami%20logo1.png"
 
 2. You must have your own laptop computer capable of running GNU/Linux or Mac OS.
 
-Results of the SAT Reasoning Test or the ACT (American College Testing program) are not required for admission to the Miami College of Design.{:.sep--line}
+Results of the SAT Reasoning Test or the ACT (American College Testing program) are not required for admission to the Miami College of Design.
+
+{:.sep--line}
+&nbsp;
 
 ## CONTACTING THE OFFICE OF ADMISSIONS
 
@@ -61,6 +64,7 @@ Miami College of Design
 Miami, FL 33166
 
 {:.sep--line}
+&nbsp;
 
 ## APPLICATION CHECKLIST
 
@@ -99,6 +103,7 @@ The application fee may be waived on a case-by-case basis. Please contact the Of
 1. **Personal Interview and Performance Assessment.** After you have submitted all of the above items, applicants will be contacted to schedule a face-to-face in person or electronic admissions interview. During the interview, applicants will be asked to complete a writing and problem-solving exercise. Beforehand, applicants are encouraged to reach out to faculty and staff to gain an understanding of the school environment.
 
 {:.sep--line}
+&nbsp;
 
 ## IMPORTANT DATES
 
@@ -106,6 +111,7 @@ The application fee may be waived on a case-by-case basis. Please contact the Of
 ![application-timeline.png](/uploads/application-timeline.png)
 
 {:.sep--line}
+&nbsp;
 
 ## ACCEPTANCE BY THE COLLEGE
 
@@ -128,6 +134,7 @@ Admissions decisions will be made on a rolling basis, generally within one month
 Upon acceptance, there are two documents which constitute a binding contract between the student and Miami College of Design: (1) the College Catalog, which students receive one week prior to enrollment; and (2) the Enrollment Agreement, containing your obligations with the College. Please read both documents carefully prior to signing the Enrollment Agreement.
 
 {:.sep--line}
+&nbsp;
 
 ## TRANSFER OF CREDIT HOURS
 
@@ -136,6 +143,7 @@ Some credit hours may be evaluated and considered towards program completion. Th
 Students may wish to continue their training after graduation. While Miami College of Design is licensed by the Florida Commission for Independent Education, it is not accredited. Some or none of the course work completed at Miami College of Design may be transferable to other institutions. Therefore, the student must contact the institutions/he is transferring to as each institution has its own requirements regarding acceptance of transfer of credit hours. There is no guarantee of transfer of credit hours from one institution to another and specifically from Miami College of Design to any other post-secondary school or college.
 
 {:.sep--line}
+&nbsp;
 
 ## LIFE EXPERIENCE CREDIT
 
