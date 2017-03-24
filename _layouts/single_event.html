@@ -47,10 +47,10 @@
 					<div class="block-content block-content--padded">
 						<div class="table table--cover bg bg--cover bg--overlay--light" style="background-image: url({{page.header_image}});">
 							<div class="table-cell va--bottom padding--large text--white">
-								<h1 class="page__header">{{event.title}}
+								<h1 class="page__header">{{page.title}}
 								</h1>
 								<h2 class="page__sub-head">
-									{{event.event_date | date: '%B %d, %Y'}}, {{event.event_venue}} 
+									{{page.event_date | date: '%B %d, %Y'}}, {{page.event_venue}} 
 								</h2>
 							</div>
 						</div>
@@ -79,13 +79,12 @@
 			</div>
 
 			<div class="column padding--large">
-
+				{% if page.event_image %}
 				<div class="grid grid--2">
-					{% if event.event_image %}
 						<div class="column">
 						<div class="aspect-ratio aspect-ratio--5-3">
 							<div class="block-content">
-								<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
+								<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{page.event_image}});">
 									<div class="va--bottom text--white table-cell">
 										<div class="event">
 											
@@ -95,12 +94,10 @@
 							</div>
 						</div>
 					</div>
-					{% endif %}
 				</div>
-
+				{% endif %}
 				
 				<article class="content">
-					
 					{{content | markdownify}}
 
 				</article>

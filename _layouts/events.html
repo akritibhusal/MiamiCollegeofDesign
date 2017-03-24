@@ -86,26 +86,28 @@ layout: default-page
 						<div class="column">
 						<div class="aspect-ratio aspect-ratio--5-3">
 							<div class="block-content block-content--padded">
-								<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
+								<a href="{{event.url}}">
+									<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
 									<div class="va--bottom text--white table-cell">
 										<div class="event">
 											
 										</div>
 									</div>
 								</div>
+								</a>
 							</div>
 						</div>
 					</div>
 					{% endif %}
 					
-					<a href="{{event.url}}">
+					
 						<div class="column padding-left-right--large">
-						<h2><strong>{{event.title}}</strong></h2>
+						<h2><strong><a href="{{event.url}}">{{event.title}}</a></strong></h2>
 						<div>{{event.event_venue}}</div>
 						<div>{{event.event_date | date: '%B %d, %Y'}}</div>
-						{{event.content | markdownify}}
+						{{event.content | strip_html | truncatewords:20 | markdownify}} <a class="view-details" href="{{event.url}}">View Details</a>
 						</div>
-					</a>
+					
 				</div>
 				<div class="sep--line"></div>
 				{% endfor %}
