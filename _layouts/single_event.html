@@ -47,10 +47,10 @@
 					<div class="block-content block-content--padded">
 						<div class="table table--cover bg bg--cover bg--overlay--light" style="background-image: url({{page.header_image}});">
 							<div class="table-cell va--bottom padding--large text--white">
-								<h1 class="page__header">Event
+								<h1 class="page__header">{{event.title}}
 								</h1>
 								<h2 class="page__sub-head">
-									us
+									{{event.event_date | date: '%B %d, %Y'}}, {{event.event_venue}} 
 								</h2>
 							</div>
 						</div>
@@ -58,6 +58,23 @@
 				</div>
 			</div>
 		</div>
+		
+
+
+		<div class="grid grid--2-8 md-grid--1">
+					<div class="column">
+						<div class="aspect-ratio aspect-ratio--5-3">
+							<div class="block-content block-content--padded">
+								<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
+									<div class="va--bottom text--white table-cell">
+										<div class="event">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 		
 		<div class="grid grid--2-8 md-grid--1">
 			<div class="column md--hide">
