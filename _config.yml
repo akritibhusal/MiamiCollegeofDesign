@@ -83,6 +83,7 @@ defaults:
     path: ''
     type: events
   values:
+    layout: single_event
     event_venue: ''
     event_date: ''
     event_image: ''
