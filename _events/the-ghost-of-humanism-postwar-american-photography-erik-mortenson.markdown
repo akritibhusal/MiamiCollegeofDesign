@@ -15,7 +15,6 @@ categories:
 - the lab miami
 event_venue: The LAB Miami
 event_date: 2017-03-08 17:00:00 -05:00
-event_image: "/uploads/2.png"
 layout: single_event
 ---
 
