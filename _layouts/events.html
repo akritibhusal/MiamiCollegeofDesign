@@ -96,12 +96,14 @@ layout: default-page
 						</div>
 					</div>
 					
-					<div class="column  padding-left-right--large">
-					<h2><strong>{{event.title}}</strong></h2>
-					<div>{{event.event_venue}}</div>
-					<div>{{event.event_date | date: '%B %d, %Y'}}</div>
+					<a href="{{event.url}}">
+						<div class="column padding-left-right--large">
+						<h2><strong>{{event.title}}</strong></h2>
+						<div>{{event.event_venue}}</div>
+						<div>{{event.event_date | date: '%B %d, %Y'}}</div>
 						{{event.content | markdownify}}
-					</div>
+						</div>
+					</a>
 				</div>
 				<div class="sep--line"></div>
 				{% endfor %}
