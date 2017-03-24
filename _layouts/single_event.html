@@ -81,7 +81,8 @@
 			<div class="column padding--large">
 
 				<div class="grid grid--2">
-					<div class="column">
+					{% if event.event_image %}
+						<div class="column">
 						<div class="aspect-ratio aspect-ratio--5-3">
 							<div class="block-content">
 								<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
@@ -94,6 +95,7 @@
 							</div>
 						</div>
 					</div>
+					{% endif %}
 				</div>
 
 				

@@ -82,7 +82,8 @@ layout: default-page
 				{% for event in events %}
 				
 				<div class="grid grid--2 sm-grid--1">
-					<div class="column">
+					{% if event.event_image %}
+						<div class="column">
 						<div class="aspect-ratio aspect-ratio--5-3">
 							<div class="block-content block-content--padded">
 								<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
@@ -95,6 +96,7 @@ layout: default-page
 							</div>
 						</div>
 					</div>
+					{% endif %}
 					
 					<a href="{{event.url}}">
 						<div class="column padding-left-right--large">
