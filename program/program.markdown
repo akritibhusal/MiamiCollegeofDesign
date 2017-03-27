@@ -2,7 +2,7 @@
 title: Degree Programs
 date: 2016-12-02 08:56:00 -05:00
 permalink: "/program/degree-programs/"
-position: 1
+position: 0
 header_title: Academic Programs
 sidemenu:
   bsid: Industrial Design - Bachelor of Science (B.S.)
