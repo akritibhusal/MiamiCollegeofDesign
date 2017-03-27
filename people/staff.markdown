@@ -1,8 +1,8 @@
 ---
 title: Staff
-date: 2016-12-02 14:12:00 Z
+date: 2016-12-02 09:12:00 -05:00
 permalink: "/people/staff/"
-position: 3
+position: 4
 sidemenu:
   vacancies: Vacancies
 ---

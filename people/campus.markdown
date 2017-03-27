@@ -1,8 +1,8 @@
 ---
 title: Campus
-date: 2016-12-02 14:13:00 Z
+date: 2016-12-02 09:13:00 -05:00
 permalink: "/people/campus/"
-position: 4
+position: 1
 sidemenu:
   about-campus: About the Campus
   spaces: Labs, classrooms, and other space

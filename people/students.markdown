@@ -1,8 +1,8 @@
 ---
 title: Students
-date: 2016-12-02 14:12:00 Z
+date: 2016-12-02 09:12:00 -05:00
 permalink: "/people/students/"
-position: 1
+position: 2
 sidemenu:
   mentors: Mentors
   housing: Housing
