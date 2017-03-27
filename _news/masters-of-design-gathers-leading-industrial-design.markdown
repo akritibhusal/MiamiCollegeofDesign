@@ -5,6 +5,7 @@ news_location: The LAB Miami
 news_date: 2016-12-02 00:00:00 -05:00
 news_image: "/uploads/2016-11-30%2009.48.20.jpg"
 two_image: "/uploads/1-_Ofad3-4bKLbZg-Zo5UxaA.png"
+header_image: "/uploads/2016-11-30%2009.48.20.jpg"
 ---
 
 I AM Foundation, Miami College of Design, and Product81 present the premiere “Masters of Design” at the inaugural “Masters of Tomorrow” Summit (November 30,2016) during Miami’s Art Week. Masters of Tomorrow invites creatives from around the world to gather in Miami’s Wynwood Arts District to learn, network and get inspired during Miami’s Art Week at The LAB Miami.
