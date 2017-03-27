@@ -1,4 +1,4 @@
-{% assign home_tag = '<!--home_tag-->' %}
+ {% assign home_tag = '<!--home_tag-->' %}
 <header class="main-header md--hide" id="main-header">
         {% assign entries = site.pages | sort: "position" %}
         {% assign counter = '' %}
@@ -25,9 +25,26 @@
         {% endif %}
     
         {% assign page_index = 0 %}
-        {% assign counter = '' %}    
-        {% for entry in entries %}
+        {% assign counter = '' %}  
+        {% assign islast = "false" %}
+        {% assign social-section = "" %}
 
+        {% for entry in entries %}
+            {% if forloop.last == true %}
+                <li>
+                    <a href="#">
+                        <div class="social">
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                    <a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                    
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>   
+                    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                </div>
+                
+                    </a>
+                </li>
+                
+            {% endif %}
     
             {% capture slug    %}{{ entry.url | split: "/"   | last                       }}{% endcapture %}
             {% capture current %}{{ entry.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
@@ -41,20 +58,8 @@
                 <li class="column">
                     <a class="nav-link " href="{{ site.baseurl }}{{ entry.url }}"><span>{{ entry.title }}</span></a>
                     {% include sub-navigation.html context=entry.url %}
-            {% if forloop.last == true %}
 
-                <div class="social">
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                    <a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
-                    
-                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>   
-                    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                </div>
-                <div class="subscribe">
-                    <input type="text" placeholder="Subscribe Newsletter">
-                    <button class="subscribe__button"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-                </div>
-            {% endif %}
+                
                 </li>
 
             {% endif %}

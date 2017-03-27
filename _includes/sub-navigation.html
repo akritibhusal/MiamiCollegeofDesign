@@ -7,7 +7,7 @@
         </li>
         {% endif %}
     
-        {% assign entries = site.pages | sort: "path" %}
+        
         {% for entry in entries %}
     
             {% capture slug    %}{{ entry.url | split: "/"   | last                       }}{% endcapture %}
@@ -16,7 +16,6 @@
             {% if current == include.context %}
                 <li>
                     <a href="{{ site.baseurl }}{{ entry.url }}" class="{% if page.url contains active_test_2 %}nav-title active  {% assign page_index = counter.size %}    {% endif %}">{{ entry.title }}</a>
-                    {% include sub-navigation.html context=entry.url %}
                 </li>
                 
 

@@ -534,8 +534,9 @@ footer
 	@extend %position-relative
 
 .event__heading
-	@extend %font-size-xl
+	@extend %font-size-l
 	margin-bottom: 0
+	color: #fff
 
 .event__meta
 	@extend .text--light
@@ -1104,3 +1105,25 @@ p
 input[type="checkbox"]
 	margin-right: 12px
 
+.event-image
+	float: left
+	max-width: 50%
+	margin-right: 1rem
+	margin-bottom: 1rem
+	margin-left: 0
+	margin-top: 0
+
+	img 
+		margin-bottom: 0
+
+@media (max-width: $extra-small-device-width)
+	.event-image
+		max-width: 100%
+		margin-right: 0
+		float: none
+
+
+.clearfix:after
+	clear: both
+	content: ""
+	display: table
