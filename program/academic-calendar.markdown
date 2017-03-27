@@ -2,7 +2,7 @@
 title: Academic Calendar
 date: 2016-12-02 08:51:00 -05:00
 permalink: "/program/academic-calendar/"
-position: 3
+position: 0
 sidemenu:
   academic-2017: Academic Calendar 2017
   summer-2017: Summer 2017
