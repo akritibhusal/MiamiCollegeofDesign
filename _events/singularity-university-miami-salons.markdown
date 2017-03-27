@@ -1,12 +1,11 @@
 ---
-title: Singularity University Miami Salons
-date: 2016-12-08 06:33:00 Z
-event_venue: |-
-  MIAMI THEATRE CENTER
-
-  9806 NE 2nd Ave., Miami Shores, FL 33138
-event_date: 2016-10-19 19:00:00 Z
-event_image: "/uploads/singularity.png"
+title: Singularity U Miami Salon
+date: 2016-12-08 01:33:00 -05:00
+event_venue: MIAMI THEATRE CENTER 9806 NE 2nd Ave, Miami Shores, FL 33138
+event_date: 2016-10-19 15:00:00 -04:00
+event_image: "/uploads/download-f85498.jpeg"
+two_image: "/uploads/16406876_618120521712846_3330562852672398014_n.jpg"
+header_image: "/uploads/download-f85498.jpeg"
 ---
 
 THE UNIVERSITY, a documentary by Matt Rutherford
