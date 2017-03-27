@@ -87,6 +87,9 @@ defaults:
     event_venue: ''
     event_date: ''
     event_image: ''
+    one_image: ''
+    two_image: ''
+    header_image: ''
 - scope:
     path: ''
     type: news
@@ -95,6 +98,9 @@ defaults:
     news_location: ''
     news_date: ''
     news_image: ''
+    one_image: ''
+    two_image: ''
+    header_image: ''
 repository: git@github.com:oxmint/miami.git
 email: hello@miamicollegeofdesign.com
 description: The super wonderful cool homepage for the Miami College of Design in
