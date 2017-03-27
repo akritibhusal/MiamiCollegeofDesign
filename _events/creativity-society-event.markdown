@@ -1,9 +1,9 @@
 ---
 title: Creativity Society Event
-date: 2016-12-08 06:28:00 Z
+date: 2016-12-08 01:28:00 -05:00
 event_venue: Asunción and Caacupé, Paraguay
-event_date: 2016-10-01 00:00:00 Z
-event_image: "/uploads/paraguay.png"
+event_date: 2016-10-20 20:00:00 -04:00
+event_image: "/uploads/creative-brain_23-2147505295.jpg"
 ---
 
 **October 20th-22th, 2016**
