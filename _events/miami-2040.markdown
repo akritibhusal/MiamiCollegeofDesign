@@ -7,6 +7,9 @@ tags:
 - miami
 - sea level rise
 - global warming
+- climate change
+- workshop
+event_venue: The LAB Miami 400 NW 26 St
 event_date: 2017-03-03 19:00:00 -05:00
 event_image: "/uploads/MCD_2040_INSTA_03.gif"
 one_image: "/uploads/Untitled-1-web.png"
@@ -36,17 +39,11 @@ In subsequent workshops, the faculty of the Miami College of Design will apply t
 The workshop series will cover the following topics:
 
 * CLIMATE SCIENCE AND RISK
-
 * INTRODUCTION TO THE INDUSTRIAL DESIGN PROCESS
-
 * CONTEXTUALIZING DESIGN IDEAS WITH DATA SCIENCE
-
 * IDEATION AND RAPID PROTOTYPING
-
 * ENGAGEMENT WITH PRACTITIONERS
-
 * TECHNICAL FEASIBILITY STUDIES
-
 * DOCUMENTATION AND PRESENTATION OF DESIGNS TO CLIENTS
 
 ### EXPECTED OUTCOMES
