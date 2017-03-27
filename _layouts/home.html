@@ -146,13 +146,15 @@ layout: default-page
 							<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{event.event_image}});">
 								<div class="va--bottom text--white table-cell">
 									<div class="event">
-										<div class="event__description">
-											<h3 class="event__heading bold">{{event.title}}</h3>
-											<div class="event__meta">
-												<span class="location">{{event.event_venue}}</span> - 
-												<span class="date-time">{{event.event_date | date: '%B %d, %Y'}}</span>
+										<a href="{{event.url}}">
+											<div class="event__description">
+												<h3 class="event__heading bold">{{event.title}}</h3>
+												<div class="event__meta">
+													<span class="location">{{event.event_venue}}</span> - 
+													<span class="date-time">{{event.event_date | date: '%B %d, %Y'}}</span>
+												</div>
 											</div>
-										</div>
+										</a>
 										{% comment %}
 										<div class="event__nav">
 											<img src="assets/img/ic_prev.png" class="icon"/>
