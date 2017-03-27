@@ -9,7 +9,7 @@ tags:
 - global warming
 event_date: 2017-03-03 19:00:00 -05:00
 event_image: "/uploads/01_MCD_FINAL_FLYER_FR%20(1).jpg"
-layout: events
+layout: single_event
 ---
 
 # ADAPTING TO CLIMATE CHANGE THROUGH DESIGN
