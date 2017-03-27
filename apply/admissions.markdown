@@ -21,9 +21,6 @@ navbar_logo: "/uploads/miami%20logo1.png"
 
 {:#procedures}
 
-
-![img_student.jpg](/uploads/img_student.jpg){:.float-right.img--small}
-
 1. You must be at least 16 years of age at the time of enrollment;
 
 2. You must be able to provide proof of high-school graduation or equivalency, which may take one of the following forms:
@@ -72,7 +69,7 @@ Miami, FL 33166
 
 The Application process for the Miami College of Design is intended to discern a beneficial and rewarding match between the candidates and the College’s unique learning environment. With this in mind, the application process consists of the following mandatory elements:
 
-1. **Successful Completion of the [On-line Application](https://miamicollegeofdesign.wufoo.com/forms/rtexl4z01f1l0w/).** The On-line Application Form asks for your identifying information and your educational background. You will also submit your portfolio and an essay (See Items 5 and 6 below) through the On-line Application Form, so have all your material ready before you start to [fill out this form](https://docs.google.com/document/d/1kmcG6ybFMY9MQaWVICxuqNKc_Che-VgWtnmiESYnP-Q/edit). Students under 18 years of age must have the application signed by their parent(s) or legal guardian(s). If you are under 18 years of age, print out the Guardian Consent Form, have it signed by your guardian(s), and send it to the Office of Admissions.
+1. **Successful Completion of the [On-line Application](https://goo.gl/forms/xcFpQN1ky1KYMIQL2).** The On-line Application Form asks for your identifying information and your educational background. You will also submit your portfolio and an essay (See Items 5 and 6 below) through the On-line Application Form, so have all your material ready before you start to [fill out this form](https://docs.google.com/document/d/1kmcG6ybFMY9MQaWVICxuqNKc_Che-VgWtnmiESYnP-Q/edit). Students under 18 years of age must have the application signed by their parent(s) or legal guardian(s). If you are under 18 years of age, print out the Guardian Consent Form, have it signed by your guardian(s), and send it to the Office of Admissions.
 
 2. **Transcript.** Applicants must provide official transcripts of all secondary academic work through the most recent grading period. High school counselors may submit transcripts through email or through regular mail to the Office of Admissions.
 
@@ -134,7 +131,6 @@ Admissions decisions will be made on a rolling basis, generally within one month
 Upon acceptance, there are two documents which constitute a binding contract between the student and Miami College of Design: (1) the College Catalog, which students receive one week prior to enrollment; and (2) the Enrollment Agreement, containing your obligations with the College. Please read both documents carefully prior to signing the Enrollment Agreement.
 
 {:.sep--line}
-&nbsp;
 
 ## TRANSFER OF CREDIT HOURS
 
