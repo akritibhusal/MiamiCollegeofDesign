@@ -1,5 +1,6 @@
 ---
-title: 'Masters of Design: Miami College of Design Gathers Leading Designers & Innovators'
+title: Miami College of Design Gathers Leading Designers & Innovators in Wynwood for
+  Masters of Design
 date: 2016-11-30 13:21:00 -05:00
 news_location: The LAB Miami
 news_date: 2016-12-02 00:00:00 -05:00
@@ -18,6 +19,6 @@ In the evening, Masters of Sound will bring together local and international art
 
 <hr />
 
-For more information, visit: (motsummit.com) 
+For more information, visit: <motsummit.com>
 
 Follow #MOTSummit #MasterofDesign @MOTSummit @IAMDESIGNMETHOD @IAM_MCoD
