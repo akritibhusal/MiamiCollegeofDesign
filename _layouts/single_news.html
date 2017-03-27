@@ -79,7 +79,7 @@
 			</div>
 
 			<div class="column padding--large">
-				{% if page.news_image %}
+				{% if page.news_image != "" %}
 				<div class="grid grid--2">
 						<div class="column">
 						<div class="aspect-ratio aspect-ratio--5-3">
@@ -95,17 +95,29 @@
 							</div>
 						</div>
 					</div>
+					<div class="column">
+						<div class="share-box">
+							
+						</div>
+					</div>
 				</div>
 				{% endif %}
 				
 				<article class="content">
+				
+				
 					{{content | markdownify}}
-
+					<div class="sep"></div>
+					<div class="share-text">Share this page:</div>
+					<div class="addthis_inline_share_toolbox"></div>
+					
 				</article>
 
 			</div>
 
 		</div>
 	</div>
+<!-- addthis -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58d8ce5cae17ab8f"></script>
 
 {% include footer.html %}

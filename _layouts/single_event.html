@@ -79,32 +79,30 @@
 			</div>
 
 			<div class="column padding--large">
-				{% if page.event_image %}
+				{% if page.event_image != '' %}
 				<div class="grid grid--2">
 						<div class="column">
-						<div class="aspect-ratio aspect-ratio--5-3">
-							<div class="block-content">
-								<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{page.event_image}});">
-									<div class="va--bottom text--white table-cell">
-										<div class="event">
-											
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+							<img src="{{page.event_image}}" alt="{{event.title}}">		
 					</div>
 				</div>
+				
+				
 				{% endif %}
 				
 				<article class="content">
+					
 					{{content | markdownify}}
-
+					<div class="sep"></div>
+					<div class="share-text">Share this page:</div>
+					<div class="addthis_inline_share_toolbox"></div>
+					
 				</article>
 
 			</div>
 
 		</div>
 	</div>
+<!-- addthis -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58d8ce5cae17ab8f"></script>
 
 {% include footer.html %}
