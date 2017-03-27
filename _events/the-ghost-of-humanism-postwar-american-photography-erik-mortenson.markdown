@@ -1,6 +1,5 @@
 ---
-title: 'THE GHOST OF HUMANISM: RETHINKING THE SUBJECTIVE TURN IN POSTWAR AMERICAN
-  PHOTOGRAPHY with ERIK MORTENSON'
+title: 'The Ghost of Humanism: PostAmerican Photography with Erik Mortenson'
 date: 2017-02-28 13:55:00 -05:00
 categories:
 - photography
@@ -15,8 +14,14 @@ categories:
 - the lab miami
 event_venue: The LAB Miami
 event_date: 2017-03-08 17:00:00 -05:00
+event_image: "/uploads/frank-001.jpg"
+one_image: "/uploads/download.jpeg"
+two_image: "/uploads/images.jpeg"
+header_image: "/uploads/1161890.jpg"
 layout: single_event
 ---
+
+## RETHINKING THE SUBJECTIVE TURN IN POSTWAR AMERICAN PHOTOGRAPHY with ERIK MORTENSON
 
 This talk will examine the use of shadow, blur, graininess, and reflection in the work of the postwar photographers Robert Frank, William Klein, and Ralph Eugene Meatyard as a response to the rhetoric of Cold War containment. 
 
