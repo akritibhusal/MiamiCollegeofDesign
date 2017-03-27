@@ -3,8 +3,8 @@ title: Masters of Tomorrow Summit
 date: 2016-12-05 02:38:00 -05:00
 event_venue: Miami
 event_date: 2016-11-30 09:00:00 -05:00
-event_image: "/uploads/2016-11-30%2009.48.20.jpg"
 two_image: "/uploads/1-_Ofad3-4bKLbZg-Zo5UxaA.png"
+header_image: "/uploads/2016-11-30%2009.48.20.jpg"
 layout: single_event
 ---
 
