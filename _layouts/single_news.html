@@ -1,0 +1,111 @@
+{% include head.html %}
+{% include navigation.html context="/" %}
+
+	<div class="main-container page-step--{{page_index}}">
+		<div class="grid grid--2-8 sm-grid--1">
+			<div class="column sm--hide">
+				<div class="grid grid--2 sm-grid--1">
+					<div class="column">
+						<div class="aspect-ratio aspect-ratio--1">
+							<div class="block-content block-content--padded">
+								<a href="index.html">
+								<div class="logo-holder">
+									<img src="{{site.url}}/assets/img/iam-{{page_index}}.png" alt="Miami College of Design Logo" class="miami-logo" id="logo"/>
+								</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="column">
+						<div class="aspect-ratio aspect-ratio--1">
+							<div class="block-content block-content--padded">
+								<div class="table table--cover bg bg--cover" style="background-image: url({{page.one_image}});">
+									<div class="table-cell va--center">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="grid grid--1">
+					<div class="column">
+						<div class="aspect-ratio aspect-ratio--1">
+							<div class="block-content block-content--padded">
+								<div class="table table--cover bg bg--cover" style="background-image: url({{page.two_image}});">
+									<div class="table-cell va--center">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="column">
+				<div class="aspect-ratio aspect-ratio--8-3 sm-aspect-ratio--auto">
+					<div class="block-content block-content--padded">
+						<div class="table table--cover bg bg--cover bg--overlay--light" style="background-image: url({{page.header_image}});">
+							<div class="table-cell va--bottom padding--large text--white">
+								<h1 class="page__header">{{page.title}}
+								</h1>
+								<h2 class="page__sub-head">
+									{{page.news_date | date: '%B %d, %Y'}}, {{page.news_location}} 
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+
+		
+		<div class="grid grid--2-8 md-grid--1">
+			<div class="column md--hide">
+
+				<div class="side-nav__outer" id="main_sticky_container">
+					<nav class="side-nav__holder sticky_box">
+						<ul class="side-nav padding-left-right--small padding-top-bottom--large uppercase md--hide">
+
+							{% for menu-item in page.sidemenu %}
+							<li class="side-menu uppercase page-step--{{page_index}} {% if menu-item[0] == 'sidemenu_link_ID' %} hidden {% endif %}"><a href="#{{menu-item[0]}}">{{menu-item[1]}}</a></li>
+							{% endfor %}
+							
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div class="column padding--large">
+				{% if page.news_image %}
+				<div class="grid grid--2">
+						<div class="column">
+						<div class="aspect-ratio aspect-ratio--5-3">
+							<div class="block-content">
+								<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{page.news_image}});">
+									<div class="va--bottom text--white table-cell">
+										<div class="
+										">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				{% endif %}
+				
+				<article class="content">
+					{{content | markdownify}}
+
+				</article>
+
+			</div>
+
+		</div>
+	</div>
+
+{% include footer.html %}

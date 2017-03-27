@@ -91,6 +91,7 @@ defaults:
     path: ''
     type: news
   values:
+    layout: single_news
     news_location: ''
     news_date: ''
     news_image: ''
