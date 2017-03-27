@@ -8,7 +8,10 @@ tags:
 - sea level rise
 - global warming
 event_date: 2017-03-03 19:00:00 -05:00
-event_image: "/uploads/01_MCD_FINAL_FLYER_FR%20(1).jpg"
+event_image: "/uploads/MCD_2040_INSTA_03.gif"
+one_image: "/uploads/Untitled-1-web.png"
+two_image: "/uploads/MCD_2040_INSTA_01.gif"
+header_image: "/uploads/design-saves.jpg"
 layout: single_event
 ---
 
