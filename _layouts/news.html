@@ -85,18 +85,21 @@ layout: default-page
 	<div class="column">
 		<div class="aspect-ratio aspect-ratio--5-3">
 			<div class="block-content block-content--padded">
-				<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{item.news_image}});">
+				<a href="{{item.url}}">
+					<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{item.news_image}});">
 					
 				</div>
+				</a>
 			</div>
 		</div>
 	</div>
 					
 					<div class="column  padding-left-right--large">
-					<h2><strong>{{item.title}}</strong></h2>
+					<h2><strong><a href="{{item.url}}">{{item.title}}</a></strong></h2>
 					<div>{{item.news_location}}</div>
 					<div>{{item.news_date | date: '%B %d, %Y'}}</div>
-						{{item.content | markdownify}}
+						{{item.content  | strip_html | truncatewords:20 | markdownify}} 
+						<a class="view-details" href="{{item.url}}">View Details</a>
 					</div>
 </div>
 				<div class="sep--line"></div>

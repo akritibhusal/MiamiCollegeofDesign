@@ -105,7 +105,8 @@ layout: default-page
 						<h2><strong><a href="{{event.url}}">{{event.title}}</a></strong></h2>
 						<div>{{event.event_venue}}</div>
 						<div>{{event.event_date | date: '%B %d, %Y'}}</div>
-						{{event.content | strip_html | truncatewords:20 | markdownify}} <a class="view-details" href="{{event.url}}">View Details</a>
+						{{event.content | strip_html | truncatewords:20 | markdownify}} 
+						<a class="view-details" href="{{event.url}}">View Details</a>
 						</div>
 					
 				</div>
