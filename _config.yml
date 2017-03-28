@@ -8,9 +8,6 @@ collections:
   faculty:
     title: Faculty
     output: true
-  footer-items:
-    title: Footer
-    output: true
   header:
     title: Header
     output: true
