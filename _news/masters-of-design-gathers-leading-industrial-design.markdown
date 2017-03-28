@@ -2,6 +2,7 @@
 title: Miami College of Design Gathers Leading Designers & Innovators in Wynwood for
   Masters of Design
 date: 2016-11-30 13:21:00 -05:00
+position: 1
 news_location: The LAB Miami
 news_date: 2016-12-02 00:00:00 -05:00
 news_image: "/uploads/2016-11-30%2009.48.20.jpg"
