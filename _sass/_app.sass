@@ -455,7 +455,10 @@ $anchor-line-height: 5rem !default
 .social
 	@extend .subscribe
 	a
-		padding: 1rem
+		padding: 0.4rem
+
+		&:first-child
+			padding-left: 0
 
 
 %transition-all
@@ -1126,3 +1129,6 @@ input[type="checkbox"]
 	clear: both
 	content: ""
 	display: table
+
+.social
+	font-size: 1.2rem

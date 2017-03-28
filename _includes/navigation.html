@@ -32,16 +32,17 @@
         {% for entry in entries %}
             {% if forloop.last == true %}
                 <li>
-                    <a href="#">
-                        <div class="social">
-                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
-                    <a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
                     
-                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>   
-                    <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <div class="social">
+                    <a href="{{site.events[1].url}}"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                    <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>   
+                    <a href="#"><i class="fa fa-snapchat" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a> 
                 </div>
                 
-                    </a>
+              
                 </li>
                 
             {% endif %}
