@@ -1,13 +1,12 @@
 ---
-title: Marking Milestones
-date: 2016-10-15 17:58:00 -04:00
+title: 'Marking Milestones: Franco Lodato shares his dream project "Miami College
+  of Design"'
+date: 2016-10-31 17:58:00 -04:00
 news_location: The LAB Miami, 400 NW 26 ST
 news_date: 2016-10-15 17:58:00 -04:00
 news_image: "/uploads/Layer%201%20copy.png"
 header_image: "/uploads/2-mcod.png"
 ---
-
-## Vice Chair of IDSA, Franco Lodato shares his dream project “Miami College of Design” and “Masters of Design” Summit in November
 
 As Previously Published by Industrial Designers Society of America 
 
