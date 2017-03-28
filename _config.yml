@@ -102,8 +102,6 @@ repository: git@github.com:oxmint/miami.git
 email: hello@miamicollegeofdesign.com
 description: The super wonderful cool homepage for the Miami College of Design in
   Wynwood
-twitter_username: iam_mcod
-github_username: walterbender
 markdown: kramdown
 theme: minima
 gems:
@@ -111,3 +109,4 @@ gems:
 exclude:
 - Gemfile
 - Gemfile.lock
+navbar_logo: "/uploads/logo-0-410d08.png"
