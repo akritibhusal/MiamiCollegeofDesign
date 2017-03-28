@@ -67,40 +67,19 @@
 
 				<div class="side-nav__outer" id="main_sticky_container">
 					<nav class="side-nav__holder sticky_box">
-						<ul class="side-nav padding-left-right--small padding-top-bottom--large uppercase md--hide">
-
-							{% for menu-item in page.sidemenu %}
-							<li class="side-menu uppercase page-step--{{page_index}} {% if menu-item[0] == 'sidemenu_link_ID' %} hidden {% endif %}"><a href="#{{menu-item[0]}}">{{menu-item[1]}}</a></li>
-							{% endfor %}
-							
-						</ul>
+						
 					</nav>
 				</div>
 			</div>
 
-			<div class="column padding--large">
-				{% if page.news_image != "" %}
-				<div class="grid grid--2">
-						<div class="column">
-						<div class="aspect-ratio aspect-ratio--5-3">
-							<div class="block-content">
-								<div class="table table--cover bg bg--cover bg--gradient" style="background-image: url({{page.news_image}});">
-									<div class="va--bottom text--white table-cell">
-										<div class="
-										">
-											
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-				{% endif %}
+			<div class="column padding--small">
+			<div class="sep"></div>
+				
 				
 				<article class="content">
-				
+					<figure class="event-image">
+						<img src="{{page.news_image}}" alt="{{event.title}}">		
+					</figure>				
 				
 					{{content | markdownify}}
 					
