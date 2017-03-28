@@ -23,9 +23,6 @@ collections:
   uploads:
     title: Uploads
     output: true
-  footer-links:
-    title: footer-links
-    output: true
 defaults:
 - scope:
     path: ''
