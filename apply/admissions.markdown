@@ -21,28 +21,30 @@ navbar_logo: "/uploads/miami%20logo1.png"
 
 {:#procedures}
 
-1. You must be at least 16 years of age at the time of enrollment;
+You may be in your junior or senior year in high school thinking about college. Or, you might be in the workplace considering another career or how to enhance your current opportunities in Industrial Design. Therefore, ask yourself if you are ready to join a class of students who will work as a team on a series of interdisciplinary specialties (Robotics, Marine Science, Sports Technology, Transportation Design and more). We seek individuals who have the training, stamina, and passion for a rigorous, immersive program. We seek students who can add useful and intriguing elements to the team, from a sense of humor to compelling work experiences, to a wide range of individual gifts, talents, interests and achievements. Our ideal and diverse team includes capable people who will support, surprise, and inspire each other. Is this you?
 
-2. You must be able to provide proof of high-school graduation or equivalency, which may take one of the following forms:
+{:.list-right}
 
-* High school graduation transcript, diploma, diploma of completion, etc., showing date of graduation;
+\### Preparing you for Miami College of Design as a high school student:
 
-* Verification of GED completion (GED scores or GED diploma);
+\* Be sure you're ready to do the work;
 
-* Proof of certification of GED completion (GED scores or GED diploma);
+\+ Take the time to explore industrial design projects that interest you, both inside and outside of school;
 
-* Proof of graduation from a foreign institution comparable to a United States secondary school (It is the responsibility of the applicant to arrange for the educational evaluation agency to evaluate the documents and provide the translation to Miami College of Design.);
+\* Enroll in high school courses to get the most benefit at Miami College of Design (Examples include studio arts, mathematics and computer science, natural and social sciences, plus courses you find creative and engaging).
 
-* Florida Home Education graduation including receipt of proper state credential.
+{:.list-left}
 
-1. Successful completion of the Application Checklist ([see below](%7B:#checklist%7D));
+\### Preparing yourself if you are currently in the workplace:
 
-2. You must have your own laptop computer capable of running GNU/Linux or Mac OS.
+\* Review the related experience you already have;
 
-Results of the SAT Reasoning Test or the ACT (American College Testing program) are not required for admission to the Miami College of Design.
+\* Think about what skills and subjects you want to know more about;
 
-{:.sep--line}
-&nbsp;
+\* Consider your goals as a result of a Miami College of Design experience;
+
+{:.sep--line}\
+ 
 
 ## CONTACTING THE OFFICE OF ADMISSIONS
 
@@ -61,7 +63,7 @@ Miami College of Design
 Miami, FL 33166
 
 {:.sep--line}
-&nbsp;
+ 
 
 ## APPLICATION CHECKLIST
 
@@ -100,7 +102,7 @@ The application fee may be waived on a case-by-case basis. Please contact the Of
 1. **Personal Interview and Performance Assessment.** After you have submitted all of the above items, applicants will be contacted to schedule a face-to-face in person or electronic admissions interview. During the interview, applicants will be asked to complete a writing and problem-solving exercise. Beforehand, applicants are encouraged to reach out to faculty and staff to gain an understanding of the school environment.
 
 {:.sep--line}
-&nbsp;
+ 
 
 ## IMPORTANT DATES
 
@@ -108,7 +110,7 @@ The application fee may be waived on a case-by-case basis. Please contact the Of
 ![application-timeline.png](/uploads/application-timeline.png)
 
 {:.sep--line}
-&nbsp;
+ 
 
 ## ACCEPTANCE BY THE COLLEGE
 
@@ -139,7 +141,7 @@ Some credit hours may be evaluated and considered towards program completion. Th
 Students may wish to continue their training after graduation. While Miami College of Design is licensed by the Florida Commission for Independent Education, it is not accredited. Some or none of the course work completed at Miami College of Design may be transferable to other institutions. Therefore, the student must contact the institutions/he is transferring to as each institution has its own requirements regarding acceptance of transfer of credit hours. There is no guarantee of transfer of credit hours from one institution to another and specifically from Miami College of Design to any other post-secondary school or college.
 
 {:.sep--line}
-&nbsp;
+ 
 
 ## LIFE EXPERIENCE CREDIT
 
