@@ -22,7 +22,13 @@ navbar_logo: "/uploads/miami%20logo1.png"
 
 {:#procedures}
 
-You may be in your junior or senior year in high school thinking about college. Or, you might be in the workplace considering another career or how to enhance your current opportunities in Industrial Design. Therefore, ask yourself if you are ready to join a class of students who will work as a team on a series of interdisciplinary specialties (Robotics, Marine Science, Sports Technology, Transportation Design and more). We seek individuals who have the training, stamina, and passion for a rigorous, immersive program. We seek students who can add useful and intriguing elements to the team, from a sense of humor to compelling work experiences, to a wide range of individual gifts, talents, interests and achievements. Our ideal and diverse team includes capable people who will support, surprise, and inspire each other. Is this you?
+You may be in your junior or senior year in high school thinking about college. Or, you might be in the workplace considering another career or how to enhance your current opportunities in Industrial Design. 
+
+Ask yourself if you are ready to join a class of students who will work as a team on a series of interdisciplinary specialties (Robotics, Marine Science, Sports Technology, Transportation Design and more). 
+
+We seek individuals who have the training, stamina, and passion for a rigorous, immersive program. We seek students who can add useful and intriguing elements to the team, from a sense of humor to compelling work experiences, to a wide range of individual gifts, talents, interests and achievements. 
+
+Our ideal and diverse team includes capable people who will support, surprise, and inspire each other. Is this you?
 
 {:.list-right}
 
