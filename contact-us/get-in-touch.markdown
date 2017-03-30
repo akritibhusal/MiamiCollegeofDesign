@@ -2,7 +2,7 @@
 title: Get In Touch
 date: 2016-12-02 09:17:00 -05:00
 permalink: "/contact/get-in-touch/"
-position: 1
+position: 0
 header_title: Get in Touch
 layout: contact
 ---
