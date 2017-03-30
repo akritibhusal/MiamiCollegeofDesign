@@ -5,10 +5,11 @@ permalink: "/apply/admissions/"
 position: 2
 sidemenu:
   sidemenu_link_ID: ADMISSIONS
-  procedures: PROCEDURES
+  overview: OVERVIEW
   checklist: APPLICATION CHECKLIST
   dates: IMPORTANT DATES
   credits: CREDIT HOURS
+  application: ONLINE APPLICATION
 one_image: "/uploads/eye.png"
 two_image: "/uploads/blueprint.jpg"
 header_image: "/uploads/about_featured.png"
@@ -146,3 +147,11 @@ Students may wish to continue their training after graduation. While Miami Colle
 ## LIFE EXPERIENCE CREDIT
 
 Miami College of Design accepts up to 15 credit hours of life experience. Applicants must select courses for which they seek life experience credit. For each course, applicants must show how their specific experience meets the objectives of that course. This is done by completing forms, provided by the school, and including examples of work, job descriptions, and/or testimonials from employers. The Life Experience Application Package is reviewed by the Admissions Officer. When complete, then the Application package is submitted to a Life Experience Review Committee. Tuition for courses accepted for Life Experience credit will be prorated.
+
+{:.sep--line}
+
+{:#application}
+
+## ONLINE APPLICATION
+
+# [APPLY](https://docs.google.com/a/miamicollegeofdesign.com/forms/d/e/1FAIpQLSeL1lVxQnVq9EAcTkH0iVliPdbTjDJM09-hUCy3YVWGM5MlJA)
