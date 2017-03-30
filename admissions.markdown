@@ -12,7 +12,7 @@ sidemenu:
   application: ONLINE APPLICATION
 one_image: "/uploads/eye.png"
 two_image: "/uploads/blueprint.jpg"
-header_image: "/uploads/about_featured.png"
+header_image: "/uploads/joanna-kosinska-129039.jpg"
 header_title: Admissions
 header_subtitle: Admission Requirements and Procedures
 navbar_logo: "/uploads/miami%20logo1.png"
@@ -154,4 +154,4 @@ Miami College of Design accepts up to 15 credit hours of life experience. Applic
 
 ## ONLINE APPLICATION
 
-# [APPLY](https://docs.google.com/a/miamicollegeofdesign.com/forms/d/e/1FAIpQLSeL1lVxQnVq9EAcTkH0iVliPdbTjDJM09-hUCy3YVWGM5MlJA)
+# [APPLY](https://goo.gl/forms/dWYcrg4zugZYsOnf2)
