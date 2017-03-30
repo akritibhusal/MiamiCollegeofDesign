@@ -7,12 +7,12 @@ sidemenu:
   what: WHAT
   where: WHERE
   when: WHEN
-navbar_logo: "/uploads/miami%20logo1.png"
-one_image: "/uploads/portfolio2.jpg"
-two_image: "/uploads/portfolio4.jpg"
+one_image: "/uploads/chairs2.png"
+two_image: "/uploads/2016-11-04%2000.38.47.png"
 header_image: "/uploads/portfolio.jpg"
 header_title: PORTFOLIO WORKSHOPS
 header_subtitle: ABOUT THE PORTFOLIO WORKSHOPS
+navbar_logo: "/uploads/miami%20logo1.png"
 layout: default
 ---
 
