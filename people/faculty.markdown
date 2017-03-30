@@ -2,7 +2,7 @@
 title: Faculty
 date: 2016-12-02 09:12:00 -05:00
 permalink: "/people/faculty/"
-position: 3
+position: 4
 sidemenu:
   senior-administration: Senior Administration
   vacancies: We are hiring!
