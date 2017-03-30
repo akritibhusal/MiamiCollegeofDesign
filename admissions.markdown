@@ -131,6 +131,8 @@ Upon acceptance, there are two documents which constitute a binding contract bet
 
 {:.sep--line}
 
+{:#credits}
+
 ## TRANSFER OF CREDIT HOURS
 
 Some credit hours may be evaluated and considered towards program completion. The applicant must present a transcript and catalog from the institution where the courses were completed. The institution must be accredited by a national or regional accrediting agency and the grade must be a “B” or higher. Students must complete at least 50% of their course work at Miami College of Design in order to receive a degree. Tuition will be prorated.
