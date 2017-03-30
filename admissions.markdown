@@ -33,21 +33,21 @@ Our ideal and diverse team includes capable people who will support, surprise, a
 
 **Preparing you for Miami College of Design as a high school student:**
 
-\* Be sure you're ready to do the work;
+* Be sure you're ready to do the work;
 
-\+ Take the time to explore industrial design projects that interest you, both inside and outside of school;
+* Take the time to explore industrial design projects that interest you, both inside and outside of school;
 
-\* Enroll in high school courses to get the most benefit at Miami College of Design (Examples include studio arts, mathematics, and computer science, natural and social sciences, plus courses you find creative and engaging).
+* Enroll in high school courses to get the most benefit at Miami College of Design (Examples include studio arts, mathematics, and computer science, natural and social sciences, plus courses you find creative and engaging).
 
 {:.list-left}
 
 **Preparing yourself if you are currently in the workplace:**
 
-\* Review the related experience you already have;
+* Review the related experience you already have;
 
-\* Think about what skills and subjects you want to know more about;
+* Think about what skills and subjects you want to know more about;
 
-\* Consider your goals as a result of a Miami College of Design experience;
+* Consider your goals as a result of a Miami College of Design experience;
 
 {:.sep--line}
 
