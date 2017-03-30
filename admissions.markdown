@@ -53,7 +53,7 @@ Our ideal and diverse team includes capable people who will support, surprise, a
 
 {:#requirements}
 
-ADMISSIONS REQUIREMENTS
+## ADMISSIONS REQUIREMENTS
 
 Students seeking admission must fulfill the following requirements:
 
