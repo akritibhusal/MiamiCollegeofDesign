@@ -2,7 +2,7 @@
 title: Financial Aid
 date: 2016-12-02 09:09:00 -05:00
 permalink: "/apply/financial-aid/"
-position: 3
+position: 1
 sidemenu:
   tuition: Tuition fees and other costs
   scholar: Industrial Arts & Method Scholars Program
