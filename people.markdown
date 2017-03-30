@@ -2,7 +2,7 @@
 title: People
 date: 2016-12-02 08:27:00 -05:00
 permalink: "/people/"
-position: 2
+position: 3
 sidemenu:
   senior-administration: Senior Administration
   vacancies: We are hiring!
