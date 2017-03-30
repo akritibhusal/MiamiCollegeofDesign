@@ -1,7 +1,7 @@
 ---
 title: Portfolio Workshops
 date: 2017-01-05 16:21:00 -05:00
-position: 1
+position: 0
 sidemenu:
   sidemenu_link_ID: Portfolio Workshops
   what: WHAT
