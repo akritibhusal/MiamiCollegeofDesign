@@ -2,7 +2,7 @@
 title: Application
 date: 2017-03-27 15:33:00 -04:00
 permalink: "/admissions/application"
-position: 2
+position: 1
 one_image: "/uploads/Bionics%20in%20action_Page_12_Image_0001.png"
 two_image: "/uploads/bionics_Page_48_Image_0001.png"
 header_image: "/uploads/Snake%2003.jpg"
