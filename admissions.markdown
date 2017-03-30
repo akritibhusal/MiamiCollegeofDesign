@@ -5,14 +5,13 @@ permalink: "/apply/admissions/"
 position: 2
 sidemenu:
   sidemenu_link_ID: ADMISSIONS
-  overview: OVERVIEW
+  requirements: ADMISSION REQUIREMENTS
   checklist: APPLICATION CHECKLIST
-  dates: IMPORTANT DATES
-  credits: CREDIT HOURS
+  credits: CREDIT EQUIVALENCY
   application: ONLINE APPLICATION
+  contact: CONTACT ADMISSIONS OFFICE
 one_image: "/uploads/eye.png"
 two_image: "/uploads/blueprint.jpg"
-header_image: "/uploads/joanna-kosinska-129039.jpg"
 header_title: Admissions
 header_subtitle: Admission Requirements and Procedures
 navbar_logo: "/uploads/miami%20logo1.png"
@@ -51,23 +50,22 @@ Our ideal and diverse team includes capable people who will support, surprise, a
 \* Consider your goals as a result of a Miami College of Design experience;
 
 {:.sep--line}
- 
 
-## CONTACTING THE OFFICE OF ADMISSIONS
+{:#requirements}
 
-You can contact us by email at:
+ADMISSIONS REQUIREMENTS
 
-[admissions@miamicollegeofdesign.com](malito:admissions@miamicollegeofdesign.com)
+Students seeking admission must fulfill the following requirements:
 
-or through regular mail to:
-
-Office of Admissions
-
-Miami College of Design
-
-7950 NW 53rd St. Suite 337
-
-Miami, FL 33166
+You must be at least 16 years of age at the time of enrollment;
+You must be able to provide proof of high-school graduation or equivalency, which may take one of the following forms:
+High school graduation transcript, diploma, diploma of completion, etc., showing date of graduation;
+Proof of certification of GED completion (GED scores or GED diploma);
+Proof of graduation from a foreign institution comparable to a United States secondary school (It is the responsibility of the applicant to arrange for the educational evaluation agency to evaluate the documents and provide the translation to Miami College of Design.);
+Florida Home Education graduation including receipt of proper state credential.
+Successful completion of the Application Checklist (see below);
+You must have your own laptop computer capable of running GNU/Linux or Mac OS.
+Results of the SAT Reasoning Test or the ACT (American College Testing program) are not required for admission to the Miami College of Design.
 
 {:.sep--line}
  
@@ -107,14 +105,6 @@ Doral, FL, 33166-4653
 The application fee may be waived on a case-by-case basis. Please contact the Office of Admissions.
 
 1. **Personal Interview and Performance Assessment.** After you have submitted all of the above items, applicants will be contacted to schedule a face-to-face in person or electronic admissions interview. During the interview, applicants will be asked to complete a writing and problem-solving exercise. Beforehand, applicants are encouraged to reach out to faculty and staff to gain an understanding of the school environment.
-
-{:.sep--line}
- 
-
-## IMPORTANT DATES
-
-{:#dates}
-![application-timeline.png](/uploads/application-timeline.png)
 
 {:.sep--line}
  
@@ -161,3 +151,20 @@ Miami College of Design accepts up to 15 credit hours of life experience. Applic
 ## ONLINE APPLICATION
 
 # [APPLY](https://goo.gl/forms/dWYcrg4zugZYsOnf2)
+
+{:.sep--line} 
+
+{:#contact}
+
+## CONTACTING THE OFFICE OF ADMISSIONS
+
+You can contact us by email at:
+
+[admissions@miamicollegeofdesign.com](malito:admissions@miamicollegeofdesign.com)
+
+or through regular mail to:
+
+**Office of Admissions**
+Miami College of Design
+7950 NW 53rd St. Suite 337
+Miami, FL 33166
