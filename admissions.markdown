@@ -92,19 +92,19 @@ The Application process for the Miami College of Design is intended to discern a
 
 4. **Letters of Recommendation.** At least two letters are required and as many as four may be submitted. Recommendation letters should be written by teachers or professionals who have first-hand knowledge of your work and academic achievements and can comment on your potential as a Miami College of Design student. The letters of recommendation should be sent by the invited professionals directly to the Office of Admissions.
 
-5. \*\* Portfolio.\*\* The portfolio must include at least five examples of your best recent work, either assigned projects or self-directed explorations. The work should reflect the full range of your ideas, interests, experience and abilities in design and engineering. Most often, the content of your portfolio goes beyond your classroom assignments and reveals the breadth and depth of your accomplishments. Ideally, you will have had a chance to develop your portfolio over time.
+5. ** Portfolio.** The portfolio must include at least five examples of your best recent work, either assigned projects or self-directed explorations. The work should reflect the full range of your ideas, interests, experience and abilities in design and engineering. Most often, the content of your portfolio goes beyond your classroom assignments and reveals the breadth and depth of your accomplishments. Ideally, you will have had a chance to develop your portfolio over time.
 
-Work presented can be in any medium (including software, film, or video), in finished or sketch form. Your digital portfolio may include: code repositories, documents, pictures, videos, graphics, dioramas, notes, scribbles, multimedia presentations, blogs, spreadsheets, calculations, etc. Selected pages from a journal or sketchbook are recommended to demonstrate your research, thinking and investigation approach.
+* Work presented can be in any medium (including software, film, or video), in finished or sketch form. Your digital portfolio may include: code repositories, documents, pictures, videos, graphics, dioramas, notes, scribbles, multimedia presentations, blogs, spreadsheets, calculations, etc. Selected pages from a journal or sketchbook are recommended to demonstrate your research, thinking and investigation approach.
 
-As a learning-centric design institution, we want to know about your learning and growth process, how you got from point A to point B. We are particularly interested in your self-reflections. What motivated you? What were your strategies when your designs didn’t work out as planned? What were you able to take away from a failed plan or prototype? Explanatory notes or documentation containing these reflections would be helpful to our appreciation of your work.
+* As a learning-centric design institution, we want to know about your learning and growth process, how you got from point A to point B. We are particularly interested in your self-reflections. What motivated you? What were your strategies when your designs didn’t work out as planned? What were you able to take away from a failed plan or prototype? Explanatory notes or documentation containing these reflections would be helpful to our appreciation of your work.
 
-The Miami College of Design offers a series of workshops on how to develop your personal portfolio. We suggest you take advantage of this resource, come meet the team, and ask your questions. Sign up for one of these sessions [here](http://twitter.us13.list-manage1.com/subscribe?u=22ea9a71440103660b3899d3f&id=d788a70a98).
+* The Miami College of Design offers a series of workshops on how to develop your personal portfolio. We suggest you take advantage of this resource, come meet the team, and ask your questions. Sign up for one of these sessions [here](http://twitter.us13.list-manage1.com/subscribe?u=22ea9a71440103660b3899d3f&id=d788a70a98).
 
-Portfolios must be submitted electronically (through GitHub, Google Docs, DropBox, or some other file-sharing mechanism).
+* Portfolios must be submitted electronically (through GitHub, Google Docs, DropBox, or some other file-sharing mechanism).
 
-1. **Essay.** The essay is an opportunity for you to tell us about yourself, the things you do, and/or things that are important to you. Be creative. You can try storytelling, a shout out, a news article, a commentary, it’s up to you. We want to know you better, and we want to get a feel for your English-language writing skills. The essay should be no more than 1000 words.
+6. **Essay.** The essay is an opportunity for you to tell us about yourself, the things you do, and/or things that are important to you. Be creative. You can try storytelling, a shout out, a news article, a commentary, it’s up to you. We want to know you better, and we want to get a feel for your English-language writing skills. The essay should be no more than 1000 words.
 
-2. **Application Fee.** An application fee of $25 will be charged to process your application. Send a cashier's check or money order to:
+7. **Application Fee.** An application fee of $25 will be charged to process your application. Send a cashier's check or money order to:
 
 Integral Outsourcing Services LLC
 7959 NW 53rd St.
@@ -112,7 +112,7 @@ Doral, FL, 33166-4653
 
 The application fee may be waived on a case-by-case basis. Please contact the Office of Admissions.
 
-1. **Personal Interview and Performance Assessment.** After you have submitted all of the above items, applicants will be contacted to schedule a face-to-face in person or electronic admissions interview. During the interview, applicants will be asked to complete a writing and problem-solving exercise. Beforehand, applicants are encouraged to reach out to faculty and staff to gain an understanding of the school environment.
+8. **Personal Interview and Performance Assessment.** After you have submitted all of the above items, applicants will be contacted to schedule a face-to-face in person or electronic admissions interview. During the interview, applicants will be asked to complete a writing and problem-solving exercise. Beforehand, applicants are encouraged to reach out to faculty and staff to gain an understanding of the school environment.
 
 {:.sep--line}
  
