@@ -61,13 +61,13 @@ Students seeking admission must fulfill the following requirements:
 
 2. You must be able to provide proof of high-school graduation or equivalency, which may take one of the following forms:
 
-\*High school graduation transcript, diploma, diploma of completion, etc., showing date of graduation;
+* High school graduation transcript, diploma, diploma of completion, etc., showing date of graduation;
 
-\*Proof of certification of GED completion (GED scores or GED diploma);
+* Proof of certification of GED completion (GED scores or GED diploma);
 
-\*Proof of graduation from a foreign institution comparable to a United States secondary school (It is the responsibility of the applicant to arrange for the educational evaluation agency to evaluate the documents and provide the translation to Miami College of Design.);
+* Proof of graduation from a foreign institution comparable to a United States secondary school (It is the responsibility of the applicant to arrange for the educational evaluation agency to evaluate the documents and provide the translation to Miami College of Design.);
 
-\*Florida Home Education graduation including receipt of proper state credential.
+* Florida Home Education graduation including receipt of proper state credential.
 
 3. Successful completion of the Application Checklist (see below);
 
