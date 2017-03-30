@@ -64,8 +64,8 @@ Students seeking admission must fulfill the following requirements:
 *Proof of graduation from a foreign institution comparable to a United States secondary school (It is the responsibility of the applicant to arrange for the educational evaluation agency to evaluate the documents and provide the translation to Miami College of Design.);
 *Florida Home Education graduation including receipt of proper state credential.
 3. Successful completion of the Application Checklist (see below);
-*You must have your own laptop computer capable of running GNU/Linux or Mac OS.
-*Results of the SAT Reasoning Test or the ACT (American College Testing program) are not required for admission to the Miami College of Design.
+4. You must have your own laptop computer capable of running GNU/Linux or Mac OS.
+Results of the SAT Reasoning Test or the ACT (American College Testing program) are not required for admission to the Miami College of Design.
 
 {:.sep--line}
  
