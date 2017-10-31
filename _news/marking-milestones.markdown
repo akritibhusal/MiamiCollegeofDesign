@@ -27,4 +27,4 @@ Lodato and Bender are also advocating innovation in industrial design education 
 
 <hr />
 
-Masters of Design will gather on November 30th from 9:00 am–6:00 pm at The Lab Miami / Miami Light Project 422 NW 26 Street. For a complete list of speakers or to learn more, visit: Masters of Tomorrow
+Masters of Design will gather on November 30th from 9:00am – 6:00pm at The Lab Miami / Miami Light Project 422 NW 26 Street. For a complete list of speakers or to learn more, visit: Masters of Tomorrow
